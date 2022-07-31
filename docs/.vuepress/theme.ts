@@ -24,6 +24,8 @@ export default hopeTheme({
 
   displayFooter: true,
 
+  contributors: false,
+
   pageInfo: ["Author", "Date", "Word", "ReadingTime", "PageView"],
 
   plugins: {
