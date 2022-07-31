@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Build files
+packages/*/lib/
+
+# Vuepress Cache
+.cache/
+# Vuepress Temp
+.temp/
+# Vuepress Output
+dist/
+
+# VS Code Config file
+# .vscode/
+
+# Rollup Cache
+.rollup.cache/
+
+# Typescript build info
+*.tsbuildinfo
+
+# Coverage Files
+coverage/
+
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/settings.json
