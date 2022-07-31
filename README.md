@@ -15,7 +15,7 @@
 
 ## 致谢
 
-本项目目前采用 [vuepress-next][hugo-url] 部署在 [GitHub Pages][wiki-url]。主题使用 [Hope][hope-url]，对此表示感谢！
+本项目目前采用 [vuepress-next][vuepress-url] 部署在 [GitHub Pages][wiki-url]。主题使用 [Hope][hope-url]，对此表示感谢！
 
 本项目在编写过程中参考了诸多资料，在此一并致谢。
 
