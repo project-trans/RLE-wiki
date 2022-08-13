@@ -55,7 +55,7 @@ date: 2022-07-20 00:00:00
 
 可以试着去校医院开转诊单，以下是转诊单样式:
 
-![转诊单样式](TONGJI_treatment.jpg)
+![转诊单样式](/campus/TONGJI_treatment.jpg)
 
 上海九院有序列治疗（除了证明之外），其中 HRT 较为正规
 
