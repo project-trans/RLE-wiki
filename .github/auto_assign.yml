@@ -1,0 +1,3 @@
+addReviewers: true
+reviewers: [mtf-wiki/rlewiki-editors]
+numberOfReviewers: 1
