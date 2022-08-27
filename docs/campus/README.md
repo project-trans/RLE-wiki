@@ -12,7 +12,7 @@ category:
 **本版块由原MtF.wiki中的 校园指南 迁移而来**
 :::
 
-民间有对各个大学的生活质量的问卷结果可以在 [colleges.chat](colleges.chat) 查阅
+民间有对各个大学的生活质量的问卷结果可以在 [colleges.chat](https://colleges.chat) 查阅
 
 ## 校园指南撰写指南
 
@@ -40,7 +40,7 @@ LGBT 梗概
 
 如果该校区远离市区、车站、医院需要特别指出，对于附近的商圈原则上不需要说明
 
-居住环境，建议引用 colleges.chat 予以代替
+居住环境，建议引用 [colleges.chat](https://colleges.chat) 予以代替
 
 主要关注厕所情况（教学区有无第三卫生间，宿舍有无独卫）与 洗澡情况（独浴 or 公共澡堂，公共澡堂私密度情况）
 
