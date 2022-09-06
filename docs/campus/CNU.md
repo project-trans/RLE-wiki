@@ -4,7 +4,7 @@ title: 首都师范大学
 
 ### 概况
 
-[首都师范大学](https://www.cnu.edu.cn)（Capital Normal University，CNU）所包括文、理、工、管、法、教育、外语、艺术等专业的综合性市属师范大学。
+[首都师范大学](https://www.cnu.edu.cn)（Capital Normal University，CNU）是一所包括文、理、工、管、法、教育、外语、艺术等专业的综合性市属师范大学。
 
 ### 地理位置及交通
 
