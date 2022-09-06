@@ -5,7 +5,7 @@ date: 2022-08-13 00:00:00
 
 ### 概况
 
-[上海海洋大学](https://www.shou.edu.cn/)（Shanghai Ocean University，SHOU）是多科性应用研究型大学，上海市人民政府与国家海洋局、农业农村部共建高校。
+[上海海洋大学](https://www.shou.edu.cn)（Shanghai Ocean University，SHOU）是多科性应用研究型大学，上海市人民政府与国家海洋局、农业农村部共建高校。
 
 |项目|情况|
 |:---:|:---:|

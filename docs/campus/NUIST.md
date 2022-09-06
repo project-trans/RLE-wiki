@@ -105,7 +105,7 @@ date: 2022-06-19 00:00:00
 
 > 你们小药娘人均 CS
 
-[大学生活质量指北](https://colleges.chat/universities/nan-jing-xin-xi-gong-cheng-da-xue/)中有一些常见问题可以参考。
+[大学生活质量指北](https://colleges.chat/universities/nan-jing-xin-xi-gong-cheng-da-xue)中有一些常见问题可以参考。
 
 ::: right
 由 凌莞 投稿

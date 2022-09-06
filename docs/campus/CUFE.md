@@ -16,7 +16,7 @@ date: 2022-05-23 00:00:00
 
 ### 概况
 
-[中央财经大学](https://www.cufe.edu.cn/)（Central University of Finance and Economics，CUFE）是教育部、财政部和北京市人民政府共建的教育部直属高校，具有以经济学、管理学和法学学科为主体，文学、理学、工学、教育学、艺术学等多学科协调发展的学科体系。
+[中央财经大学](https://www.cufe.edu.cn)（Central University of Finance and Economics，CUFE）是教育部、财政部和北京市人民政府共建的教育部直属高校，具有以经济学、管理学和法学学科为主体，文学、理学、工学、教育学、艺术学等多学科协调发展的学科体系。
 
 ### 地理位置及交通
 

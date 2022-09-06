@@ -85,7 +85,7 @@ date: 2022-09-04 00:00:00
 诊断和 HRT 治疗方面，在清水河校区西门乘坐 771 路可 8 站（芙蓉大道八一路口站下）直达四川省精神医学中心及四川省人民医院温江院区（注意，省医院虽是电子科技大学的附属医院，但不可以使用学生医保），相关资料可参考：
 
 - ~~精神科 李慧~~
-- [内分泌 王小红](https://mtf.wiki/zh-cn/docs/hrt/wang-xiaohong/)
+- [内分泌 王小红](https://mtf.wiki/zh-cn/docs/hrt/wang-xiaohong)
 
 _TODO_
 
@@ -93,9 +93,9 @@ _TODO_
 
 同时也可在四川大学华西医院、四川省人民医院进行咨询和手术，手术相关资料可参考：
 
-- [四川大学华西医院 许学文](https://mtf.wiki/zh-cn/docs/srs/china/xu-xuewen/)
-- [四川核工业四一六医院 余道江](https://mtf.wiki/zh-cn/docs/srs/china/416/)
-- [四川省人民医院 游晓波](https://mtf.wiki/zh-cn/docs/srs/china/you-xiaobo/)
+- [四川大学华西医院 许学文](https://mtf.wiki/zh-cn/docs/srs/china/xu-xuewen)
+- [四川核工业四一六医院 余道江](https://mtf.wiki/zh-cn/docs/srs/china/416)
+- [四川省人民医院 游晓波](https://mtf.wiki/zh-cn/docs/srs/china/you-xiaobo)
 
 ### 军训体育
 
