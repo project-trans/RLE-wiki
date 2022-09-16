@@ -23,7 +23,7 @@ date: 2022-07-20 00:00:00
 
 ### 地理位置及交通
 
-共 2 个校区，分别是：[北辰校区](https://ditu.amap.com/place/B0FFFGN14S) 和 红桥校区，红桥校区由三个院组成，分别为：[红桥校区（南院）](https://amap.com/place/B00160D988)、[红桥校区（北院）](https://amap.com/place/B00160DT1C) 和 [红桥校区（东院）](https://amap.com/place/B001606N4I)。
+共 2 个校区，分别是：[北辰校区](https://gaode.com/search?id=B0FFFGN14S&city=120113&query_type=IDQ) 和 红桥校区，红桥校区由三个院组成，分别为：[红桥校区（南院）](https://gaode.com/search?id=B00160D988&city=120113&query_type=IDQ)、[红桥校区（北院）](https://gaode.com/search?id=B00160DT1C&city=120113&query_type=IDQ) 和 [红桥校区（东院）](https://gaode.com/search?id=B001606N4I&city=120113&query_type=IDQ)。
 
 #### 校区状况
 
@@ -170,7 +170,7 @@ TODO: HRT 处方笔者尚未开出，故无法尝试免测。
 
 据室友所述，校医院非常差，甚至没有合适的治疗胃病的药物；白天营业，晚上关门，北辰校医院甚至上午看病，下午卖药。
 
-仍然据室友所述，距离北辰校区最近的正经医院也有 8 公里之远，红桥校区由于在市区内可能情况稍好。
+仍然据室友所述，距离北辰校区最近的正经医院 —— [天津市北辰医院](https://gaode.com/search?id=B001604CE4&city=120113&query_type=IDQ) 也有 10 公里之远，红桥校区由于在市区内可能情况稍好。
 
 ### LGBT 友善梗概
 
