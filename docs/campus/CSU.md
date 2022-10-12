@@ -1,7 +1,6 @@
 ---
 title: 中南大学
 author: AlbacoreMeow | Cryolitia
-date: 2022-09-20 00:00:00
 ---
 
 ## 军训与体育
