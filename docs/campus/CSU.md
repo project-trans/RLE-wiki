@@ -3,6 +3,14 @@ title: 中南大学
 author: AlbacoreMeow | Cryolitia
 ---
 
+## 概况
+
+[中南大学](https://www.csu.edu.cn/)（Central South University, CSU）
+
+## 地理位置及交通
+
+_TODO: 待作者补充相关校区地理位置及交通信息_
+
 ## 军训与体育
 
 ### 军训
@@ -39,7 +47,7 @@ author: AlbacoreMeow | Cryolitia
 
 湘雅二院贺莹医生正在进行跨性别相关研究，可以开具跨性别相关诊断证明。
 
-湘雅二院胡文倩医生可以进行嗓音训练，费用为 187/h。
+湘雅二院胡文倩医生可以进行嗓音训练，费用为每小时 187 元。
 
 湘雅三院龙智医生可凭跨性别相关诊断证明开具HRT处方药物。
 
