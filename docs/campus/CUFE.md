@@ -1,6 +1,6 @@
 ---
 title: 中央财经大学
-author: 彩虹仙子
+author: 彩虹仙子 等
 date: 2022-05-23 00:00:00
 ---
 
@@ -68,5 +68,5 @@ date: 2022-05-23 00:00:00
 - 知乎：<https://www.zhihu.com/people/ying-tao-girl-78>
 
 :::right
-由 彩虹仙子 投稿
+由 彩虹仙子 等投稿
 :::

@@ -1,6 +1,6 @@
 ---
 title: 潍坊医学院
-author: kaedeaya
+author: kaedeaya 等
 ---
 
 ## 学校名称
@@ -84,5 +84,5 @@ RLE，几乎没人管。
 学生会和领导层都极度的形式主义，谨慎加入学生会。
 
 ::: right
-由 kaedeaya 投稿
+由 kaedeaya 等投稿
 :::

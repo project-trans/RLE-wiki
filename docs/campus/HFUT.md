@@ -1,6 +1,6 @@
 ---
 title: 合肥工业大学
-author: Windancer
+author: Windancer 等
 date: 2022-02-19 00:00:00
 ---
 
@@ -34,5 +34,5 @@ date: 2022-02-19 00:00:00
 经过扩充改造，食堂能够满足需求，食堂水平能够达到较好水平。
 
 ::: right
-由 Windancer 投稿
+由 Windancer 等投稿
 :::

@@ -1,6 +1,6 @@
 ---
 title: "华中科技大学"
-author: Circlecircle
+author: Circlecircle 等
 date: 2022-07-20 00:00:00
 ---
 
@@ -75,5 +75,5 @@ HGP（HUST GAY PRIDE）与 HLP（HUST LES PRIDE）是华科的性少数小组。
 了解到的 MtF 的辅导员都算友好
 
 ::: right
-由 Circlecircle 投稿
+由 Circlecircle 等投稿
 :::

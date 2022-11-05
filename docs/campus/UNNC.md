@@ -1,6 +1,6 @@
 ---
 title: 宁波诺丁汉大学
-author: kawaaiひな
+author: kawaaiひな 等
 date: 2022-09-13 09:40:00
 ---
 
@@ -123,5 +123,5 @@ date: 2022-09-13 09:40:00
 - QQ：3103793717
 
 :::right
-由 kawaaiひな 投稿
+由 kawaaiひな 等投稿
 :::

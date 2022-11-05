@@ -1,6 +1,6 @@
 ---
 title: 中国地质大学（武汉）
-author: AlbacoreMeow
+author: AlbacoreMeow 等
 date: 2022-02-19 00:00:00
 ---
 
@@ -89,5 +89,5 @@ date: 2022-02-19 00:00:00
 其他学院待补充
 
 :::right
-由 AlbacoreMeow 投稿
+由 AlbacoreMeow 等投稿
 :::
