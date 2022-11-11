@@ -9,7 +9,19 @@ author: AlbacoreMeow | Cryolitia
 
 ## 地理位置及交通
 
-_TODO: 待作者补充相关校区地理位置及交通信息_
+ - 校本部（北校区）位于[长沙市岳麓区麓山南路932号](https://amap.com/place/B02DB065XK)
+ - 南校区位于[长沙市岳麓区麓山南路605号](https://amap.com/place/B02DB02641)，位于校本部南侧麓山南路对面，门口有 [中南大学 地铁站](https://amap.com/place/BV10783889)。新生均在此住宿。
+ - 新校区位于[长沙市岳麓区潇湘中路](https://amap.com/place/B02DB0TJRN)，位于南校区南侧清水路对面，门口有 [中南大学 地铁站](https://amap.com/place/BV10783889)。绝大部分新生在此上课。
+ - 铁道校区位于[长沙市天心区韶山南路68号](https://amap.com/place/B02DB065XM)，门口有[铁道学院 地铁站](https://amap.com/place/BV10230150)。
+ - 湘雅医学院旧校区位于[长沙市开福区湘雅路88号](https://amap.com/place/B02DB10O89)，门口有[文昌阁 地铁站](https://amap.com/place/BS11901261)。
+ - 湘雅医学院新校区位于[长沙市岳麓区桐梓坡路172号](https://amap.com/place/B02DB02K3F)，门口有[湘雅三医院 地铁站](https://amap.com/place/BV10854311)。
+
+以上各校区之间均有班车往来，班车时刻表可在微信公众号 中南大学信网中心 查询。
+
+ - 中南大学湘雅医院位于[长沙市开福区湘雅路87号](https://amap.com/place/B02DB00B1E)，紧邻湘雅医学院旧校区。
+ - 中南大学湘雅二医院位于[长沙市芙蓉区人民中路139号](https://amap.com/place/B02DB02FOO)，门口有[窑岭湘雅二医院 地铁站](https://amap.com/place/BS11901291)。
+ - 中南大学湘雅三医院位于[长沙市岳麓区桐梓坡路138号](https://amap.com/place/B02DB02J64)，紧邻湘雅医学院新校区。
+ - 中南大学湘雅口腔医院位于[长沙市开福区中南大学湘雅医学院西南2门旁](https://amap.com/place/B0FFMG6X4M)，紧邻湘雅医学院旧校区。
 
 ## 军训与体育
 
