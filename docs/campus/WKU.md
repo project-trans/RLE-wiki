@@ -159,7 +159,3 @@ GPA 基本上分为不好拿和特别不好拿两种，因此进来就得做好�
 - Email: <hycuihz@gmail.com>
 - Telegram: [![tg](https://img.shields.io/static/v1?color=26A5E4&label=Telegram&logo=Telegram&message=KagurazakaKano&style=flat-square)](https://t.me/KagurazakaKano)
 - Twitter: [![tw](https://img.shields.io/static/v1?color=blue&label=Twitter&logo=Twitter&message=KagurazakaKano&style=flat-square)](https://twitter.com/KagurazakaKano)
-
-::: right
-由 神楽坂 卡諾 等投稿
-:::

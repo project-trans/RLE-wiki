@@ -54,6 +54,6 @@ date: 2022-09-08 00:00:00
 
 苏州广济医院 [杜向东](https://mtf.wiki/zh-cn/docs/psyco/jiangsu/du-xiangdong/)可尝试开证、ADHD 开药，也可前往到南京。
 
-::: right
-由 [anyuzu99](https://github.com/anyuzu99) 等投稿
-:::
+### 投稿人
+
+anyuzu99 [Github](https://github.com/anyuzu99)
