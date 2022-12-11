@@ -254,7 +254,3 @@ date: 2022-07-26 00:00:00
 
 - 邮箱：<nicodaisukidayo@gmail.com>
 - 知乎：<https://www.zhihu.com/people/ni-ke-daisuki>
-
-::: right
-由 可爱的沫馨小姐姐 等投稿
-:::
