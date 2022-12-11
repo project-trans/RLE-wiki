@@ -126,6 +126,6 @@ date: 2022-08-15 00:00:00
 
 数学院：有很多头脑好长得高还很帅的小哥哥~（当然我喜欢他男孩子也在这里啦）
 
-::: right
-由 [璃沫莫 Momo](https://twitter.com/_LiMomo_) 等投稿
-:::
+### 投稿人
+
+璃沫莫 Momo [Twitter](https://twitter.com/_LiMomo_)

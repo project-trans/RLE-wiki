@@ -73,7 +73,3 @@ HGP（HUST GAY PRIDE）与 HLP（HUST LES PRIDE）是华科的性少数小组。
 
 
 了解到的 MtF 的辅导员都算友好
-
-::: right
-由 Circlecircle 等投稿
-:::

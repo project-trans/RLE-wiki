@@ -188,7 +188,3 @@ TODO: HRT 处方笔者尚未开出，故无法尝试免测。
 ### 其他
 
 如果开学时 ~~不慎~~ 将户口迁入学校集体户，后又打算在毕业前完成 SRS，则毕业前户口是可以从集体户口迁出的，具体详见 [河北工业大学在读学生集体户口迁出历程](https://limee233.github.io/posts/life/jitihukou-move-out/)。
-
-::: right
-由 Li Mee 等投稿
-:::
