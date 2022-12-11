@@ -1,6 +1,6 @@
 ---
 title: 温州肯恩大学
-author: 神楽坂 卡諾
+author: 神楽坂 卡諾 等
 date: 2022-07-05 00:00:00
 ---
 
@@ -161,5 +161,5 @@ GPA 基本上分为不好拿和特别不好拿两种，因此进来就得做好�
 - Twitter: [![tw](https://img.shields.io/static/v1?color=blue&label=Twitter&logo=Twitter&message=KagurazakaKano&style=flat-square)](https://twitter.com/KagurazakaKano)
 
 ::: right
-由 神楽坂 卡諾 投稿
+由 神楽坂 卡諾 等投稿
 :::

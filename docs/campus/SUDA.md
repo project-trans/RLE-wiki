@@ -4,6 +4,7 @@ title: 苏州大学
 author: 
 - 山前
 - NmuInWinter
+- 等
 
 date: 2022-09-25 15:50:00
 ---
@@ -80,5 +81,5 @@ date: 2022-09-25 15:50:00
 - 材料与化学化工学院 基本不管不问
 
 ::: right
-由 山前 NmuInWinter 投稿
+由 山前、NmuInWinter 等投稿
 :::

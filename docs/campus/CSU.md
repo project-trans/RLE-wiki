@@ -1,6 +1,6 @@
 ---
 title: 中南大学
-author: AlbacoreMeow | Cryolitia
+author: AlbacoreMeow | Cryolitia 等
 ---
 
 ## 概况

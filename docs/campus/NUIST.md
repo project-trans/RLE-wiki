@@ -1,6 +1,6 @@
 ---
 title: 南京信息工程大学
-author: 凌莞
+author: 凌莞 等
 date: 2022-06-19 00:00:00
 ---
 
@@ -108,5 +108,5 @@ date: 2022-06-19 00:00:00
 [大学生活质量指北](https://colleges.chat/universities/nan-jing-xin-xi-gong-cheng-da-xue)中有一些常见问题可以参考。
 
 ::: right
-由 凌莞 投稿
+由 凌莞 等投稿
 :::

@@ -1,6 +1,6 @@
 ---
 title: 潍坊医学院
-author: kaedeaya
+author: kaedeaya 等
 ---
 
 ## 学校概况
@@ -87,5 +87,5 @@ author: kaedeaya
 校医院只能开感冒药什么的，不报销。建议出门南街药店，内有补佳乐。就医需求出门右转潍坊市人民医院。
 
 ::: right
-由 kaedeaya 投稿
+由 kaedeaya 等投稿
 :::

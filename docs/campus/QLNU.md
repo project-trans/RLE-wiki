@@ -1,6 +1,6 @@
 ---
 title: "齐鲁师范学院"
-author: Zn
+author: Zn 等
 date: 2022-07-29 00:00:00
 ---
 
@@ -63,5 +63,5 @@ date: 2022-07-29 00:00:00
 获取精神科医疗相关事宜几乎只能去[山东省精神卫生中心](https://amap.com/place/B0FFM4NU1Y)，[山东省立医院](https://amap.com/place/B021301A4B)也有心理科（和精神科几乎没有区别），也可以试试。
 
 ::: right
-由 Zn 投稿
+由 Zn 等投稿
 :::

@@ -1,6 +1,6 @@
 ---
 title: "电子科技大学"
-author: Yukari
+author: Yukari 等
 date: 2022-09-04 00:00:00
 ---
 
@@ -161,5 +161,5 @@ _TODO_
 - 电子科技大学医院（微信公众号）
 
 ::: right
-由 Yukari 投稿
+由 Yukari 等投稿
 :::
