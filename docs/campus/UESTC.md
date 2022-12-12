@@ -159,7 +159,3 @@ _TODO_
 - [研究生招生网](https://yz.uestc.edu.cn)
 - [清水河畔(校内论坛，目前仅限校内访问)](https://bbs.uestc.edu.cn)
 - 电子科技大学医院（微信公众号）
-
-::: right
-由 Yukari 等投稿
-:::
