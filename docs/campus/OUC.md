@@ -1,6 +1,6 @@
 ---
 title: 中国海洋大学
-auther: RuinyIcaria
+author: RuinyIcaria
 date: 2022-12-10
 ---
 
