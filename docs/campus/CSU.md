@@ -1,6 +1,9 @@
 ---
 title: 中南大学
-author: AlbacoreMeow | Cryolitia 等
+author: 
+- AlbacoreMeow
+- Cryolitia
+- 等
 ---
 
 ## 军训与体育
@@ -56,7 +59,3 @@ author: AlbacoreMeow | Cryolitia 等
 ## MtF分布
 
 湘雅二院社群工作者告知，中南大学有数位MtF分布且有已经做完手术并成功更改学历信息者。但是本人未与校内任何 MtF 取得过联系，如有相关校内社群/其他落单小药娘可以电邮联系  <Cryolitia@gmail.com>
-
-::: right 
-由 AlbacoreMeow | Cryolitia 联合投稿，由社群共同维护
-:::

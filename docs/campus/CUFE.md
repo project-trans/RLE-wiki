@@ -66,7 +66,3 @@ date: 2022-05-23 00:00:00
 
 - 邮箱：<2019310115@email.cufe.edu.cn>
 - 知乎：<https://www.zhihu.com/people/ying-tao-girl-78>
-
-:::right
-由 彩虹仙子 等投稿
-:::
