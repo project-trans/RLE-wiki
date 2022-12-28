@@ -51,13 +51,10 @@ _TODO: 待补充体育相关信息，例如体育课强度，及格难度，是�
 
 ## 联系方式
 
-**这是我们的审核群（Telegram）[我要找组织](https://t.me/+MIHFYyWnp_81MTA1)**
+欢迎在校和准备报考的朋友通过下面的方式联系我们哦~
 
-如果无法连接可以通过下面其它方式
+- **我们的审核群（Telegram）[我要找组织](https://t.me/+MIHFYyWnp_81MTA1)**
+- Takehana(初稿作者)：<cowpowermax@proton.me>、1405683748（QQ）。欢迎线上或者线下抱团哦！
+- [LittleYe233](https://github.com/LittleYe233)(修订者)：<littleye233@gmail.com>
 
-这是部分修订者的联系方式（非初稿作者），欢迎在校和准备报考的朋友来联系哦~
-
-- [LittleYe233](https://github.com/LittleYe233) <littleye233@gmail.com>
-
-初稿作者 Takehana 的联系方式：<cowpowermax@proton.me>、1405683748（QQ）。欢迎线上或者线下抱团哦！
 
