@@ -61,7 +61,3 @@ _TODO_
 
 - 邮箱：<815071581@qq.com>
 - 知乎：<https://www.zhihu.com/people/0101010101-54>
-
-::: right
-由 吃糖的系统分析师 等投稿
-:::
