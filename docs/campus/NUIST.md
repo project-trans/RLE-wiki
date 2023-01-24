@@ -158,4 +158,4 @@ date: 2022-06-19 00:00:00
 
 ---
 
-笔者（大气科学学院 20 级）联系方式：[Telegram](https://t.me/tdnyjsp)
+笔者（大气科学学院 20 级）联系方式：[Email](mailto:t12345tt@163.com)
