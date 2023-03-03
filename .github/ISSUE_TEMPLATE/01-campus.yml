@@ -2,6 +2,13 @@ name: 报告新的学校
 description: 报告新的学校
 labels: ["campus"]
 body:
+  - type: input
+    id: author
+    attributes:
+      label: 贡献者名称
+      description: 填写你期望的名称。如不希望署名，请填“匿名”
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: 感谢您的报告，请根据该表单填充必要信息。
