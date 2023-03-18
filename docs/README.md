@@ -15,3 +15,6 @@ footer: Creative Commons BY-SA 4.0 | Copyright © 2022-present MtF.wiki Team
 
 ::: info  本项目包括且不仅限于校园指南，后期会包括其他RLE指导，处于建设初期其他条目暂未完成，欢迎大家帮助项目完善。
 :::
+
+::: note 🕯 沉痛悼念原RLE-wiki核心维护人员ArtsEpiphany 🕯 R.I.P 2023.3.13 🕯
+:::
