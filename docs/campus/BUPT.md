@@ -19,7 +19,7 @@ date: 2023-03-22 10:40:01
 
 ### 概况
 
-[北京邮电大学]([https://www.bjtu.edu.cn](https://www.bupt.edu.cn/))（Beijing University of Posts and Telecommunications，BUPT）简称北邮，位于北京市，是中华人民共和国教育部直属、工业和信息化部共建的全国重点大学，位列国家“双一流”建设高校、“211工程”、“985工程优势学科创新平台”。
+[北京邮电大学](https://www.bupt.edu.cn/)（Beijing University of Posts and Telecommunications，BUPT）简称北邮，位于北京市，是中华人民共和国教育部直属、工业和信息化部共建的全国重点大学，位列国家“双一流”建设高校、“211工程”、“985工程优势学科创新平台”。
 
 北京邮电大学是一所以信息科技为特色、工学门类为主体、工管文理相结合的多科性、研究型大学，是中国信息科技人才的重要培养基地之一，在有线通信、无线通信、电子工程、计算机技术领域有较高的知名度。
 
