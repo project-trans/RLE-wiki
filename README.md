@@ -31,28 +31,27 @@
 
 ```plain
 @misc{rlewiki,
-  author = {MtF.wiki Team},
+  author = {Project Trans},
   title = {RLE.wiki},
   year = {2022},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/mtf-wiki/RLE-wiki}},
+  howpublished = {\url{https://github.com/project-trans/RLE-wiki}},
 }
 ```
 
 ## 联系方式
 
-GitHub [![GitHub issues][badge-gh-issues]](https://github.com/mtf-wiki/RLE-wiki/issues/new/choose)
+GitHub [![GitHub issues][badge-gh-issues]](https://github.com/project-trans/RLE-wiki/issues/new/choose)
 
 邮件 <hi@mtf.wiki>
 
-[badge-gh-issues]: https://img.shields.io/github/issues/mtf-wiki/RLE-wiki?style=flat-square
-[badge-gh-stars]: https://img.shields.io/github/stars/mtf-wiki/RLE-wiki.svg?style=flat-square&label=Stars
-[badge-gh-watch]: https://img.shields.io/github/watchers/mtf-wiki/RLE-wiki.svg?style=flat-square&label=Watch
+[badge-gh-issues]: https://img.shields.io/github/issues/project-trans/RLE-wiki?style=flat-square
+[badge-gh-stars]: https://img.shields.io/github/stars/project-trans/RLE-wiki.svg?style=flat-square&label=Stars
+[badge-gh-watch]: https://img.shields.io/github/watchers/project-trans/RLE-wiki.svg?style=flat-square&label=Watch
 [cc-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 [cc-url]: https://creativecommons.org/licenses/by-sa/4.0
 [vuepress-url]: https://github.com/vuepress/vuepress-next
-[logo-long]: ./static/new/mtf-wiki-long.svg
-[repo]: https://github.com/mtf-wiki/RLE-wiki
+[repo]: https://github.com/project-trans/RLE-wiki
 [wiki-url]: https://rle.wiki
 [hope-url]: https://github.com/vuepress-theme-hope/vuepress-theme-hope

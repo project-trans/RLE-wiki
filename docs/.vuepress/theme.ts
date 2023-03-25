@@ -6,13 +6,13 @@ export default hopeTheme({
   hostname: "https://rle.wiki/",
 
   author: {
-    name: "MtF.wiki Team",
-    url: "https://github.com/mtf-wiki",
+    name: "Project Trans",
+    url: "https://github.com/project-trans",
   },
 
   iconAssets: "iconfont",
 
-  repo: "mtf-wiki/RLE-wiki",
+  repo: "project-trans/RLE-wiki",
 
   docsDir: "docs",
 
