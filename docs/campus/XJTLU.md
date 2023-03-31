@@ -52,4 +52,4 @@ date: 2022-09-08 00:00:00
 
 ### 投稿人
 
-anyuzu99 [Github](https://github.com/anyuzu99)
+[anyuzu99](https://yuzu-trans.notion.site/yuzu-trans/yuzu-trans-b68ddbda6d7e47d4a75863977301232b) [Github](https://github.com/anyuzu99)
