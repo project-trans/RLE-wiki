@@ -62,11 +62,11 @@ RLE.wiki 面向全体跨性别者，请不要假定读者的性别。
 
 如果你已经准备好了要向 RLE Wiki 提交的信息，可以通过以下几种方式向我们提交：
 
-1. 将这些信息通过邮件发送给 hi@rle.wiki，我们会在收到邮件后的一周内完成整理和更新。
+1. 将这些信息通过邮件发送给 <hi@rle.wiki>，我们会在收到邮件后的一周内完成整理和更新。
 
-1. 将 RLE Wiki fork后提交Pull request。
+1. 将 RLE Wiki fork后提交[Pull request](https://github.com/project-trans/RLE-wiki)。
 
-1. 向 RLE Wiki 仓库提交Issue。
+1. 向 RLE Wiki 仓库提交[Issue](https://github.com/project-trans/RLE-wiki/issues)。
 
 如果要向我们寻求帮助，上述方式同样适用。
 
