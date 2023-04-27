@@ -85,4 +85,4 @@ date: 2023-04-28 00:00:00
 ### 投稿人联系方式
 
 - QQ：2991251742
-- E-Mail：kohaku@buaa.edu.cn
+- E-Mail：<kohaku@buaa.edu.cn>
