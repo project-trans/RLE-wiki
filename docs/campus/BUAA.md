@@ -4,7 +4,7 @@ author: Kohaku
 date: 2023-04-28 00:00:00
 ---
 
-### 概况
+## 概况
 
 [北京航空航天大学](https://buaa.edu.cn)（Beihang University, BUAA）是工信部直属副部级高校，“双一流”世界一流大学建设高校A类，前“985计划”和“211计划”高校。
 
