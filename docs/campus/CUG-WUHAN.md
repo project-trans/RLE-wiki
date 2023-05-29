@@ -1,7 +1,6 @@
 ---
 title: 中国地质大学（武汉）
 author: AlbacoreMeow 等
-date: 2022-02-19 00:00:00
 ---
 
 ## 概况

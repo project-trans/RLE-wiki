@@ -1,7 +1,6 @@
 ---
 title: 山东大学
 author: Annie Chorly
-date: 2023-03-04 00:00:00
 ---
 
 ::: warning

@@ -1,7 +1,6 @@
 ---
 title: 合肥工业大学
 author: Windancer 等
-date: 2022-02-19 00:00:00
 ---
 
 ## 学校概况

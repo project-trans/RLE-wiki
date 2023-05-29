@@ -1,7 +1,6 @@
 ---
 title: 华中科技大学
 author: Circlecircle 等
-date: 2022-07-20 00:00:00
 ---
 
 

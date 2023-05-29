@@ -1,7 +1,6 @@
 ---
 title: "电子科技大学"
 author: Yukari 等
-date: 2022-09-04 00:00:00
 ---
 
 ::: info 注意

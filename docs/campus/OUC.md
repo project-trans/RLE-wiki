@@ -1,7 +1,6 @@
 ---
 title: 中国海洋大学
 author: RuinyIcaria
-date: 2022-12-10
 ---
 
 |项目|情况|

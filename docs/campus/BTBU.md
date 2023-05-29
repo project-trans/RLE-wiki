@@ -3,7 +3,6 @@ title: 北京工商大学
 author:
   - Vincent SHI
   - 等
-date: 2023-03-18 00:00:00
 ---
 
 ::: warning
