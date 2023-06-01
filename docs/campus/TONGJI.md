@@ -63,7 +63,7 @@ author:
 - **上海精卫有报销 陆大爷挂号费也可以报**（报销额度不明确，估计在 50% 左右）
 - 可以试着去校医院开转诊单：
 
-![转诊单样式](/campus/TONGJI_treatment.jpg)
+![转诊单样式](/campus/TONGJI/TONGJI_treatment.jpg)
 
 - [上海九院](https://mtf.wiki/zh-cn/docs/hrt/sh9/) 有序列治疗（除了证明之外），其中 HRT 较为正规。
 - 除了九院，开 HRT 处方还可以去中山医院（推荐）、新华医院、瑞金医院、[长海医院本部院区](https://amap.com/place/B0FFKP410J) （非长海医院虹口院区）等。

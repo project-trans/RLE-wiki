@@ -5,6 +5,6 @@ export default navbar([
   {
     text: "贡献指南",
     icon: "info",
-    children: ["/contributor-guide/campus.md","/contributor-guide/other.md"],
+    children: ["/contributor-guide/campus.md","/contributor-guide/other.md", "/contributor-guide/CampusTemplate.md"],
   },
 ]);
