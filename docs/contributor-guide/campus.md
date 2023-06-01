@@ -39,10 +39,6 @@ RLE.wiki 的一个校园页面一般对应一个高考招生代码。也就是�
 7. 如果有引用到静态文件，例如图片视频等，请在`docs/.vuepress/public/campus`目录下新建一个与md文件同名的目录，并在markdown文件中使用**相对路径**的方式引用。
 例如我的文件名为`example.md`，在其中引用一张名为`Test.png`的图片，那么我需要在`docs/.vuepress/public/campus`目录下新建一个名为`example`的目录，并将`Test.png`放入其中，然后在markdown里面使用`![](/campus/example/Test.png)`的方式引用。
 
-::: tip
-为了减小Git文件体积，加快访问速度，图片建议使用<https://tinypng.com/>压缩之后再放入。
-:::
-
 ## 5. 向 RLE Wiki 维护人员提交内容/寻求帮助
 
 如果你已经准备好了要向 RLE Wiki 提交的信息，可以通过以下几种方式向我们提交：
