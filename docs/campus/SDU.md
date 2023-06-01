@@ -1,11 +1,10 @@
 ---
 title: 山东大学
 author: Annie Chorly
-date: 2023-03-04 00:00:00
 ---
 
 ::: warning
-本页内容不涉及[山东大学威海校区](https://www.wh.sdu.edu.cn)。
+本页内容不涉及 [山东大学威海校区](https://www.wh.sdu.edu.cn)。
 :::
 
 ## 概况
@@ -14,15 +13,15 @@ date: 2023-03-04 00:00:00
 
 ## 地理位置及交通
 
-山东大学有很多校区，就读校区取决于所学专业。院系与校区的对应关系请参考[山东大学学院设置](https://www.sdu.edu.cn/jgsz/xysz.htm)。
+山东大学有很多校区，就读校区取决于所学专业。院系与校区的对应关系请参考 [山东大学学院设置](https://www.sdu.edu.cn/jgsz/xysz.htm)。
 
-- 中心校区位于[济南市历城区山大南路 27 号](https://amap.com/place/B021306Q3G)。
-- 洪家楼校区位于[济南市历城区洪家楼街道洪家楼 5 号](https://amap.com/place/B021307UOJ)。
-- 趵突泉校区位于[济南市历下区文化西路 44 号](https://amap.com/place/B021303HCJ)。
-- 千佛山校区位于[济南市历下区经十路 17923 号](https://amap.com/place/B0FFL3GVIB)，该校区只有研究生。
-- 兴隆山校区位于[济南市市中区二环东路 12550 号](https://amap.com/place/B02130U9NE)。
-- 软件园校区位于[济南市历城区舜华路中段 1500 号](https://amap.com/place/B021301003)。
-- 青岛校区位于[青岛市即墨区滨海公路 72 号](https://amap.com/place/B0FFGH0GP5)。
+- 中心校区位于 [济南市历城区山大南路 27 号](https://amap.com/place/B021306Q3G)。
+- 洪家楼校区位于 [济南市历城区洪家楼街道洪家楼 5 号](https://amap.com/place/B021307UOJ)。
+- 趵突泉校区位于 [济南市历下区文化西路 44 号](https://amap.com/place/B021303HCJ)。
+- 千佛山校区位于 [济南市历下区经十路 17923 号](https://amap.com/place/B0FFL3GVIB)，该校区只有研究生。
+- 兴隆山校区位于 [济南市市中区二环东路 12550 号](https://amap.com/place/B02130U9NE)。
+- 软件园校区位于 [济南市历城区舜华路中段 1500 号](https://amap.com/place/B021301003)。
+- 青岛校区位于 [青岛市即墨区滨海公路 72 号](https://amap.com/place/B0FFGH0GP5)。
 
 ## 军训与体育
 
@@ -62,10 +61,8 @@ _TODO: 待补充体育相关信息，例如体育课强度，及格难度，是�
 
 ## 其他信息
 
-本科生院官网上有[学信网全日制本专科学历信息勘误办理指南](https://www.bkjx.sdu.edu.cn/info/1309/33072.htm)，但缺乏跨性别者修改成功的案例报告。
+本科生院官网上有 [学信网全日制本专科学历信息勘误办理指南](https://www.bkjx.sdu.edu.cn/info/1309/33072.htm)，但缺乏跨性别者修改成功的案例报告。
 
----
-
-投稿人联系方式：
+## 投稿人联系方式
 
 - 邮箱：<kazhaha@qq.com>
