@@ -11,7 +11,7 @@ author: 某不愿具姓名的猫猫 等
 
 ## 地理位置及交通
 
-学校位于[杭州市下沙高教园区学源街258号](https://amap.com/place/B023B0BXRR)。
+学校位于 [杭州市下沙高教园区学源街 258 号](https://amap.com/place/B023B0BXRR)。
 
 ## 军训与体育
 

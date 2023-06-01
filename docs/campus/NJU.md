@@ -31,7 +31,7 @@ author: Lhcfl 等
 
 ### 鼓楼校区
 
-位于[南京市鼓楼区汉口路 9 号](https://amap.com/place/B00190B4AC)，是最老的校区。
+位于 [南京市鼓楼区汉口路 9 号](https://amap.com/place/B00190B4AC)，是最老的校区。
 
 很小，可以靠走路 10min 从校园一侧走到另一侧，通勤不成问题。
 自行车较多。
@@ -42,7 +42,7 @@ author: Lhcfl 等
 
 ### 仙林校区
 
-位于[南京市栖霞区仙林大道 163 号](https://amap.com/place/B00190CVRT)。
+位于 [南京市栖霞区仙林大道 163 号](https://amap.com/place/B00190CVRT)。
 
 笔者不在所以不熟。
 通勤需要自行车。校外网络较差。

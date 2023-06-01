@@ -10,13 +10,15 @@ author: 翎澈 等
 快逃。
 
 ## 概况
+
 [南京审计大学](https://www.nau.edu.cn/) （Nanjing Audit University, NAU）。
 
 ## 地理位置
 
 学校分为浦口校区（新）和莫愁校区（旧）。
-浦口校区位于[南京市浦口区雨山西路86号](https://amap.com/place/B00190AK3A)。
-莫愁校区位于[南京市鼓楼区北圩路77号](https://amap.com/place/B001905DIP)。
+
+- 浦口校区位于 [南京市浦口区雨山西路 86 号](https://amap.com/place/B00190AK3A)。
+- 莫愁校区位于 [南京市鼓楼区北圩路 77 号](https://amap.com/place/B001905DIP)。
 
 笔者在浦口校区读计算机科学与技术。学校由于地形复杂不允许骑车，但是允许机动车进校，校内也安排了校车。
 

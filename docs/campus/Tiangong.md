@@ -11,7 +11,7 @@ author: 匿名
 |军训不管头发|✓|
 |医保使用|✓ 减免有限|
 
-[天津工业大学](https://www.tiangong.edu.cn) 位于[天津市西青区宾水西道399号](https://amap.com/place/B00160DEPY)
+[天津工业大学](https://www.tiangong.edu.cn) 位于 [天津市西青区宾水西道 399 号](https://amap.com/place/B00160DEPY)
 
 ## 宿舍
 

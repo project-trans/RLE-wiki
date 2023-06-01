@@ -24,8 +24,8 @@ author: anyuzu99 等
 
 江苏苏州 ~~苏州的同类浓度很高哦~~
 
-- 独墅湖校区（本部）位于[苏州市虎丘区独墅湖高教区仁爱路111号](https://amap.com/place/B0FFHQJBV5)，工业园区独墅湖科教创新区，二号线附近，走路稍远，周边有多个商业区。
-- 太仓校区位于[苏州市太仓市太仓大道111号](https://amap.com/place/B0FFLAQU9Z)，公车 1.5 h 到达上海。
+- 独墅湖校区（本部）位于 [苏州市虎丘区独墅湖高教区仁爱路 111 号](https://amap.com/place/B0FFHQJBV5)，工业园区独墅湖科教创新区，二号线附近，走路稍远，周边有多个商业区。
+- 太仓校区位于 [苏州市太仓市太仓大道 111 号](https://amap.com/place/B0FFLAQU9Z)，公车 1.5 h 到达上海。
 
 ## 军训与体育
 
@@ -51,7 +51,7 @@ author: anyuzu99 等
 
 苏州市立医院 [周建英](https://mtf.wiki/zh-cn/docs/hrt/zhou-jianying/) 可以开具 HRT 处方与药物。
 
-苏州广济医院 [杜向东](https://mtf.wiki/zh-cn/docs/psyco/jiangsu/du-xiangdong/)可尝试开证、ADHD 开药，也可前往到南京。
+苏州广济医院 [杜向东](https://mtf.wiki/zh-cn/docs/psyco/jiangsu/du-xiangdong/) 可尝试开证、ADHD 开药，也可前往到南京。
 
 ### 投稿人
 

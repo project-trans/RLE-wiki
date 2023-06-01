@@ -15,8 +15,8 @@ author: 流绝 等
 
 学校共有玄武门校区和江宁校区两个校区。本科生和部分研究生在江宁校区就读。
 
-- 玄武门校区位于[南京市鼓楼区童家巷24号](https://amap.com/place/B00190BBVO)。
-- 江宁校区位于[南京市江宁区龙眠大道639号](https://amap.com/place/B00190AGPQ)。
+- 玄武门校区位于 [南京市鼓楼区童家巷 24 号](https://amap.com/place/B00190BBVO)。
+- 江宁校区位于 [南京市江宁区龙眠大道 639 号](https://amap.com/place/B00190AGPQ)。
 
 ## 军训与体育
 

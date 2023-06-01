@@ -11,8 +11,8 @@ author: Noira
 
 学校共有泉州校区和厦门校区两个校区。学生就读的校区由所学专业决定。
 
-- 泉州校区位于[泉州市丰泽区城华北路 269 号](https://amap.com/place/B0FFFRYQ2R)。
-- 厦门校区位于[厦门市集美区集美大道 668 号](https://amap.com/place/B025003LJD)。
+- 泉州校区位于 [泉州市丰泽区城华北路 269 号](https://amap.com/place/B0FFFRYQ2R)。
+- 厦门校区位于 [厦门市集美区集美大道 668 号](https://amap.com/place/B025003LJD)。
 
 ## 军训与体育
 
