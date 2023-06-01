@@ -52,7 +52,7 @@ _TODO_
 
 ## LGBT 友善梗概
 
-_TODO: 待补充 LGBT 友善情况，如果不利于 MtF 生存请特别指出_
+_TODO: 待补充 LGBT 友善情况，如果不利于 Trans 生存请特别指出_
 
 ### MtF 分布（部分）
 
