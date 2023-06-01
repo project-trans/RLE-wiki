@@ -1,8 +1,7 @@
 ---
-title: 校园贡献模板（此处修改为学校名称）
+title: 校园版块贡献模板
 author: 
- - RLE wiki
- - HalfSweet
+ - Author Name
 ---
 
 
