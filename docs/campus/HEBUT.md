@@ -121,6 +121,6 @@ author:
 
 - E-Mail: <LiMee233@outlook.com>
 
-### 人工智能与数据科学学院 2021 级的一位 MtX
+### Nickel_Angel
 
 - E-Mail: <1239004072@qq.com>
