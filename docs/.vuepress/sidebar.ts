@@ -1,11 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export default sidebar([
-  {
-    text: "校园指南",
-    icon: "creative",
-    prefix: "/campus/",
-    link: "/campus/",
-    children: "structure",
-  },
-]);
+export default sidebar({
+  "/campus/": "structure",
+  "/fashion/": "structure",
+  "/contributor-guide/": "structure"
+});

@@ -2,6 +2,7 @@
 title: 校园版块投稿指南
 category:
   - 大学指南
+order: 1
 ---
 
 ## 1. 序言
