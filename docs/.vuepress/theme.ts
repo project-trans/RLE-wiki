@@ -20,6 +20,8 @@ export default hopeTheme({
 
   sidebar: sidebar,
 
+  sidebarSorter: ["readme", "order", "title", "filename"],
+
   breadcrumb: false,
 
   displayFooter: true,
