@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar";
 import sidebar from "./sidebar";
+import { mySidebarTitleSorter } from "./sidebarSorter";
 
 export default hopeTheme({
   hostname: "https://rle.wiki/",
@@ -19,6 +20,8 @@ export default hopeTheme({
   navbar: navbar,
 
   sidebar: sidebar,
+
+  sidebarSorter: mySidebarTitleSorter,
 
   breadcrumb: false,
 

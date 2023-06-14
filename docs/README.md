@@ -7,10 +7,13 @@ actions:
   - text: 大学指南 🏫
     link: /campus/
     type: primary
+  - text: Fashion 👕
+    link: /fashion/
+    type: primary
 footer: Creative Commons BY-SA 4.0 | Copyright © 2022-present Project Trans
 ---
 
-::: info 本项目虽由 MtF.wiki 团队发起，但将不仅限于 MtF 的 RLE 指导，也欢迎广大 FtM 同胞一起建设本项目。
+::: info 本项目由 Project Trans 团队发起，包括但不仅限于 MtF 的 RLE 指导，也欢迎广大 FtM 同胞一起建设本项目。
 :::
 
 ::: info 本项目包括且不仅限于校园指南，后期会包括其他 RLE 指导，处于建设初期其他条目暂未完成，欢迎大家帮助项目完善。
