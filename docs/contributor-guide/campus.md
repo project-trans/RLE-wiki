@@ -25,7 +25,7 @@ RLE.wiki 的一个校园页面一般对应一个高考招生代码。也就是�
 
 校园部分每个页面应当分为概况、地理位置及交通、军训与体育、宿舍情况与基础设施、医疗资源、LGBT 友善梗概、院系探路、其他信息几个部分。文件名为`学校英文缩写.md`。
 
-一般来说，推荐的做法是将[模板文档](https://github.com/project-trans/RLE-wiki/tree/main/docs/contributor-guide/template.md)复制一份到`docs/campus`目录下，然后将文件名修改为`学校英文缩写.md`。如果您想预览该文件，可以前往 <https://rle.wiki/contributor-guide/CampusTemplate.html> 查看。特别的，如果有多个招生代码且缩写一致，那应该在缩写后加上`- 城市英文缩写`的后缀。
+一般来说，推荐的做法是将[模板文档](https://github.com/project-trans/RLE-wiki/blob/main/docs/contributor-guide/CampusTemplate.md)复制一份到`docs/campus`目录下，然后将文件名修改为`学校英文缩写.md`。如果您想预览该文件，可以前往 <https://rle.wiki/contributor-guide/CampusTemplate.html> 查看。特别的，如果有多个招生代码且缩写一致，那应该在缩写后加上`- 城市英文缩写`的后缀。
 
 在模板文档中的`note`徽章中描述了该小节的注意内容，正式发布的时候应当删掉所有官方的`note`徽章。
 
