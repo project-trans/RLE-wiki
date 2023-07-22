@@ -43,4 +43,4 @@ author: 蔡赵天
 
 ## 投稿人
 
-蔡赵天 <beta_cai@webmail.hzau.edu.cn>
+蔡赵天 <betavulg@qq.com>
