@@ -36,13 +36,13 @@ export default hopeTheme({
       rss: true,
     },
     comment: {
-      provider: "Waline",
-      serverURL: "https://waline.rle.wiki",
-      dark: "auto",
-      requiredMeta: ['nick', 'mail'],
-      locale: {
-        admin: "编辑组"
-      }
+      provider: "Giscus",
+      repo: "project-trans/RLE-wiki",
+      repoId: "R_kgDOHvprjA",
+      category: "comment",
+      categoryId: "DIC_kwDOHvprjM4CY2cd",
+      mapping: "pathname",
+      lazyLoading: false,
     },
     mdEnhance: {
       container: true,
