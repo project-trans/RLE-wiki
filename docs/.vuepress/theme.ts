@@ -54,9 +54,9 @@ export default hopeTheme({
       footnote: true,
       mark: true,
       tasklist: true,
-      imageMark: true,
-      imageSize: true,
-      tex: true,
+      imgMark: true,
+      imgSize: true,
+      katex: true,
     },
   },
 });

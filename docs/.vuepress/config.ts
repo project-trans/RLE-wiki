@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import mdPangu from "markdown-it-pangu";
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -7,6 +8,10 @@ export default defineUserConfig({
   description: "一份RLE指北",
 
   base: "/",
+
+  extendsMarkdown: (md) => {
+    md.use(mdPangu);
+  },
 
   theme,
 });
