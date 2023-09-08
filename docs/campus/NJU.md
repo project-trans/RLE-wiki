@@ -1,6 +1,9 @@
 ---
 title: 南京大学
-author: Lhcfl njujimbo 等
+author: 
+  - Lhcfl
+  - njujimbo
+  - 等
 ---
 
 |项目|情况|
