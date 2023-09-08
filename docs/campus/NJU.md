@@ -57,8 +57,12 @@ author: Lhcfl njujimbo 等
 ## 医疗资源
 
 本人实测呢喃校医院不能做激素六项（差评），最近似乎是要坐178路去仙林鼓楼医院，价格大概一两百，详细流程和体验等我最近有空空去看看回来更新（
+
 补佳乐校医院的价格不清楚，不过我在和园最西边的那家药店买过，27.8一盒，不算太贵，而且很好买，不需要任何处方也不会问你用途。
-如果想得到较为专业的hrt指导或者开证的话，可以坐高铁去宛平南路600号/上海九院。
+
+如果想开证，可以在南京找[武欣](https://mtf.wiki/zh-cn/docs/psyco/jiangsu/wu-xin/)（需要在读证明）或[曹秋云](https://mtf.wiki/zh-cn/docs/psyco/jiangsu/cao-qiuyun/)（需要家长同意）。
+
+如果需要较为专业的 hrt 指导，建议前往[上海](https://mtf.wiki/zh-cn/docs/hrt/shanghai/)。
 
 ## 军训与体育
 
