@@ -2,7 +2,7 @@
 title: 南京农业大学
 
 author:
-- Elihuso Quigley
+  - Elihuso Quigley
 
 ---
 
