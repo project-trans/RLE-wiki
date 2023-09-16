@@ -35,15 +35,7 @@ export default hopeTheme({
     feed: {
       rss: true,
     },
-    comment: {
-      provider: "Waline",
-      serverURL: "https://waline.rle.wiki",
-      dark: "auto",
-      requiredMeta: ['nick', 'mail'],
-      locale: {
-        admin: "编辑组"
-      }
-    },
+    comment: false,
     mdEnhance: {
       container: true,
       tabs: true,
@@ -54,9 +46,9 @@ export default hopeTheme({
       footnote: true,
       mark: true,
       tasklist: true,
-      imageMark: true,
-      imageSize: true,
-      tex: true,
+      imgMark: true,
+      imgSize: true,
+      katex: true,
     },
   },
 });

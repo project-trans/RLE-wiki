@@ -1,0 +1,22 @@
+name: 测试
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+          run_install: true
+      - uses: actions/setup-node@v3
+        with:
+          cache: pnpm
+      - run: pnpm build
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
