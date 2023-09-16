@@ -53,11 +53,6 @@ body:
     attributes:
       label: 医疗资源
       description: 医疗资源部分包括：校医院能否开具激素检查，能否公费或医保购买 HRT 药物；如果不能，校外的医院能否进行检查与开具药物，能否回校报销，前往校外医院与报销是否方便等等。
-  - type: input
-    id: xiaoyiyuan
-    attributes:
-      label: 校医院可用度
-      description: 能不能进行激素检查，能不能开到激素药
   - type: textarea
     id: LGBTFriendly
     attributes:
