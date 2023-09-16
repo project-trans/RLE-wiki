@@ -5,67 +5,69 @@ body:
   - type: input
     id: author
     attributes:
-      label: 贡献者名称
+      label: 贡献者名称与联系方式
       description: 填写你期望的名称。如不希望署名，请填“匿名”
     validations:
       required: true
+  - type: input
+    id: author-contact
+    attributes:
+      label: 贡献者联系方式
+      description: 您的联系方式，可以是邮箱、QQ、微信等等。如果您希望匿名，请忽略此项。
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: 感谢您的报告，请根据该表单填充必要信息。
   - type: input
     id: campus-name
     attributes:
-      label: 学校名称
-      description: 该学校的名字全称
+      label: 学校概述
+      description: 概况部分应包含学校的中文全称、英文全程、英文缩写、官网地址，使用 [中文全称](官网地址)（英文全称，英文缩写） 的格式。接下来可以简单陈述学校的整体情况，例如设置有哪些学科，是否为双一流学校等等。
     validations:
       required: true
   - type: input
     id: address
     attributes:
-      label: 地址位置
-      description: 该学校的地理位置
+      label: 地理位置及交通
+      description: 这一部分应当以校区名称位于 [通讯地址](高德地图 POI 链接) 的形式开头。在此应该阐明哪些学生将会进入哪个校区，是按年级分配校区还是按专业分配校区等等。如果某个校区离市区很远，或者交通不便，应当指出。如果学校设有多个校区，在接下来的内容中，请注意你所陈述的是否是所有校区的普遍情况。如果你只了解自己所在的校区的情况，而对其他校区并不了解，应当指出。
+    validations:
+      required: true
+  - type: input
+    id: PE-Military
+    attributes:
+      label:  军训与体育
+      description: 军训部分重点关注：军训是否强制要求剪短头发，军训的时长、强度，军训能否免训或半训等等；体育部分重点关注：体育课是否男女分开，体育课强度、考核难度，是否可以申请降低标准等等。
     validations:
       required: true
   - type: markdown
     attributes:
       value: 下面是一些基本生活信息，你可以说有、没有、不了解、部分情况下有（如只有某校区有独立卫浴、医保限部分医院报销、医保转诊才能报销）
   - type: input
-    id: bathroom-dormitory
+    id: dormitory
     attributes:
-      label: 宿舍独立卫浴
+      label: 宿舍情况与基础设施
       description: 宿舍独立卫生间或者独立浴室的情况，公共澡堂可以讲讲私密度情况
-  - type: input
-    id: bathroom-genderless
-    attributes:
-      label: 教学区第三卫生间
-  - type: input
-    id: exemption-military-training
-    attributes:
-      label: 军训减免
-      description: 协商减免，凭医学材料减免
-  - type: input
-    id: exemption-hair
-    attributes:
-      label: 军训管不管头发
-  - type: input
-    id: exemption-sports
-    attributes:
-      label: 体育减免
-      description: 协商减免，凭医学材料减免
   - type: input
     id: medicare
     attributes:
-      label: 医保的可用情况
+      label: 医疗资源
+      description: 医疗资源部分包括：校医院能否开具激素检查，能否公费或医保购买 HRT 药物；如果不能，校外的医院能否进行检查与开具药物，能否回校报销，前往校外医院与报销是否方便等等。
   - type: input
     id: xiaoyiyuan
     attributes:
       label: 校医院可用度
       description: 能不能进行激素检查，能不能开到激素药
   - type: textarea
-    id: general
+    id: LGBTFriendly
     attributes:
-      label: 现状梗概
-      description: 您在学校就读时遭遇的问题，或有补充的信息，对于 MtF 不方便的地方请指出
+      label:  LGBT 友善梗概
+      description: 如果不利于 MtF 生存请特别指出。这里可以写一些主观感受，如学校、教师、同学是否对 LGBT 友善等，客观内容包括学校是否有 LGBT 专门的社团组织，是否提供 LGBT 的科普等。大部分学校都有提供心理咨询服务，如有心理咨询的经历，可以讲述心理咨询是否跨性别友善、预约是否容易等等。如果愿意，在此还可以列写一下学校内的跨性别分布情况，但是应特别添加一个小标题来描述。
+  - type: input
+    id: other
+    attributes:
+      label: 其他
+      description: 如果你认为还有其他需要放在 Wiki 上的内容，可以填写在这个小节中，如果有必要，可以单独添加小标题来分段。
   - type: checkboxes
     id: license
     attributes:
