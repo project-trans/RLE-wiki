@@ -54,6 +54,6 @@ _TODO: 待补充体育相关信息，例如体育课强度，及格难度，是�
 欢迎在校和准备报考的朋友通过下面的方式联系我们哦~
 
 - **[我们的审核群（Telegram）](https://t.me/+MIHFYyWnp_81MTA1)**
-- 没有tg的小伙伴可以加2755369504（QQ），在线频率比较高
+- 没有tg的小伙伴可以加2755462846（QQ），在线频率比较高
 - Takehana（初稿作者）：<cowpowermax@proton.me>、1405683748（QQ）
 - [LittleYe233](https://github.com/LittleYe233)（修订者）：<mailto:littleye233@gmail.com>
