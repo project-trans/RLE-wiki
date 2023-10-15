@@ -25,7 +25,7 @@ RLE.wiki 的一个校园页面一般对应一个高考招生代码。也就是�
 
 校园部分每个页面应当分为概况、地理位置及交通、军训与体育、宿舍情况与基础设施、医疗资源、LGBT 友善梗概、院系探路、其他信息几个部分。文件名为`学校英文缩写.md`。
 
-一般来说，推荐的做法是将[模板文档](https://github.com/project-trans/RLE-wiki/tree/main/docs/contributor-guide/template.md)复制一份到`docs/campus`目录下，然后将文件名修改为`学校英文缩写.md`。如果您想预览该文件，可以前往 <https://rle.wiki/contributor-guide/CampusTemplate.html> 查看。特别的，如果有多个招生代码且缩写一致，那应该在缩写后加上`- 城市英文缩写`的后缀。
+一般来说，推荐的做法是将[模板文档](https://github.com/project-trans/RLE-wiki/blob/main/docs/contributor-guide/CampusTemplate.md)复制一份到`docs/campus`目录下，然后将文件名修改为`学校英文缩写.md`。如果您想预览该文件，可以前往 <https://rle.wiki/contributor-guide/CampusTemplate.html> 查看。特别的，如果有多个招生代码且缩写一致，那应该在缩写后加上`- 城市英文缩写`的后缀。
 
 在模板文档中的`note`徽章中描述了该小节的注意内容，正式发布的时候应当删掉所有官方的`note`徽章。
 
@@ -39,6 +39,10 @@ RLE.wiki 的一个校园页面一般对应一个高考招生代码。也就是�
 6. 句末需要加上中文句号`。`。
 7. 如果有引用到静态文件，例如图片视频等，请在`docs/.vuepress/public/campus`目录下新建一个与md文件同名的目录，并在markdown文件中使用**相对路径**的方式引用。
 例如我的文件名为`example.md`，在其中引用一张名为`Test.png`的图片，那么我需要在`docs/.vuepress/public/campus`目录下新建一个名为`example`的目录，并将`Test.png`放入其中，然后在markdown里面使用`![](/campus/example/Test.png)`的方式引用。
+8. 对于过时内容的处理：
+   - 影响力持续至今的事情，尽管其已经结束，但为了因果关系完整，仍应予以保留。（举例：2020 年，某校因为 COVID-19 疫情防控措施而取消了某政策，至今没有恢复，但由于 2022 年 12 月的防控措施变化，而在近期存在恢复可能的，在等待两年（至 2024 年 12 月）、排除其恢复可能后，将“以前的政策”和“受 COVID-19 疫情防控措施影响”这两句按下方处理）
+   - 已无影响力，但影响力消失不足两年的，予以折叠、标注过时（使用`:::details :::`语法）。
+   - 已无影响力，影响力消失满两年的，予以删除。
 
 ## 5. 向 RLE Wiki 维护人员提交内容/寻求帮助
 
