@@ -1,6 +1,8 @@
 ---
 title: 香港中文大学（深圳）
-author: Setsugesuka/Clary
+author: 
+- Setsugesuka
+- Clary
 ---
 
 |        项目        |    情况    |
