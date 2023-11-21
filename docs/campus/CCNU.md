@@ -1,5 +1,5 @@
 ---
-title: 校园版块贡献模板
+title: 华中师范大学
 author:
   - 华中师范大学
 order: 2
