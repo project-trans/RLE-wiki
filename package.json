@@ -4,15 +4,19 @@
   "description": "RLE指北",
   "license": "Creative Commons BY-SA 4.0",
   "scripts": {
-    "build": "vuepress build docs",
-    "clean-dev": "vuepress dev docs --clean-cache",
-    "dev": "vuepress dev docs",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "build:old": "vuepress build docs",
+    "clean-dev:old": "vuepress dev docs --clean-cache",
+    "dev:old": "vuepress dev docs",
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@types/markdown-it": "^13.0.7",
     "@vuepress/client": "2.0.0-rc.0",
     "markdown-it-pangu": "^1.0.2",
+    "vitepress": "1.0.0-rc.31",
     "vue": "^3.3.8",
     "vuepress": "2.0.0-rc.0",
     "vuepress-theme-hope": "2.0.0-rc.0"
