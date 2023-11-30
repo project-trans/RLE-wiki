@@ -11,6 +11,11 @@ packages/*/lib/
 # Vuepress Output
 dist/
 
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+
 # VS Code Config file
 # .vscode/
 
