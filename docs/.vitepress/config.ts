@@ -1,23 +1,33 @@
 import { defineConfig } from 'vitepress'
-import { configNav } from './nav'
+import nav from './nav'
+import mdPangu from "markdown-it-pangu";
+import katex from 'markdown-it-katex';
+import footnote from 'markdown-it-footnote';
+import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "RLE.wiki",
   description: "一份RLE指北",
+  markdown: {
+    config(md) {
+      md.use(mdPangu);
+      md.use(footnote);
+      md.use(katex);
+    },
+  },
+  dir: 'docs',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: configNav,
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    siteTitle: 'RLE.wiki',
+    nav,
+    sidebar: getSidebar({
+      contentRoot: '/docs',
+      contentDirs: ['campus', 'contributor-guide', 'fashion'],
+      collapsible: true,
+      collapsed: true,
+    }),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/project-trans/RLE-wiki' }
