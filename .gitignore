@@ -4,12 +4,12 @@ node_modules/
 # Build files
 packages/*/lib/
 
-# Vuepress Cache
 .cache/
-# Vuepress Temp
+cache/
 .temp/
-# Vuepress Output
 dist/
+.yarn*
+yarn*
 
 # VS Code Config file
 # .vscode/
