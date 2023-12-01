@@ -1,19 +1,19 @@
+import footnote from 'markdown-it-footnote'
+import katex from 'markdown-it-katex'
+import mdPangu from 'markdown-it-pangu'
 import { defineConfig } from 'vitepress'
-import nav from './nav'
-import mdPangu from "markdown-it-pangu";
-import katex from 'markdown-it-katex';
-import footnote from 'markdown-it-footnote';
 import { getSidebar } from 'vitepress-plugin-auto-sidebar'
+import nav from './nav'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "RLE.wiki",
-  description: "一份RLE指北",
+  title: 'RLE.wiki',
+  description: '一份RLE指北',
   markdown: {
     config(md) {
-      md.use(mdPangu);
-      md.use(footnote);
-      md.use(katex);
+      md.use(mdPangu)
+      md.use(footnote)
+      md.use(katex)
     },
   },
   dir: 'docs',
@@ -30,7 +30,7 @@ export default defineConfig({
     }),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/project-trans/RLE-wiki' }
+      { icon: 'github', link: 'https://github.com/project-trans/RLE-wiki' },
     ],
 
     editLink: {
@@ -48,5 +48,5 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页',
     },
-  }
+  },
 })

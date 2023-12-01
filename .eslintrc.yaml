@@ -1,0 +1,5 @@
+extends:
+- '@hydrooj/eslint-config'
+rules:
+  '@typescript-eslint/semi': [error, never]
+  '@typescript-eslint/indent': [error, 2]

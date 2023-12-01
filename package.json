@@ -11,14 +11,18 @@
     "build:old": "vuepress build docs",
     "clean-dev:old": "vuepress dev docs --clean-cache",
     "dev:old": "vuepress dev docs",
-    "update-package": "pnpm dlx vp-update"
+    "update-package": "pnpm dlx vp-update",
+    "lint": "eslint docs --ext .ts,.vue,.md"
   },
   "devDependencies": {
+    "@hydrooj/eslint-config": "^1.0.6",
     "@types/markdown-it": "^13.0.7",
     "@types/markdown-it-footnote": "^3.0.3",
+    "eslint": "^8.54.0",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-katex": "^2.0.3",
     "markdown-it-pangu": "^1.0.2",
+    "typescript": "^5.3.2",
     "vitepress": "^1.0.0-rc.31",
     "vitepress-plugin-auto-sidebar": "^1.1.0",
     "vue": "^3.3.8",
