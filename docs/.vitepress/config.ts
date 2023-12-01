@@ -1,16 +1,14 @@
-import { defineConfig } from "vitepress";
+import { defineConfig } from 'vitepress'
+import nav from './nav'
 import mdPangu from "markdown-it-pangu";
 import katex from 'markdown-it-katex';
 import footnote from 'markdown-it-footnote';
 import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 
+// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: "zh-CN",
   title: "RLE.wiki",
   description: "一份RLE指北",
-
-  base: "/",
-
   markdown: {
     config(md) {
       md.use(mdPangu);
@@ -18,45 +16,37 @@ export default defineConfig({
       md.use(katex);
     },
   },
-
+  dir: 'docs',
   lastUpdated: true,
   themeConfig: {
-    siteTitle: "RLE.wiki",
-    nav: [
-      {
-        text: "大学指南",
-        // icon: "creative",
-        link: "/campus/"
-      },
-      {
-        text: "Fashion",
-        // icon: "creative",
-        link: "/fashion/"
-      },
-      {
-        text: "贡献指南",
-        // icon: "info",
-        items: [{
-          text: "Campus",
-          link: "/contributor-guide/campus.md"
-        }, {
-          text: "Other",
-          link: "/contributor-guide/other.md"
-        }, {
-          text: "CampusTemplate",
-          link: "/contributor-guide/CampusTemplate.md"
-        }],
-      },
-    ],
+    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: 'RLE.wiki',
+    nav,
     sidebar: getSidebar({
       contentRoot: '/docs',
       contentDirs: ['campus', 'contributor-guide', 'fashion'],
       collapsible: true,
       collapsed: true,
     }),
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/project-trans/RLE-wiki' }
+    ],
+
     editLink: {
       pattern: 'https://github.com/project-trans/RLE-wiki/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面', // label localization
     },
-  },
-  dir: 'docs',
-});
+
+    // label localization
+    outline: { label: '本页大纲' },
+    lastUpdated: { text: '最后更新' },
+    darkModeSwitchLabel: '深色模式',
+    sidebarMenuLabel: '目录',
+    returnToTopLabel: '返回顶部',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
+  }
+})
