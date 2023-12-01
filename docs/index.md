@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 大学指南 🏫
-      link: /campus/readme.md
+      link: /campus/
     - theme: brand
       text: Fashion 👕
-      link: /fashion/readme.md
+      link: /fashion/
 
 ---
 
