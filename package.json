@@ -20,7 +20,7 @@
     "markdown-it-katex": "^2.0.3",
     "markdown-it-pangu": "^1.0.2",
     "vitepress": "^1.0.0-rc.31",
-    "vitepress-plugin-auto-sidebar": "^1.1.0",
+    "vitepress-sidebar": "^1.18.0",
     "vue": "^3.3.8",
     "vuepress": "2.0.0-rc.0",
     "vuepress-theme-hope": "2.0.0-rc.0"

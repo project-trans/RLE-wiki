@@ -1,9 +1,11 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type DefaultTheme } from 'vitepress'
 import nav from './nav'
-import mdPangu from "markdown-it-pangu";
-import katex from 'markdown-it-katex';
-import footnote from 'markdown-it-footnote';
-import { getSidebar } from 'vitepress-plugin-auto-sidebar'
+import mdPangu from "markdown-it-pangu"
+import katex from 'markdown-it-katex'
+import footnote from 'markdown-it-footnote'
+import { generateSidebar } from 'vitepress-sidebar'
+import { sidebar } from './sidebar'
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -22,12 +24,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'RLE.wiki',
     nav,
-    sidebar: getSidebar({
-      contentRoot: '/docs',
-      contentDirs: ['campus', 'contributor-guide', 'fashion'],
-      collapsible: true,
-      collapsed: true,
-    }),
+    sidebar,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/project-trans/RLE-wiki' }

@@ -16,15 +16,24 @@ devDependencies:
   '@types/markdown-it':
     specifier: ^13.0.7
     version: 13.0.7
-  '@vuepress/client':
-    specifier: 2.0.0-rc.0
-    version: 2.0.0-rc.0
+  '@types/markdown-it-footnote':
+    specifier: ^3.0.3
+    version: 3.0.3
+  markdown-it-footnote:
+    specifier: ^3.0.3
+    version: 3.0.3
+  markdown-it-katex:
+    specifier: ^2.0.3
+    version: 2.0.3
   markdown-it-pangu:
     specifier: ^1.0.2
     version: 1.0.2
   vitepress:
-    specifier: 1.0.0-rc.31
+    specifier: ^1.0.0-rc.31
     version: 1.0.0-rc.31(@algolia/client-search@4.20.0)(postcss@8.4.31)(search-insights@2.11.0)
+  vitepress-sidebar:
+    specifier: ^1.18.0
+    version: 1.18.0
   vue:
     specifier: ^3.3.8
     version: 3.3.8
@@ -2113,6 +2122,12 @@ packages:
     dependencies:
       '@types/markdown-it': 13.0.7
 
+  /@types/markdown-it-footnote@3.0.3:
+    resolution: {integrity: sha512-sMLBj0VcWo/4vi1J7jx3DNdup2w+14RwDMdQtcFJPabeDwt945ghc8sFBgsUfnEjcBOuKaELY22JwGb7KGmsVw==}
+    dependencies:
+      '@types/markdown-it': 13.0.7
+    dev: true
+
   /@types/markdown-it@13.0.7:
     resolution: {integrity: sha512-U/CBi2YUUcTHBt5tjO2r5QV/x0Po6nsYwQU4Y04fBS6vfoImaiZ6f8bi3CjTCxBPQSO1LMyUqkByzi8AidyxfA==}
     dependencies:
@@ -3919,6 +3934,13 @@ packages:
     dependencies:
       commander: 8.3.0
 
+  /katex@0.6.0:
+    resolution: {integrity: sha512-rS4mY3SvHYg5LtQV6RBcK0if7ur6plyEukAOV+jGGPqFImuzu8fHL6M752iBmRGoUyF0bhZbAPoezehn7xYksA==}
+    hasBin: true
+    dependencies:
+      match-at: 0.1.1
+    dev: true
+
   /kind-of@6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
     engines: {node: '>=0.10.0'}
@@ -4033,6 +4055,16 @@ packages:
   /markdown-it-emoji@2.0.2:
     resolution: {integrity: sha512-zLftSaNrKuYl0kR5zm4gxXjHaOI3FAOEaloKmRA5hijmJZvSjmxcokOLlzycb/HXlUFWzXqpIEoyEMCE4i9MvQ==}
 
+  /markdown-it-footnote@3.0.3:
+    resolution: {integrity: sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==}
+    dev: true
+
+  /markdown-it-katex@2.0.3:
+    resolution: {integrity: sha512-nUkkMtRWeg7OpdflamflE/Ho/pWl64Lk9wNBKOmaj33XkQdumhXAIYhI0WO03GeiycPCsxbmX536V5NEXpC3Ng==}
+    dependencies:
+      katex: 0.6.0
+    dev: true
+
   /markdown-it-pangu@1.0.2:
     resolution: {integrity: sha512-rssyYaMKXRLMpQIUgX01VE1KYOHhlnc4t5zGTI2zgXDpE88eQz8hywa0iSzoFm3eb5CYzFWazDKdUbnyZvW0SQ==}
     dependencies:
@@ -4059,6 +4091,10 @@ packages:
       linkify-it: 2.2.0
       mdurl: 1.0.1
       uc.micro: 1.0.6
+    dev: true
+
+  /match-at@0.1.1:
+    resolution: {integrity: sha512-h4Yd392z9mST+dzc+yjuybOGFNOZjmXIPKWjxBd1Bb23r4SmDOsk2NYCU2BMUBGbSpZqwVsZYNq26QS3xfaT3Q==}
     dev: true
 
   /mdast-util-to-hast@13.0.2:
@@ -5136,6 +5172,13 @@ packages:
       rollup: 4.5.0
     optionalDependencies:
       fsevents: 2.3.3
+    dev: true
+
+  /vitepress-sidebar@1.18.0:
+    resolution: {integrity: sha512-Ki9ZpNa0CUNr7kovAbAEJ5v4MEZi+dte8Bz3OxkQcjFqrOGfQGEoGATRgf9m6N741epLLB3PFdaUCN6ZH0zmhg==}
+    engines: {node: '>=18.0.0'}
+    dependencies:
+      gray-matter: 4.0.3
     dev: true
 
   /vitepress@1.0.0-rc.31(@algolia/client-search@4.20.0)(postcss@8.4.31)(search-insights@2.11.0):
