@@ -5,9 +5,12 @@
   "license": "CC-BY-SA-4.0",
   "type": "module",
   "scripts": {
-    "build": "vitepress build docs",
-    "clean-dev": "vitepress dev docs --clean-cache",
     "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "build:old": "vuepress build docs",
+    "clean-dev:old": "vuepress dev docs --clean-cache",
+    "dev:old": "vuepress dev docs",
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
@@ -18,6 +21,12 @@
     "markdown-it-pangu": "^1.0.2",
     "vitepress": "^1.0.0-rc.31",
     "vitepress-plugin-auto-sidebar": "^1.1.0",
-    "vue": "^3.3.8"
+    "vue": "^3.3.8",
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-theme-hope": "2.0.0-rc.0"
+  },
+  "dependencies": {
+    "katex": "^0.16.9",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.0"
   }
 }

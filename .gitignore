@@ -11,6 +11,11 @@ dist/
 .yarn*
 yarn*
 
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+
 # VS Code Config file
 # .vscode/
 
