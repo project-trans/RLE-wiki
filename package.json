@@ -2,7 +2,8 @@
   "name": "rle-wiki",
   "version": "1.0.0",
   "description": "RLE指北",
-  "license": "Creative Commons BY-SA 4.0",
+  "license": "CC-BY-SA-4.0",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -14,9 +15,12 @@
   },
   "devDependencies": {
     "@types/markdown-it": "^13.0.7",
-    "@vuepress/client": "2.0.0-rc.0",
+    "@types/markdown-it-footnote": "^3.0.3",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-katex": "^2.0.3",
     "markdown-it-pangu": "^1.0.2",
-    "vitepress": "1.0.0-rc.31",
+    "vitepress": "^1.0.0-rc.31",
+    "vitepress-plugin-auto-sidebar": "^1.1.0",
     "vue": "^3.3.8",
     "vuepress": "2.0.0-rc.0",
     "vuepress-theme-hope": "2.0.0-rc.0"
