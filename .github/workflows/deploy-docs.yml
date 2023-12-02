@@ -24,7 +24,7 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=4096
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: docs/.vitepress/dist
+          path: docs/.vuepress/dist
   deploy:
     runs-on: ubuntu-20.04
     needs: build

@@ -1,0 +1,74 @@
+name: 部署文档到 Cloudflare
+
+on:
+  push:
+    branches:
+      # TODO: 修改到 main 分支
+      - next
+  pull_request:
+    branches:
+      # TODO: 修改到 main 分支
+      - next
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: 构建
+    environment:
+      name: Cloudflare Pages
+      url: ${{ steps.deployment.outputs.url }}
+    runs-on: ubuntu-20.04
+    steps:
+      - name: 代码签出
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 配置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
+
+      - name: 配置 pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
+
+      - name: 获取 pnpm store 路径
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: 应用 pnpm 缓存
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: 安装依赖
+        run: pnpm install
+
+      - name: 构建
+        run: pnpm build
+
+      - name: 部署到 Cloudflare Pages
+        id: deployment
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
+          projectName: rle-wiki
+          directory: ./docs/.vitepress/dist
+          # Optional: Enable this if you want to have GitHub Deployments triggered
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: Switch what branch you are publishing to.
+          # By default this will be the branch which triggered this workflow
+          branch: next
+          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
+          wranglerVersion: '3'
