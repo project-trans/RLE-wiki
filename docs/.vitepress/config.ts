@@ -6,7 +6,6 @@ import footnote from 'markdown-it-footnote'
 import { generateSidebar } from 'vitepress-sidebar'
 import { sidebar } from './sidebar'
 
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "RLE.wiki",

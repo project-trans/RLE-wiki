@@ -1,6 +1,6 @@
 ---
 title: 北京航空航天大学
-author: 
+author:
  - Kohaku
  - 块儿
  - 幻梦
