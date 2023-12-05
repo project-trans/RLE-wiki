@@ -14,11 +14,13 @@
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
+    "@iconify-json/octicon": "^1.1.51",
     "@types/markdown-it": "^13.0.7",
     "@types/markdown-it-footnote": "^3.0.3",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-katex": "^2.0.3",
     "markdown-it-pangu": "^1.0.2",
+    "unocss": "^0.58.0",
     "unplugin-vue-components": "^0.26.0",
     "vite": "^5.0.5",
     "vitepress": "^1.0.0-rc.31",

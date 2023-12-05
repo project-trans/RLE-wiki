@@ -2,14 +2,12 @@
 import { useData } from 'vitepress'
 import { computed, onMounted, ref, watchEffect } from 'vue';
 
-const data = useData()
-const { frontmatter, page, theme, lang  } = data
-console.log('page data:', data)
-
+const { frontmatter, page, theme, lang  } = useData()
 
 const date = computed(
   () => new Date(frontmatter.value.lastUpdated ?? page.value.lastUpdated)
 )
+const isoDatetime = computed(() => date.value.toISOString())
 
 const datetime = ref('')
 // Avoid hydration errors
@@ -39,25 +37,21 @@ const authors = computed(() => {
 </script>
 
 <template>
-  <div>
-    <span>
-      作者:
-      <span v-for="(author, index) of authors">
-        {{ index > 0 ? ' /' : '' }}
-        {{ author }}
+  <div class="flex flex-wrap gap-4 mt-4 mb-10">
+    <div class="inline-flex items-center gap-1">
+      <span class="i-octicon:person" />
+      <span>作者:</span>
+      <span class="space-x-2">
+        <span v-for="author of authors">
+          {{ author }}
+        </span>
       </span>
-    </span>
+    </div>
 
-    <span>
-      最后更新: {{ datetime }}
-    </span>
-
-    <span>
-      字数: {{ 'TODO' }}
-    </span>
-
-    <span>
-      阅读时间: {{ 'TODO' }}
-    </span>
+    <div class="inline-flex items-center gap-1">
+      <span class="i-octicon:calendar-16" />
+      <span>{{ theme.lastUpdated?.text || 'Last updated' }}:</span>
+      <time :datetime="isoDatetime">{{ datetime }}</time>
+    </div>
   </div>
 </template>
