@@ -44,7 +44,7 @@
 
 GitHub [![GitHub issues][badge-gh-issues]](https://github.com/project-trans/RLE-wiki/issues/new/choose)
 
-邮件 <hi@rle.wiki>
+邮件 <rlewiki@project-trans.org>
 
 [badge-gh-issues]: https://img.shields.io/github/issues/project-trans/RLE-wiki?style=flat-square
 [badge-gh-stars]: https://img.shields.io/github/stars/project-trans/RLE-wiki.svg?style=flat-square&label=Stars
