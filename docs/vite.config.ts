@@ -13,7 +13,12 @@ export default defineConfig({
       dts: './.vitepress/components.d.ts',
       transformer: 'vue3',
     }),
-
     UnoCSS(),
   ],
+  ssr: {
+    noExternal: [
+      '@nolebase/vitepress-plugin-enhanced-readabilities',
+      '@nolebase/vitepress-plugin-highlight-targeted-heading',
+    ],
+  },
 })

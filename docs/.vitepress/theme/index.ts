@@ -2,6 +2,20 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+
+import {
+  NolebaseEnhancedReadabilitiesPlugin,
+  NolebaseEnhancedReadabilitiesMenu,
+  NolebaseEnhancedReadabilitiesScreenMenu
+} from '@nolebase/vitepress-plugin-enhanced-readabilities'
+
+import {
+  NolebaseHighlightTargetedHeading,
+} from '@nolebase/vitepress-plugin-highlight-targeted-heading'
+
+import '@nolebase/vitepress-plugin-enhanced-readabilities/dist/style.css'
+import '@nolebase/vitepress-plugin-highlight-targeted-heading/dist/style.css'
+
 import './style.css'
 import 'uno.css'
 
@@ -10,9 +24,18 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'doc-top': () => [
+        h(NolebaseHighlightTargetedHeading),
+      ],
+      'nav-bar-content-after': () => [
+        h(NolebaseEnhancedReadabilitiesMenu),
+      ],
+      'nav-screen-content-after': () => [
+        h(NolebaseEnhancedReadabilitiesScreenMenu),
+      ],
     })
   },
-  enhanceApp({ app, router, siteData }) {
-    // ...
+  enhanceApp({ app }) {
+    app.use(NolebaseEnhancedReadabilitiesPlugin)
   }
 } satisfies Theme
