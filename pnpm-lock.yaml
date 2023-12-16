@@ -16,6 +16,12 @@ devDependencies:
   '@iconify-json/octicon':
     specifier: ^1.1.51
     version: 1.1.51
+  '@nolebase/vitepress-plugin-enhanced-readabilities':
+    specifier: ^1.7.3
+    version: 1.7.3(vitepress@1.0.0-rc.31)(vue@3.3.8)
+  '@nolebase/vitepress-plugin-highlight-targeted-heading':
+    specifier: ^1.4.0
+    version: 1.4.0(vue@3.3.8)
   '@types/markdown-it':
     specifier: ^13.0.7
     version: 13.0.7
@@ -2159,6 +2165,24 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+
+  /@nolebase/vitepress-plugin-enhanced-readabilities@1.7.3(vitepress@1.0.0-rc.31)(vue@3.3.8):
+    resolution: {integrity: sha512-Xob5e5AEcN/Ieakk1yiSSYbT/aw/YebCY0J4s4FLkbzdhuIJr0wVaNm1dIVAjEqS5BtkZkRSzfi9sEWfgpnP1w==}
+    peerDependencies:
+      vitepress: '>=1.0.0-rc.31'
+      vue: '>=3.3.8'
+    dependencies:
+      vitepress: 1.0.0-rc.31(@algolia/client-search@4.20.0)(postcss@8.4.32)(search-insights@2.11.0)
+      vue: 3.3.8
+    dev: true
+
+  /@nolebase/vitepress-plugin-highlight-targeted-heading@1.4.0(vue@3.3.8):
+    resolution: {integrity: sha512-SSCORdPwugEwVpov7eaap7KtW0y9kn2UbQM1n4C4/bgQ71Ayelawoee1MpHSyBxk96rynG5ubo6Q6NPgDK1sjg==}
+    peerDependencies:
+      vue: '>=3.3.8'
+    dependencies:
+      vue: 3.3.8
+    dev: true
 
   /@polka/url@1.0.0-next.24:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}

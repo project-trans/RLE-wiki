@@ -1,15 +1,15 @@
-import { defineConfig, type DefaultTheme } from 'vitepress'
+import { defineConfig } from 'vitepress'
 import nav from './nav'
 import mdPangu from "markdown-it-pangu"
 import katex from 'markdown-it-katex'
 import footnote from 'markdown-it-footnote'
-import { generateSidebar } from 'vitepress-sidebar'
 import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   title: "RLE.wiki",
-  description: "一份RLE指北",
+  description: "一份 RLE 指北",
   markdown: {
     config(md) {
       md.use(mdPangu);
@@ -18,7 +18,6 @@ export default defineConfig({
     },
   },
   dir: 'docs',
-  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'RLE.wiki',
@@ -35,7 +34,7 @@ export default defineConfig({
     },
 
     // label localization
-    outline: { label: '本页大纲' },
+    outline: { label: '本页大纲', level: 'deep' },
     lastUpdated: { text: '最后更新' },
     darkModeSwitchLabel: '深色模式',
     sidebarMenuLabel: '目录',

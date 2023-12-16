@@ -1,6 +1,8 @@
 import { type DefaultTheme } from 'vitepress'
 
-const nav = [
+type NavConfig = DefaultTheme.Config['nav']
+
+const nav: NavConfig = [
   {
     text: "大学指南",
     link: "/campus/",
@@ -22,5 +24,6 @@ const nav = [
       link: "/contributor-guide/CampusTemplate.md",
     }],
   },
-] satisfies DefaultTheme.Config['nav'];
+];
+
 export default nav;
