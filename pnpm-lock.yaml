@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^1.0.0-rc.31
     version: 1.0.0-rc.31(@algolia/client-search@4.20.0)(postcss@8.4.32)(search-insights@2.11.0)
   vitepress-sidebar:
-    specifier: ^1.18.0
-    version: 1.18.0
+    specifier: ^1.18.5
+    version: 1.18.5
   vue:
     specifier: ^3.3.8
     version: 3.3.8
@@ -5905,8 +5905,8 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitepress-sidebar@1.18.0:
-    resolution: {integrity: sha512-Ki9ZpNa0CUNr7kovAbAEJ5v4MEZi+dte8Bz3OxkQcjFqrOGfQGEoGATRgf9m6N741epLLB3PFdaUCN6ZH0zmhg==}
+  /vitepress-sidebar@1.18.5:
+    resolution: {integrity: sha512-YksBZrwf6vYpSX+A9ZIa/YjSoiXT0gON2J9va+4FyPYvv31CwufGSjFmobW7IYOYbJEGA7Kl+i5CUo4wVmAvHg==}
     engines: {node: '>=18.0.0'}
     dependencies:
       gray-matter: 4.0.3
