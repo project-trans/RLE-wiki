@@ -22,6 +22,8 @@
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-katex": "^2.0.3",
     "markdown-it-pangu": "^1.0.2",
+    "md5": "^2.3.0",
+    "simple-git": "^3.21.0",
     "unocss": "^0.58.0",
     "unplugin-vue-components": "^0.26.0",
     "vite": "^5.0.5",
