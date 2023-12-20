@@ -4,6 +4,7 @@ import mdPangu from "markdown-it-pangu"
 import katex from 'markdown-it-katex'
 import footnote from 'markdown-it-footnote'
 import { sidebar } from './sidebar'
+import { rootDir, githubRepoLink } from './meta'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -17,7 +18,7 @@ export default defineConfig({
       md.use(katex);
     },
   },
-  dir: 'docs',
+  dir: rootDir,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'RLE.wiki',
@@ -25,11 +26,11 @@ export default defineConfig({
     sidebar,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/project-trans/RLE-wiki' }
+      { icon: 'github', link: githubRepoLink }
     ],
 
     editLink: {
-      pattern: 'https://github.com/project-trans/RLE-wiki/edit/main/docs/:path',
+      pattern: `${githubRepoLink}/edit/main/docs/:path`,
       text: '在 GitHub 上编辑此页面', // label localization
     },
 
