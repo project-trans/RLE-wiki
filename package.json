@@ -19,6 +19,7 @@
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "^1.4.0",
     "@types/markdown-it": "^13.0.7",
     "@types/markdown-it-footnote": "^3.0.3",
+    "dayjs": "^1.11.10",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-katex": "^2.0.3",
     "markdown-it-pangu": "^1.0.2",
