@@ -36,13 +36,13 @@ const isFreshChange = computed(() => {
 
   <details v-else class="details custom-block [&_svg]:open:-rotate-180" :class="isFreshChange && '!bg-green/16'">
     <summary style="list-style: none" class="flex justify-between items-center">
-      <span class="inline-flex items-center gap-1">
+      <span class="inline-flex items-center gap-3">
         <span class="i-octicon:history-16" />
         <span v-if="commits[0]">
           此文档最后编辑于 {{ lastChangeDate?.fromNow() }}
         </span>
       </span>
-      <span class="inline-flex items-center gap-1 !font-400">
+      <span class="inline-flex items-center gap-3 !font-400">
         <span>
           查看全部
         </span>
@@ -50,7 +50,7 @@ const isFreshChange = computed(() => {
       </span>
     </summary>
 
-    <div class="grid grid-cols-[30px_auto] -ml-1 gap-1.5 children:my-auto">
+    <div class="my-2 grid grid-cols-[30px_auto] -ml-1.5 gap-1.5 children:my-auto">
       <template v-for="(commit, idx) of commits" :key="commit.hash">
         <!-- <template v-if="idx === 0 && !commit.version">
           <div m="t-1" />
