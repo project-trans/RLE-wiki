@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 import nav from './nav'
-import mdPangu from "markdown-it-pangu"
-import katex from 'markdown-it-katex'
-import footnote from 'markdown-it-footnote'
+import MarkdownItPangu from "markdown-it-pangu"
+import MarkdownItKatex from 'markdown-it-katex'
+import MarkdownItFootnote from 'markdown-it-footnote'
 import { sidebar } from './sidebar'
 import { rootDir, githubRepoLink } from './meta'
 
@@ -13,9 +13,9 @@ export default defineConfig({
   description: "一份 RLE 指北",
   markdown: {
     config(md) {
-      md.use(mdPangu);
-      md.use(footnote);
-      md.use(katex);
+      md.use(MarkdownItPangu);
+      md.use(MarkdownItFootnote);
+      md.use(MarkdownItKatex);
     },
   },
   dir: rootDir,
@@ -44,5 +44,5 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页',
     },
-  }
+  },
 })
