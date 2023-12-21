@@ -28,6 +28,9 @@ devDependencies:
   '@types/markdown-it-footnote':
     specifier: ^3.0.3
     version: 3.0.3
+  dayjs:
+    specifier: ^1.11.10
+    version: 1.11.10
   markdown-it-footnote:
     specifier: ^3.0.3
     version: 3.0.3
