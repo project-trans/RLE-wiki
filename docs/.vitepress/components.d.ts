@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AppearanceToggle: typeof import('./theme/components/AppearanceToggle.vue')['default']
     Changelog: typeof import('./theme/components/Changelog.vue')['default']
     HomeContent: typeof import('./theme/components/HomeContent.vue')['default']
     PageInfo: typeof import('./theme/components/PageInfo.vue')['default']
