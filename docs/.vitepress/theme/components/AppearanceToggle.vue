@@ -6,21 +6,15 @@ import { nextTick, provide, onMounted } from 'vue'
 
 const { isDark } = useData()
 
-const enableTransitions = () =>
+const isSSR = typeof window === 'undefined'
+
+const enableTransitions = () => isSSR ? false :
   'startViewTransition' in document &&
   window.matchMedia('(prefers-reduced-motion: no-preference)').matches
-
-const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-
-
 
 provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   if (!enableTransitions()) {
     isDark.value = !isDark.value
-    return
-  }
-
-  if (typeof (document as any).startViewTransition !== 'function') {
     return
   }
 
