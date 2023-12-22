@@ -35,8 +35,8 @@ const isFreshChange = computed(() => {
   <em v-if="!commits.length" opacity="70">暂无最近变更历史</em>
 
   <details v-else class="details custom-block [&_svg]:open:-rotate-180" :class="isFreshChange && '!bg-green/16'">
-    <summary style="list-style: none" class="flex justify-between items-center">
-      <span class="inline-flex items-center gap-3">
+    <summary style="list-style: none" class="flex justify-between items-center select-none hover:text-$vp-c-brand-1">
+      <span class="inline-flex items-center gap-3 text-$vp-custom-block-details-text">
         <span class="i-octicon:history-16" />
         <span v-if="commits[0]">
           此文档最后编辑于 {{ lastChangeDate?.fromNow() }}
