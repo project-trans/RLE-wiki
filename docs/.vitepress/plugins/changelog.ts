@@ -15,7 +15,7 @@ export function ChangeLog({
   maxGitLogCount = 200
 } = {}): Plugin {
   return {
-    name: 'vueuse-changelog',
+    name: 'git-changelog',
     resolveId(id) {
       return id === ID ? ID : null
     },
