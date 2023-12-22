@@ -25,7 +25,7 @@ export function MarkdownTransform(): Plugin {
 }
 
 
-const pageHeaderTemplate = (code: string) => code.replace(/(^---$(\s|\S)+^---$)/m, `$1
+const pageHeaderTemplate = (code: string) => !code.startsWith('---') ? code : code.replace(/(^---$(\s|\S)+?^---$)/m, `$1
 
 # {{ $frontmatter.title }}
 
