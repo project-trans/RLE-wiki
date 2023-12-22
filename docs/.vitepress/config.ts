@@ -11,6 +11,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'RLE.wiki',
   description: '一份 RLE 指北',
+  cleanUrls: true,
   markdown: {
     config(md) {
       md.use(mdPangu);
