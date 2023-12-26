@@ -17,11 +17,11 @@ devDependencies:
     specifier: ^1.1.52
     version: 1.1.52
   '@nolebase/vitepress-plugin-enhanced-readabilities':
-    specifier: ^1.8.0
-    version: 1.8.0(vitepress@1.0.0-rc.32)(vue@3.3.13)
+    specifier: ^1.9.0
+    version: 1.9.0(vitepress@1.0.0-rc.32)(vue@3.3.13)
   '@nolebase/vitepress-plugin-highlight-targeted-heading':
-    specifier: ^1.4.0
-    version: 1.4.0(vue@3.3.13)
+    specifier: ^1.5.0
+    version: 1.5.0(vitepress@1.0.0-rc.32)(vue@3.3.13)
   '@types/markdown-it':
     specifier: ^13.0.7
     version: 13.0.7
@@ -2053,21 +2053,23 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.16.0
 
-  /@nolebase/vitepress-plugin-enhanced-readabilities@1.8.0(vitepress@1.0.0-rc.32)(vue@3.3.13):
-    resolution: {integrity: sha512-L273//D/OZsitZj04t88A6ddiSUwBtKnA/aWX8muJvqoquEKGNbC50mM+yQLJzmbNRbb1OqsxDGu1R0OA8uFrA==}
+  /@nolebase/vitepress-plugin-enhanced-readabilities@1.9.0(vitepress@1.0.0-rc.32)(vue@3.3.13):
+    resolution: {integrity: sha512-WCto+gWd33KOqQICfT6vZHbffN74ySGcv/l6eJidG8nh8q/uZsAh6gY3+AepzfQxahL34rqDjddk20tdJrTW4Q==}
     peerDependencies:
-      vitepress: '>=1.0.0-rc.31'
+      vitepress: '>=1.0.0-rc.32'
       vue: '>=3.3.8'
     dependencies:
       vitepress: 1.0.0-rc.32(@algolia/client-search@4.22.0)(postcss@8.4.32)(search-insights@2.13.0)
       vue: 3.3.13
     dev: true
 
-  /@nolebase/vitepress-plugin-highlight-targeted-heading@1.4.0(vue@3.3.13):
-    resolution: {integrity: sha512-SSCORdPwugEwVpov7eaap7KtW0y9kn2UbQM1n4C4/bgQ71Ayelawoee1MpHSyBxk96rynG5ubo6Q6NPgDK1sjg==}
+  /@nolebase/vitepress-plugin-highlight-targeted-heading@1.5.0(vitepress@1.0.0-rc.32)(vue@3.3.13):
+    resolution: {integrity: sha512-OnHLuwu//XBSDTgIlwWv2rvpNhBjc/89cTivAQ2Kr/SP+FJiSCLuYJnF/TGaqyrARajLDpqkwfC7sDJjcLo3LQ==}
     peerDependencies:
+      vitepress: '>=1.0.0-rc.32'
       vue: '>=3.3.8'
     dependencies:
+      vitepress: 1.0.0-rc.32(@algolia/client-search@4.22.0)(postcss@8.4.32)(search-insights@2.13.0)
       vue: 3.3.13
     dev: true
 
@@ -2573,8 +2575,8 @@ packages:
       - rollup
     dev: true
 
-  /@vitejs/plugin-vue@4.5.2(vite@5.0.10)(vue@3.3.13):
-    resolution: {integrity: sha512-UGR3DlzLi/SaVBPX0cnSyE37vqxU3O6chn8l0HJNzQzDia6/Au2A4xKv+iIJW8w2daf80G7TYHhi1pAUjdZ0bQ==}
+  /@vitejs/plugin-vue@4.6.0(vite@5.0.10)(vue@3.3.13):
+    resolution: {integrity: sha512-XHuyFdAikWRmHuAd89FOyUGIjrBU5KlxJtyi2hVeR9ySGFxQwE0bl5xAQju/ArMq5azdBivY4d+D2yPKwoYWUg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
@@ -2662,7 +2664,7 @@ packages:
   /@vuepress/bundler-vite@2.0.0-rc.0:
     resolution: {integrity: sha512-rX8S8IYpqqlJfNPstS/joorpxXx/4WuE7+gDM31i2HUrxOKGZVzq8ZsRRRU2UdoTwHZSd3LpUS4sMtxE5xLK1A==}
     dependencies:
-      '@vitejs/plugin-vue': 4.5.2(vite@5.0.10)(vue@3.3.13)
+      '@vitejs/plugin-vue': 4.6.0(vite@5.0.10)(vue@3.3.13)
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/core': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
@@ -3367,7 +3369,7 @@ packages:
     dev: true
 
   /color-name@1.1.3:
-    resolution: {integrity: sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==}
+    resolution: {integrity: sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=}
 
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
@@ -4719,8 +4721,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /node-fetch-native@1.5.1:
-    resolution: {integrity: sha512-KNVu95aIrNzw7v1aKyVv/nC2kHUqNzgBnFuMTemhHnk7djEMtLjaJSDCB8h2VVgKL5s+NAcvBlZ2OIHLP0RC/Q==}
+  /node-fetch-native@1.6.1:
+    resolution: {integrity: sha512-bW9T/uJDPAJB2YNYEpWzE54U5O3MQidXsOyTfnbKYtTtFexRvGzb1waphBN4ZwP6EcIvYYEOwW0b72BpAqydTw==}
     dev: true
 
   /node-releases@2.0.14:
@@ -4775,7 +4777,7 @@ packages:
     resolution: {integrity: sha512-s1ZCMmQWXy4b5K/TW9i/DtiN8Ku+xCiHcjQ6/J/nDdssirrQNOoB165Zu8EqLMA2lln1JUth9a0aW9Ap2ctrUg==}
     dependencies:
       destr: 2.0.2
-      node-fetch-native: 1.5.1
+      node-fetch-native: 1.6.1
       ufo: 1.3.2
     dev: true
 
@@ -5850,7 +5852,7 @@ packages:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(@algolia/client-search@4.22.0)(search-insights@2.13.0)
       '@types/markdown-it': 13.0.7
-      '@vitejs/plugin-vue': 4.5.2(vite@5.0.10)(vue@3.3.13)
+      '@vitejs/plugin-vue': 4.6.0(vite@5.0.10)(vue@3.3.13)
       '@vue/devtools-api': 6.5.1
       '@vueuse/core': 10.7.0(vue@3.3.13)
       '@vueuse/integrations': 10.7.0(focus-trap@7.5.4)(vue@3.3.13)
