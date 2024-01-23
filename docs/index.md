@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: Fashion 👕
       link: /fashion/
+  image:
+    src: /logo-with-shadow.png
+    alt: RLE.wiki logo
 
 ---
 
