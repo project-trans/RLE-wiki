@@ -48,7 +48,7 @@ RLE.wiki 的一个校园页面一般对应一个高考招生代码。也就是�
 
 如果你已经准备好了要向 RLE Wiki 提交的信息，可以通过以下几种方式向我们提交：
 
-1. 将这些信息通过邮件发送给 <hi@rle.wiki>，我们会在收到邮件后的一周内完成整理和更新。
+1. 将这些信息通过邮件发送给 <rlewiki@project-trans.org>，我们会在收到邮件后的一周内完成整理和更新。
 
 2. 将 RLE Wiki fork后提交[Pull request](https://github.com/project-trans/RLE-wiki)。
 
