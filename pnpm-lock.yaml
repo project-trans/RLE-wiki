@@ -8,6 +8,9 @@ dependencies:
   katex:
     specifier: ^0.16.9
     version: 0.16.9
+  pjts-suggestion-box:
+    specifier: ^0.0.3
+    version: 0.0.3(vue@3.3.13)
   vuepress-plugin-md-enhance:
     specifier: 2.0.0-rc.0
     version: 2.0.0-rc.0(@types/js-yaml@4.0.9)(katex@0.16.9)(vuepress@2.0.0-rc.0)
@@ -4913,6 +4916,14 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+
+  /pjts-suggestion-box@0.0.3(vue@3.3.13):
+    resolution: {integrity: sha512-KIbrP5Xrptg93UeRKLvQBeXIG8zrOK/yDxnMV7qHFWTNMB7J7aT01+P08/8QmWZVWD50bYXcckgL6lc3wq7e6w==}
+    peerDependencies:
+      vue: '3'
+    dependencies:
+      vue: 3.3.13
+    dev: false
 
   /pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}

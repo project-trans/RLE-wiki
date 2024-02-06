@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "katex": "^0.16.9",
+    "pjts-suggestion-box": "^0.0.3",
     "vuepress-plugin-md-enhance": "2.0.0-rc.0"
   }
 }
