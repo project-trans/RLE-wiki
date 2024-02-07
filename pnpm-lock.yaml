@@ -22,6 +22,9 @@ devDependencies:
   '@nolebase/vitepress-plugin-enhanced-readabilities':
     specifier: ^1.9.0
     version: 1.9.0(vitepress@1.0.0-rc.32)(vue@3.3.13)
+  '@nolebase/vitepress-plugin-git-changelog':
+    specifier: ^1.20.1
+    version: 1.20.1(dayjs@1.11.10)(md5@2.3.0)(simple-git@3.21.0)(vitepress@1.0.0-rc.32)(vue@3.3.13)
   '@nolebase/vitepress-plugin-highlight-targeted-heading':
     specifier: ^1.5.0
     version: 1.5.0(vitepress@1.0.0-rc.32)(vue@3.3.13)
@@ -2062,6 +2065,22 @@ packages:
       vitepress: '>=1.0.0-rc.32'
       vue: '>=3.3.8'
     dependencies:
+      vitepress: 1.0.0-rc.32(@algolia/client-search@4.22.0)(postcss@8.4.32)(search-insights@2.13.0)
+      vue: 3.3.13
+    dev: true
+
+  /@nolebase/vitepress-plugin-git-changelog@1.20.1(dayjs@1.11.10)(md5@2.3.0)(simple-git@3.21.0)(vitepress@1.0.0-rc.32)(vue@3.3.13):
+    resolution: {integrity: sha512-wtBhPWPPFa/hMqCG2SLPUUbCwFBkqC5U4VbsVc5kAN0RA/pM+zdjV79xZd+JepnKsNtwuISMFVsGqqybymmTAg==}
+    peerDependencies:
+      dayjs: '>=1.11.1'
+      md5: '>=2.3.0'
+      simple-git: '>=3.21.0'
+      vitepress: '>=1.0.0-rc.39'
+      vue: '>=3.3.0'
+    dependencies:
+      dayjs: 1.11.10
+      md5: 2.3.0
+      simple-git: 3.21.0
       vitepress: 1.0.0-rc.32(@algolia/client-search@4.22.0)(postcss@8.4.32)(search-insights@2.13.0)
       vue: 3.3.13
     dev: true

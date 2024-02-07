@@ -14,8 +14,13 @@ import {
   NolebaseHighlightTargetedHeading,
 } from '@nolebase/vitepress-plugin-highlight-targeted-heading'
 
+import {
+  NolebaseGitChangelogPlugin
+} from '@nolebase/vitepress-plugin-git-changelog/client'
+
 import '@nolebase/vitepress-plugin-enhanced-readabilities/dist/style.css'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/dist/style.css'
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 
 import './style.css'
 import 'uno.css'
@@ -40,5 +45,6 @@ export default {
   },
   enhanceApp({ app }) {
     app.use(NolebaseEnhancedReadabilitiesPlugin)
+    app.use(NolebaseGitChangelogPlugin)
   }
 } satisfies Theme
