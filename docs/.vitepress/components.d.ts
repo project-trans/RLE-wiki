@@ -9,10 +9,11 @@ declare module 'vue' {
   export interface GlobalComponents {
     AppearanceToggle: typeof import('./theme/components/AppearanceToggle.vue')['default']
     AppSBox: typeof import('./theme/components/AppSBox.vue')['default']
-    Changelog: typeof import('./theme/components/Changelog.vue')['default']
     HomeContent: typeof import('./theme/components/HomeContent.vue')['default']
     PageInfo: typeof import('./theme/components/PageInfo.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Starport: typeof import('vue-starport')['Starport']
+    StarportCarrier: typeof import('vue-starport')['StarportCarrier']
   }
 }
