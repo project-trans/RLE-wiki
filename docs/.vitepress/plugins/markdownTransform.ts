@@ -17,7 +17,6 @@ export function MarkdownTransform(): Plugin {
         return null
 
       code = pageHeaderTemplate(code)
-      code = pageFooterTemplate(code)
 
       return code
     },
@@ -32,10 +31,3 @@ const pageHeaderTemplate = (code: string) => !code.startsWith('---') ? code : co
 <PageInfo />
 
 `)
-
-const pageFooterTemplate = (code: string) => `${code}
-
-## 变更记录
-
-<Changelog />
-`
