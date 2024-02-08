@@ -10,6 +10,9 @@ actions:
   - text: Fashion 👕
     link: /fashion/
     type: primary
+  - text: 防护 🚨
+    link: /personal-safety/
+    type: primary
 footer: Creative Commons BY-SA 4.0 | Copyright © 2022-present Project Trans
 ---
 
