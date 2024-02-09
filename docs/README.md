@@ -13,8 +13,14 @@ actions:
   - text: 防护 🚨
     link: /personal-safety/
     type: primary
+  - text: 新版网站 🚧
+    link: https://next.rle.wiki/
 footer: Creative Commons BY-SA 4.0 | Copyright © 2022-present Project Trans
 ---
+
+::: info 重要大事宣布
+🚧 [新版 RLE.wiki 网站](https://next.rle.wiki/) 测试中，欢迎大家访问体验
+:::
 
 ::: info 本项目由 Project Trans 团队发起，包括但不仅限于 MtF 的 RLE 指导，也欢迎广大 FtM 同胞一起建设本项目。
 :::
