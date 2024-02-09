@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: Fashion 👕
       link: /fashion/
+    - theme: brand
+      text: 防护 🚨
+      link: /personal-safety/
   image:
     src: /logo-with-shadow.png
     alt: RLE.wiki logo
@@ -29,13 +32,9 @@ import HomeContent from './.vitepress/theme/components/HomeContent.vue'
 本项目由 Project Trans 团队发起，包括但不仅限于 MtF 的 RLE 指导，也欢迎广大 FtM 同胞一起建设本项目。
 :::
 
-
-
 ::: tip ℹ️
 本项目包括且不仅限于校园指南，后期会包括其他 RLE 指导，处于建设初期其他条目暂未完成，欢迎大家帮助项目完善。
 :::
-
-
 
 ::: info 🕯️
 沉痛悼念原 RLE-wiki 核心维护人员 ArtsEpiphany 🕯 R.I.P 2023.3.13 🕯
