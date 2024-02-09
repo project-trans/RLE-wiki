@@ -1,4 +1,4 @@
-import { type DefaultTheme } from 'vitepress'
+import { type DefaultTheme } from 'vitepress';
 
 type NavConfig = DefaultTheme.Config['nav']
 
@@ -10,6 +10,10 @@ const nav: NavConfig = [
   {
     text: 'Fashion',
     link: '/fashion/',
+  },
+  {
+    text: '防护',
+    link: '/personal-safety/',
   },
   {
     text: '贡献指南',
