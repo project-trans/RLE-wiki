@@ -2,7 +2,7 @@
 home: true
 icon: home
 heroText: RLE.wiki
-tagline: 欢迎大家来到 RLE.wiki. 这里会给跨性别者们提供一份RLE的一份指南。部分内容由 MtF.wiki 迁移而来，更多帮助正在路上，敬请期待。
+tagline: 欢迎大家来到 RLE.wiki。这里会给跨性别者们提供一份 RLE 指南。部分内容由 MtF.wiki 迁移而来，更多帮助正在路上，敬请期待。
 actions:
   - text: 大学指南 🏫
     link: /campus/
