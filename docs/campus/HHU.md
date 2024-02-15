@@ -54,10 +54,8 @@ author: Seimo
 
 校医院不做任何诊疗，需自行到校外医院咨询，具体报销政策取决于各医院。
 
-## 投稿人联系方式
+## 贡献者
 
+### Seimo
 - E-mail <seimo@seimo.cn>
-
-### 贡献者姓名
-Seimo
 
