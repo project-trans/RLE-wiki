@@ -7,7 +7,7 @@ import AppearanceToggle from './components/AppearanceToggle.vue'
 import {
   NolebaseEnhancedReadabilitiesPlugin,
   NolebaseEnhancedReadabilitiesMenu,
-  NolebaseEnhancedReadabilitiesScreenMenu
+  NolebaseEnhancedReadabilitiesScreenMenu,
 } from '@nolebase/vitepress-plugin-enhanced-readabilities'
 
 import {
@@ -44,7 +44,18 @@ export default {
     })
   },
   enhanceApp({ app }) {
-    app.use(NolebaseEnhancedReadabilitiesPlugin)
-    app.use(NolebaseGitChangelogPlugin)
+    app.use(NolebaseEnhancedReadabilitiesPlugin, {
+      spotlight: {
+        defaultToggle: true,
+      }
+    })
+
+    app.use(NolebaseGitChangelogPlugin, {
+      locales: {
+        'zh-CN': {
+          lastEditedDateFnsLocaleName: 'zhCN',
+        }
+      }
+    })
   }
 } satisfies Theme
