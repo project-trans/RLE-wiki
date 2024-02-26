@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "RLE.wiki"
-  text: "一份RLE指北"
+  text: "一份 RLE 指北"
   tagline: 欢迎大家来到 RLE.wiki. 这里会给跨性别者们提供一份RLE的一份指南。部分内容由 MtF.wiki 迁移而来，更多帮助正在路上，敬请期待。
   actions:
     - theme: brand
