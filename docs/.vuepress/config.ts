@@ -5,7 +5,7 @@ import theme from "./theme";
 export default defineUserConfig({
   lang: "zh-CN",
   title: "RLE.wiki",
-  description: "一份RLE指北",
+  description: "一份 RLE 指北",
 
   base: "/",
 
