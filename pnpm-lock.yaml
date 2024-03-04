@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      hono:
-        specifier: ^4.0.9
-        version: 4.0.9
       katex:
         specifier: ^0.16.9
         version: 0.16.9
@@ -81,6 +78,9 @@ importers:
       vuepress-theme-hope:
         specifier: 2.0.0-rc.0
         version: 2.0.0-rc.0(@types/js-yaml@4.0.9)(katex@0.16.9)(vuepress@2.0.0-rc.0)
+      wrangler:
+        specifier: ^3.25.0
+        version: 3.30.1(@cloudflare/workers-types@4.20240222.0)
 
   functions:
     dependencies:
@@ -94,9 +94,6 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^4.20240208.0
         version: 4.20240222.0
-      wrangler:
-        specifier: ^3.25.0
-        version: 3.30.1(@cloudflare/workers-types@4.20240222.0)
 
 packages:
 
@@ -3343,7 +3340,7 @@ packages:
     dependencies:
       '@vuepress/core': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      chokidar: 3.5.3
+      chokidar: 3.6.0
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
@@ -3893,7 +3890,6 @@ packages:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.3
-    dev: true
 
   /cli-cursor@4.0.0:
     resolution: {integrity: sha512-VGtlMu3x/4DOtIUwEkRezxUZ2lBacNJCHash0N0WeZDBS+7Ux1dm3XWAgWYxLJFMMdOeXMHXorshEFhbMSGelg==}
@@ -5787,7 +5783,7 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       immutable: 4.3.4
       source-map-js: 1.0.2
 
@@ -6120,7 +6116,7 @@ packages:
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.5
-      acorn: 8.11.2
+      acorn: 8.11.3
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
