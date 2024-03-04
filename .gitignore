@@ -33,3 +33,6 @@ coverage/
 
 # VSCode settings
 .vscode/settings.json
+
+# Wrangler temp files
+.wrangler
