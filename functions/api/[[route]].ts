@@ -23,7 +23,7 @@ app.onError((err, c) => {
   return c.json(newError500(), 500);
 });
 
-app.get("/", (c) => {
+app.get("/api", (c) => {
   return c.text("Hello, Project Trans SuggestionBox!");
 });
 

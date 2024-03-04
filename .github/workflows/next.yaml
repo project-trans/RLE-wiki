@@ -48,4 +48,3 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
           projectName: rle-wiki
           directory: docs/.vitepress/dist
-          wranglerVersion: '3'
