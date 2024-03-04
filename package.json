@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
+    "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "build:old": "vuepress build docs",
