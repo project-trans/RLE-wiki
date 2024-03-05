@@ -11,9 +11,6 @@ importers:
       katex:
         specifier: ^0.16.9
         version: 0.16.9
-      pjts-suggestion-box:
-        specifier: ^0.0.3
-        version: 0.0.3(vue@3.4.19)
       vuepress-plugin-md-enhance:
         specifier: 2.0.0-rc.0
         version: 2.0.0-rc.0(@types/js-yaml@4.0.9)(katex@0.16.9)(vuepress@2.0.0-rc.0)
@@ -33,6 +30,9 @@ importers:
       '@nolebase/vitepress-plugin-highlight-targeted-heading':
         specifier: ^1.22.2
         version: 1.22.2(vitepress@1.0.0-rc.42)
+      '@project-trans/suggestion-box':
+        specifier: ^0.0.7
+        version: 0.0.7(vue@3.4.19)
       '@types/markdown-it':
         specifier: ^13.0.7
         version: 13.0.7
@@ -2536,6 +2536,14 @@ packages:
 
   /@polka/url@1.0.0-next.24:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
+    dev: true
+
+  /@project-trans/suggestion-box@0.0.7(vue@3.4.19):
+    resolution: {integrity: sha512-s40Wy9T4s6a5WTC2Osg8friTt4L16RSXPBrim3fsRb1ae0HQC1Y+65mNNCr0yLpj34LS2E6cjtqPtRCZtfN98g==}
+    peerDependencies:
+      vue: '3'
+    dependencies:
+      vue: 3.4.19
     dev: true
 
   /@rollup/plugin-babel@5.3.1(@babel/core@7.23.6)(rollup@2.79.1):
@@ -5481,14 +5489,6 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
-
-  /pjts-suggestion-box@0.0.3(vue@3.4.19):
-    resolution: {integrity: sha512-KIbrP5Xrptg93UeRKLvQBeXIG8zrOK/yDxnMV7qHFWTNMB7J7aT01+P08/8QmWZVWD50bYXcckgL6lc3wq7e6w==}
-    peerDependencies:
-      vue: '3'
-    dependencies:
-      vue: 3.4.19
-    dev: false
 
   /pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}

@@ -1,5 +1,5 @@
-import presetSBox from 'pjts-suggestion-box/dist/preset';
 import { defineConfig, presetAttributify, presetIcons, presetUno } from 'unocss';
+import presetSBox from '@project-trans/suggestion-box/dist/preset';
 
 export default defineConfig({
   shortcuts: [
