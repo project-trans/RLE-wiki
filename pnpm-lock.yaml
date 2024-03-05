@@ -31,8 +31,8 @@ importers:
         specifier: ^1.22.2
         version: 1.22.2(vitepress@1.0.0-rc.42)
       '@project-trans/suggestion-box':
-        specifier: ^0.0.8
-        version: 0.0.8(vue@3.4.19)
+        specifier: ^0.0.9
+        version: 0.0.9(vue@3.4.19)
       '@types/markdown-it':
         specifier: ^13.0.7
         version: 13.0.7
@@ -2538,8 +2538,8 @@ packages:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
     dev: true
 
-  /@project-trans/suggestion-box@0.0.8(vue@3.4.19):
-    resolution: {integrity: sha512-5uq1H2SFMV9NyW9kpfdKmoYO5t0pFrfyzMDmCX2oWs5lfzVdrRaeGbv5BKttfBkm4/WBcpB7WwJF3CAooB63XA==}
+  /@project-trans/suggestion-box@0.0.9(vue@3.4.19):
+    resolution: {integrity: sha512-vRFgtA6pSkrbPIoSdejtvAQYbw2DZAMqGRxr66YJPOW36qiQ/Q0PlGgPiYTQG0QYtla3sHzKdKWAsNit73p3Hw==}
     peerDependencies:
       vue: '3'
     dependencies:
