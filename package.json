@@ -20,7 +20,7 @@
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^1.22.2",
     "@nolebase/vitepress-plugin-git-changelog": "^1.22.2",
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "^1.22.2",
-    "@project-trans/suggestion-box": "^0.0.7",
+    "@project-trans/suggestion-box": "^0.0.8",
     "@types/markdown-it": "^13.0.7",
     "@types/markdown-it-footnote": "^3.0.3",
     "markdown-it-footnote": "^3.0.3",
