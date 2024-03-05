@@ -2,23 +2,43 @@
   "name": "rle-wiki",
   "version": "1.0.0",
   "description": "RLE指北",
-  "license": "Creative Commons BY-SA 4.0",
+  "license": "CC-BY-SA-4.0",
+  "type": "module",
   "scripts": {
-    "build": "vuepress build docs",
-    "clean-dev": "vuepress dev docs --clean-cache",
-    "dev": "vuepress dev docs",
+    "dev": "vitepress dev docs",
+    "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "build:old": "vuepress build docs",
+    "clean-dev:old": "vuepress dev docs --clean-cache",
+    "dev:old": "vuepress dev docs",
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240222.0",
+    "@iconify-json/octicon": "^1.1.52",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^1.22.2",
+    "@nolebase/vitepress-plugin-git-changelog": "^1.22.2",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^1.22.2",
+    "@project-trans/suggestion-box": "^0.0.9",
     "@types/markdown-it": "^13.0.7",
-    "@vuepress/client": "2.0.0-rc.0",
+    "@types/markdown-it-footnote": "^3.0.3",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-katex": "^2.0.3",
     "markdown-it-pangu": "^1.0.2",
-    "vue": "^3.3.8",
-    "vuepress": "2.0.0-rc.0",
-    "vuepress-theme-hope": "2.0.0-rc.0"
+    "md5": "^2.3.0",
+    "simple-git": "^3.22.0",
+    "unocss": "^0.58.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.1.3",
+    "vitepress": "1.0.0-rc.42",
+    "vitepress-sidebar": "^1.18.6",
+    "vue": "^3.4.19",
+    "wrangler": "^3.25.0"
   },
-  "dependencies": {
-    "katex": "^0.16.9",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.0"
+  "pnpm": {
+    "overrides": {
+      "hasown": "npm:@nolyfill/hasown@latest"
+    }
   }
 }

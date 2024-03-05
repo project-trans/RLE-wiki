@@ -6,9 +6,10 @@ author:
   - 等
 ---
 
-::: center
-![logo](<https://cdn.lwqwq.com/pic/XYNUIST.svg> =400x400)
-:::
+
+<div class="flex justify-center">
+  <img class="h-400px w-400px" alt="logo" src="https://cdn.lwqwq.com/pic/XYNUIST.svg" />
+</div>
 
 |        项目        |         情况         |
 | :----------------: | :------------------: |

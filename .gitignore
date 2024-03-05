@@ -4,12 +4,17 @@ node_modules/
 # Build files
 packages/*/lib/
 
-# Vuepress Cache
 .cache/
-# Vuepress Temp
+cache/
 .temp/
-# Vuepress Output
 dist/
+.yarn*
+yarn*
+
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
 
 # VS Code Config file
 # .vscode/
@@ -28,3 +33,6 @@ coverage/
 
 # VSCode settings
 .vscode/settings.json
+
+# Wrangler temp files
+.wrangler
