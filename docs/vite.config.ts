@@ -1,11 +1,23 @@
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import { MarkdownTransform } from './.vitepress/plugins/markdownTransform'
+import { AppendMarkdownSection } from './.vitepress/plugins/appendMarkdownSection'
 import Components from 'unplugin-vue-components/vite'
 import UnoCSS from 'unocss/vite'
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 export default defineConfig({
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://next.rle.wiki',
+        // uncomment the following line to use local server
+        // target: 'http://localhost:8787',
+        changeOrigin: true,
+        autoRewrite: true,
+      },
+    }
+  },
   plugins: [
     MarkdownTransform(),
     GitChangelog({
@@ -23,6 +35,15 @@ export default defineConfig({
       getChangelogTitle: (): string => {
         return '文件历史'
       },
+      excludes: [],
+      exclude: (_, { helpers }): boolean => {
+        if (helpers.idEquals('index.md'))
+          return true
+
+        return false
+      },
+    }),
+    AppendMarkdownSection({
       excludes: [],
       exclude: (_, { helpers }): boolean => {
         if (helpers.idEquals('index.md'))
