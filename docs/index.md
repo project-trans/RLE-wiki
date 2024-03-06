@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "RLE.wiki"
   text: "一份 RLE 指北"
-  tagline: 欢迎大家来到 RLE.wiki. 这里会给跨性别者们提供一份RLE的一份指南。部分内容由 MtF.wiki 迁移而来，更多帮助正在路上，敬请期待。
+  tagline: 欢迎大家来到 RLE.wiki. 这里会给跨性别者们提供 RLE 的一份指南。部分内容由 MtF.wiki 迁移而来，更多帮助正在路上，敬请期待。
   actions:
     - theme: brand
       text: 大学指南 🏫
@@ -29,11 +29,11 @@ import HomeContent from './.vitepress/theme/components/HomeContent.vue'
 <HomeContent>
 
 ::: tip ℹ️
-本项目由 Project Trans 团队发起，包括但不仅限于 MtF 的 RLE 指导，也欢迎广大 FtM 同胞一起建设本项目。
+本项目由 Project Trans 团队发起，内容包括但不仅限于 MtF 的 RLE 指导，也欢迎广大 FtM 及非二元同胞一起建设本项目。
 :::
 
 ::: tip ℹ️
-本项目包括且不仅限于校园指南，后期会包括其他 RLE 指导，处于建设初期其他条目暂未完成，欢迎大家帮助项目完善。
+本项目的内容包括且不仅限于校园指南，后期会加入其他 RLE 指导。当前处于建设初期，其他条目暂未完成，欢迎大家帮助项目完善。
 :::
 
 ::: info 🕯️
