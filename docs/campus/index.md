@@ -15,5 +15,7 @@ category:
 投稿指南请看 [这里](../contributor-guide/campus.html)
 
 <ArticlesMenu>
-  <h2>大学目录</h2>
+
+## 大学目录
+
 </ArticlesMenu>
