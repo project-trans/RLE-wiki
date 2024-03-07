@@ -22,19 +22,11 @@ jobs:
       - run: pnpm build
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-      - uses: actions/upload-pages-artifact@v1
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-          path: docs/.vitepress/dist
-  deploy:
-    runs-on: ubuntu-20.04
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
+          projectName: rle-wiki
+          directory: docs/.vitepress/dist
+          wranglerVersion: '3'
