@@ -1,7 +1,8 @@
 name: 测试
 
 on:
-  push:
+  pull_request:
+    types: [opened, ready_for_review]
 
 jobs:
   build:
