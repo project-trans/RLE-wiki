@@ -6,6 +6,7 @@ export const sidebar = generate()
 function generate() {
   const baseConfig = {
     useTitleFromFrontmatter: true,
+    useFolderLinkFromIndexFile: true,
     excludeFilesByFrontmatter: true,
   }
 
