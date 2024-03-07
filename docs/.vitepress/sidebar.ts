@@ -1,44 +1,48 @@
 import { type DefaultTheme } from 'vitepress'
-import { SidebarItem, generateSidebar } from 'vitepress-sidebar'
+import { SidebarItem, SidebarMultiItem, generateSidebar } from 'vitepress-sidebar'
 
 export const sidebar = generate()
 
 function generate() {
+  const baseConfig = {
+    useTitleFromFrontmatter: true,
+    excludeFilesByFrontmatter: true,
+  }
+
   let sidebar = generateSidebar([
     // 大学指南
     {
+      ...baseConfig,
       documentRootPath: '/docs',
       scanStartPath: 'campus',
       resolvePath: '/campus/',
-      useTitleFromFrontmatter: true,
     },
     // 贡献指南
     {
+      ...baseConfig,
       documentRootPath: '/docs',
       scanStartPath: 'contributor-guide',
       resolvePath: '/contributor-guide/',
-      useTitleFromFrontmatter: true,
     },
     // Fashion
     {
+      ...baseConfig,
       documentRootPath: '/docs',
       scanStartPath: 'fashion',
       resolvePath: '/fashion/',
-      useTitleFromFrontmatter: true,
     },
     // 防护
     {
+      ...baseConfig,
       documentRootPath: '/docs',
       scanStartPath: 'personal-safety',
       resolvePath: '/personal-safety/',
-      useTitleFromFrontmatter: true,
     }
-
-    // 这个 `as` 源于 vitepress-sidebar 的类型定义与实际情况的差异，目前不影响使用，后续 vitepress-sidebar 修复后可以移除。
-  ]) as DefaultTheme.Config['sidebar']
+  ])
 
   for (const key in sidebar) {
-    sidebar[key].items.sort(sidebarTitleSorter)
+    const sidebarMultiItem: SidebarMultiItem = (sidebar as any)[key]
+    sidebarMultiItem.items.sort(sidebarTitleSorter)
   }
   return sidebar
 }
