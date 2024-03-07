@@ -1,8 +1,9 @@
 name: 部署文档
 
 on:
-  pull_request:
-    types: [opened, ready_for_review]
+  push:
+    branches:
+      - 'main'
 
 jobs:
   build:
