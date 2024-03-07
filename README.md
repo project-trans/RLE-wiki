@@ -15,7 +15,9 @@
 
 ## 致谢
 
-本项目目前采用 [vuepress-next][vuepress-url] 部署在 [GitHub Pages][wiki-url]。主题使用 [Hope][hope-url]，对此表示感谢！
+感谢每一位参与本项目的人，无论是贡献文档代码，还是提交问题意见，是你们的贡献让更多人通过本项目获得帮助。
+
+本项目目前采用 [VitePress][vitepress-url] 部署在 [Cloudflare Pages][wiki-url]。使用 [Nólëbase Integrations][nolebase-integrations-url] 提供的文档工程工具。以及其它未列举的现在或曾经使用的开源项目，对此表示感谢！
 
 本项目在编写过程中参考了诸多资料，在此一并致谢。
 
@@ -51,7 +53,7 @@ GitHub [![GitHub issues][badge-gh-issues]](https://github.com/project-trans/RLE-
 [badge-gh-watch]: https://img.shields.io/github/watchers/project-trans/RLE-wiki.svg?style=flat-square&label=Watch
 [cc-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 [cc-url]: https://creativecommons.org/licenses/by-sa/4.0
-[vuepress-url]: https://github.com/vuepress/vuepress-next
+[vitepress-url]: https://vitepress.dev
+[nolebase-integrations-url]: https://nolebase-integrations.ayaka.io
 [repo]: https://github.com/project-trans/RLE-wiki
 [wiki-url]: https://rle.wiki
-[hope-url]: https://github.com/vuepress-theme-hope/vuepress-theme-hope
