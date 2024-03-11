@@ -34,7 +34,7 @@
     "vitepress": "1.0.0-rc.42",
     "vitepress-sidebar": "^1.19.0",
     "vue": "^3.4.19",
-    "wrangler": "^3.25.0"
+    "wrangler": "^3.32.0"
   },
   "pnpm": {
     "overrides": {

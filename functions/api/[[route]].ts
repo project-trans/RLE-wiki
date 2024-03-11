@@ -29,6 +29,12 @@ app.get("/api", (c) => {
 
 app.post("/api/v1/suggestion", async (c) => {
   const { TG_BOT_TOKEN, TG_GROUP_ID } = env<ENV>(c);
+  if (!TG_BOT_TOKEN) {
+    throw new Error("TG_BOT_TOKEN is not set");
+  }
+  if (!TG_GROUP_ID) {
+    throw new Error("TG_GROUP_ID is not set");
+  }
   const bot = new Bot(TG_BOT_TOKEN);
 
   let metaUA = "";
@@ -110,7 +116,7 @@ app.post("/api/v1/suggestion", async (c) => {
     // TODO handle error
     // TODO log error
     console.error(error);
-    return c.json(newError500(), 500);
+    throw error;
   }
 });
 
