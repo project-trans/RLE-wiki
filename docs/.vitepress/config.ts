@@ -30,7 +30,11 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    siteTitle: 'RLE.wiki',
+    siteTitle: false,
+    logo: {
+      src: '/logo-horizontal.svg',
+      alt: 'Logo: RLE.wiki',
+    },
     nav,
     sidebar,
     socialLinks: [
