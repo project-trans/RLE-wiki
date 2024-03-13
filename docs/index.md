@@ -10,10 +10,10 @@ hero:
     - theme: brand
       text: 大学指南 🏫
       link: /campus/
-    - theme: brand
+    - theme: alt
       text: Fashion 👕
       link: /fashion/
-    - theme: brand
+    - theme: alt
       text: 防护 🚨
       link: /personal-safety/
   image:

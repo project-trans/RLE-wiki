@@ -22,8 +22,8 @@ import '@nolebase/vitepress-plugin-enhanced-readabilities/dist/style.css'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/dist/style.css'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 
-import './style.css'
 import 'uno.css'
+import './style.css'
 
 export default {
   extends: DefaultTheme,
