@@ -75,6 +75,15 @@ export default defineConfig({
             },
           },
         },
+        // Add title field in frontmatter to search
+        // You can exclude a page from search by adding search: false to the page's frontmatter.
+        _render(src, env, md) {
+          if (env.frontmatter?.search === false) return ''
+          let html = md.render(src, env)
+          if (env.frontmatter?.title)
+            html = md.render(`# ${env.frontmatter.title}\n`) + html
+          return html
+        },
       },
     },
   },
