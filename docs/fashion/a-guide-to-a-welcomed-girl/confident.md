@@ -1,6 +1,6 @@
 ---
 title: A guide to become a welcomed girl 女孩子的修行之路：自信——成为真正的女孩子的最后一步
-author: 丽塔
+author: 丽塔 大鹅
 ---
 
 # 自信——成为真正的女孩子的最后一步
