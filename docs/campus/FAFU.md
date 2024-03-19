@@ -40,7 +40,6 @@ author: 匿名
 
 ## 医疗资源
 校医院有HRT药物，但不确定是否为跨性别学生开具，但是检查是没问题的<br>
-> 学校一般是和900医院合作，当然你可以自己去市内其他医院<br>
 学校为所有学生提供医疗补助，福州市大学生医保也提供门诊报销（比例50%）<br>
 
 > （福州市大学生医保参考2023年政策文件：https://www.fuzhou.gov.cn/zfxxgkzl/szfbmjxsqxxgk/szfbmxxgk/fzsylbzj/zfxxgkml/zcwj/202306/t20230629_4629171.htm）
