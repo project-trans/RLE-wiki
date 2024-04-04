@@ -1,6 +1,6 @@
 ---
 title: A guide to become a welcomed girl 女孩子的修行之路：化妆——可爱的女孩子们都做了什么
-author: 丽塔
+author: 丽塔 雨曦
 ---
 
 # 化妆——可爱的女孩子们都做了什么
