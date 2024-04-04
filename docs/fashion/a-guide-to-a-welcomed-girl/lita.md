@@ -1,3 +1,8 @@
+---
+title: 作者个人页面：丽塔
+author: 丽塔
+---
+
 ### 0x04 丽塔
 我并不是Project Trans的成员，也不是社群中的KOL。考虑到Github的协作方式，如果你想联系到我，使用issue或者pull request功能大概是不可行的。因此，你可以使用下列联系方式：
 

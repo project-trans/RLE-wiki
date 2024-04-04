@@ -1,5 +1,5 @@
 ---
-title: A guide to become a welcomed girl 女孩子的修行之路 —— 前言
+title: A guide to become a welcomed girl 女孩子的修行之路：前言
 author: 丽塔
 ---
 
