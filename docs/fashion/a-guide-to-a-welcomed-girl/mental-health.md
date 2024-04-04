@@ -1,5 +1,5 @@
 ---
-title: A guide to become a welcomed girl 女孩子的修行之路 —— 心理健康问题 
+title: A guide to become a welcomed girl 女孩子的修行之路：心理健康问题 
 author: 沙漏 丽塔
 ---
 > 本章的主作者是沙漏。因此本章和其他章节不同，这里的是沙漏的第一人称视角。
