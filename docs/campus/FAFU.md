@@ -18,7 +18,7 @@ author: 匿名
 
 ## 概况
 
-[福建农林大学]((https://www.fafu.edu.cn/))（Fujian Agriculture and Forestry University,FAFU）福建农林大学是是农业农村部、国家林业和草原局与福建省人民政府共建高校，入选福建省一流大学建设高校、“双一流”建设A类高校。下属一所独立学院福建农林大学金山学院。
+[福建农林大学](https://www.fafu.edu.cn/)（Fujian Agriculture and Forestry University,FAFU）福建农林大学是是农业农村部、国家林业和草原局与福建省人民政府共建高校，入选福建省一流大学建设高校、“双一流”建设A类高校。下属一所独立学院福建农林大学金山学院。
 > 学校水平不低的，科研平台也实力不俗，保研机会多，可以的话，一定要加油哦
 
 ## 地理位置及交通
