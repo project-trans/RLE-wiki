@@ -8,7 +8,7 @@ function searchClosestInTrie(
   node: Node<Record<string, any>> = that.root
 ): Record<string, any> | null {
   if (path.length == 0) {
-    return    node.value;
+    return node.value;
   } else {
     if (path[0] in node.childs) {
       let value = searchClosestInTrie(
