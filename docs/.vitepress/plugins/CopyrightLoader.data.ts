@@ -1,9 +1,8 @@
-import { ContentData, createContentLoader } from "vitepress"
-import { defineLoader } from "vitepress";
+import { ContentData, createContentLoader, defineLoader } from "vitepress";
 
 let contentLoader = createContentLoader('/**/*.md')
 
-interface Node<T> {
+export interface Node<T> {
     value: T | null;
     childs: { [key: string]: Node<T> };
 }
@@ -15,7 +14,7 @@ export interface Trie<T> {
 }
 
 declare const data: Trie<Record<string, any>>
-export { data }
+export { data };
 
 export default defineLoader({
     watch: contentLoader.watch,
