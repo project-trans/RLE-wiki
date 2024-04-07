@@ -10,6 +10,7 @@ declare module 'vue' {
     AppearanceToggle: typeof import('./theme/components/AppearanceToggle.vue')['default']
     AppSBox: typeof import('./theme/components/AppSBox.vue')['default']
     ArticlesMenu: typeof import('./theme/components/ArticlesMenu.vue')['default']
+    CopyrightInfo: typeof import('./theme/components/CopyrightInfo.vue')['default']
     HomeContent: typeof import('./theme/components/HomeContent.vue')['default']
     PageInfo: typeof import('./theme/components/PageInfo.vue')['default']
   }
