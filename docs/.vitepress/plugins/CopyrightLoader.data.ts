@@ -25,7 +25,7 @@ export default defineLoader({
             root: { value: null, children: {} },
 
             insert(this: Trie<Record<string, any>>, path, value, node: Node<Record<string, any>> = this.root) {
-                if (path.length == 0) {
+                if (path.length === 0) {
                     node.value = value
                 } else if (path.length === 1) {
                     if (!(path[0] in node.children)) {
