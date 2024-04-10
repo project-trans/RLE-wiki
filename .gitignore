@@ -36,3 +36,5 @@ coverage/
 
 # Wrangler temp files
 .wrangler
+
+.idea
