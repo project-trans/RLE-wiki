@@ -1,7 +1,11 @@
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
-import { MarkdownTransform } from './.vitepress/plugins/MarkdownTransform'
-import { MarkdownSectionWrapper, TemplateAppSBox, TemplateCopyrightInfo } from './.vitepress/plugins/MarkdownSectionWrapper'
+import {
+  MarkdownSectionWrapper,
+  PageHeaderTemplate,
+  TemplateAppSBox,
+  TemplateCopyrightInfo
+} from './.vitepress/plugins/MarkdownSectionWrapper'
 import Components from 'unplugin-vue-components/vite'
 import UnoCSS from 'unocss/vite'
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
@@ -19,7 +23,18 @@ export default defineConfig({
     }
   },
   plugins: [
-    MarkdownTransform(),
+    MarkdownSectionWrapper(
+        [PageHeaderTemplate, TemplateCopyrightInfo],
+        [TemplateAppSBox],
+        {
+          excludes: [],
+          exclude: (_, { helpers }): boolean => {
+            if (helpers.idEquals('index.md'))
+              return true
+
+            return false
+          },
+        }),
     GitChangelog({
       repoURL: 'https://github.com/project-trans/RLE-wiki',
       maxGitLogCount: 1000,
@@ -43,18 +58,6 @@ export default defineConfig({
         return false
       },
     }),
-    MarkdownSectionWrapper(
-      [TemplateCopyrightInfo],
-      [TemplateAppSBox],
-      {
-        excludes: [],
-        exclude: (_, { helpers }): boolean => {
-          if (helpers.idEquals('index.md'))
-            return true
-
-          return false
-        },
-      }),
     Components({
       dirs: resolve(__dirname, '.vitepress/theme/components'),
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],

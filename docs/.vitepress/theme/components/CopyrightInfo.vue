@@ -41,8 +41,6 @@ const licenseUrl = attrs?.copyright?.licenseUrl ?? 'javascript:void(0)'
 
 <template>
   <div v-if="attrs?.copyright?.enable ?? false">
-    <br />
-    <hr />
     <div class="tip custom-block">
       <p class="custom-block-title">Copyright</p>
       <p>
@@ -61,5 +59,6 @@ const licenseUrl = attrs?.copyright?.licenseUrl ?? 'javascript:void(0)'
         <span>。</span>
       </p>
     </div>
+    <hr />
   </div>
 </template>
