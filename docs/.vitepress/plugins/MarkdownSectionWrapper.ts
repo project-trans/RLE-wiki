@@ -1,4 +1,4 @@
-import { relative } from 'node:path'
+import { resolve, relative } from 'node:path'
 import type { Plugin } from 'vite'
 
 import {
@@ -63,7 +63,7 @@ interface Context {
   }
 }
 
-export interface AppendMarkdownSectionOptions {
+export interface MarkdownSectionWrapperOptions {
   /**
    * The list of file names to exclude from the transformation
    * @default ['index.md']
@@ -79,7 +79,7 @@ export interface AppendMarkdownSectionOptions {
   exclude?: (id: string, context: Context) => boolean
 }
 
-export function AppendMarkdownSection(options?: AppendMarkdownSectionOptions): Plugin {
+export function MarkdownSectionWrapper(headerTransformers: ((frontmatter: string|null, text: string, id: string) => string)[], footerTransformers: ((frontmatter: string|null, text: string, id: string) => string)[], options?: MarkdownSectionWrapperOptions): Plugin {
   const {
     excludes = ['index.md'],
     exclude = () => false,
@@ -88,7 +88,7 @@ export function AppendMarkdownSection(options?: AppendMarkdownSectionOptions): P
   let root = ''
 
   return {
-    name: '@pjts/append-markdown-section',
+    name: '@pjts/markdown-section-wrapper',
     // May set to 'pre' since end user may use vitepress wrapped vite plugin to
     // specify the plugins, which may cause this plugin to be executed after
     // vitepress or the other markdown processing plugins.
@@ -116,18 +116,50 @@ export function AppendMarkdownSection(options?: AppendMarkdownSectionOptions): P
       if (exclude(id, { helpers: { idEndsWith, idEquals, idStartsWith, pathEndsWith, pathEquals, pathStartsWith } }))
         return null
 
-      code = TemplateAppSBox(code)
+      let frontmatter = (code.match(/(^---$(\s|\S)+?^---$)/m)?.[0] ?? null)
+      let text = code.replace(/(^---$(\s|\S)+?^---$)/m, '')
 
-      return code
+      let headers: string[] = headerTransformers.map(f => f(frontmatter, text, id))
+      let footers: string[] = footerTransformers.map(f => f(frontmatter, text, id))
+
+      return [frontmatter, ...headers, text, ...footers].join("")
     },
   }
 }
 
-function TemplateAppSBox(code: string) {
-  return `${code}
+export function TemplateAppSBox(_frontmatter: string|null, _text: string, _id: string): string {
+  return `
 
 ## 意见反馈
 
 <AppSBox />
+
 `
 }
+
+export function TemplateCopyrightInfo(_frontmatter: string|null, _text: string, _id: string): string {
+  return `
+
+<CopyrightInfo />
+
+`
+}
+
+const ROOT = resolve(__dirname, '../../')
+
+export function PageHeaderTemplate(_frontmatter: string|null, _text: string, id: string): string {
+  if (!id.endsWith('.md'))
+    return ''
+
+  id = relative(ROOT, id)
+
+  if (id == 'index.md')
+    return ''
+
+  return `
+  
+# {{ $frontmatter.title }}
+
+<PageInfo />
+
+`}
