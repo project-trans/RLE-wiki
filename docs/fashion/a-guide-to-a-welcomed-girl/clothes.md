@@ -1,6 +1,6 @@
 ---
 title: A guide to become a welcomed girl 女孩子的修行之路：服装——如何选择一套适合自己的服装
-author: n1c0
+author: 丽塔 晓静 Nico
 ---
 
 # 服装——如何选择一套适合自己的服装
