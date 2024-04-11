@@ -1,5 +1,5 @@
-import { type DefaultTheme } from 'vitepress'
 import { SidebarItem, SidebarMultiItem, generateSidebar } from 'vitepress-sidebar'
+import type Options from 'vitepress-sidebar'
 
 export const sidebar = generate()
 
@@ -10,7 +10,7 @@ function generate() {
     useFolderLinkFromIndexFile: true,
     excludeFilesByFrontmatter: true,
     collapsed: true,
-  }
+  } satisfies Partial<Options>
 
   let sidebar = generateSidebar([
     // 大学指南
