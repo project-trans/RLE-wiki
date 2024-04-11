@@ -5,6 +5,9 @@ import katex from 'markdown-it-katex'
 import footnote from 'markdown-it-footnote'
 import { sidebar } from './sidebar'
 import { rootDir, githubRepoLink } from './meta'
+import { readFileSync, statSync } from 'node:fs'
+import { join } from 'node:path'
+const siteTitle = 'RLE.wiki'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -27,6 +30,8 @@ export default defineConfig({
     ['link', { rel: "manifest", href: "/site.webmanifest" }],
     ['meta', { name: "msapplication-TileColor", content: "#4c4c4c" }],
     ['meta', { name: "theme-color", content: "#ffffff" }],
+    ['meta', { property: 'og:title', content: siteTitle }],
+    ['meta', { property: 'og:site_name', content: siteTitle }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -86,5 +91,76 @@ export default defineConfig({
         },
       },
     },
+  },
+  transformHead: (context) => {
+    const head = [...context.head] || []
+
+    const pageSourceFilePath = join(rootDir, context.pageData.filePath)
+    const pageSourceFileStat = statSync(join(rootDir, context.pageData.filePath))
+
+    if (pageSourceFileStat.isDirectory()) {
+      return head
+    }
+
+    let pageSourceFileContent = readFileSync(pageSourceFilePath, { encoding: 'utf-8' })
+
+    // remove all frontmatter
+    pageSourceFileContent = pageSourceFileContent.replace(/---[\s\S]*?---/, '')
+
+    // remove markdown heading markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/^(#+)\s+(.*)/gm, '$2')
+    // remove markdown link markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/\[([^\]]+)\]\([^)]+\)/gm, '$1')
+    // remove markdown image markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/\!\[([^\]]+)\]\([^)]+\)/gm, '$1')
+    // remove markdown bold markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/\*\*([^*]+)\*\*/gm, '$1')
+    pageSourceFileContent = pageSourceFileContent.replace(/__([^*]+)__/gm, '$1')
+    // remove markdown italic markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/\*([^*]+)\*/gm, '$1')
+    pageSourceFileContent = pageSourceFileContent.replace(/_([^*]+)_/gm, '$1')
+    // remove markdown code markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/`([^`]+)`/gm, '$1')
+    // remove markdown code block markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/```([^`]+)```/gm, '$1')
+    // remove markdown table header markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/\|:?-+:?\|/gm, '|')
+    // remove markdown table cell markup but keep the text content
+    pageSourceFileContent = pageSourceFileContent.replace(/\|([^|]+)\|/gm, '$1')
+
+    // remove specific html tags completely
+    const tags = ['']
+    tags.forEach((tag) => {
+      pageSourceFileContent = pageSourceFileContent.replace(new RegExp(`<${tag}[^>]*>[\\s\\S]*?<\\/${tag}>`, 'g'), '')
+    })
+
+    // remove specific html tags but keep the text content
+    const tagsToKeepContent = ['u', 'Containers', 'img', 'a']
+    tagsToKeepContent.forEach((tag) => {
+      pageSourceFileContent = pageSourceFileContent.replace(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'g'), '$1')
+    })
+
+    // remove all new lines (either \r, \n)
+    pageSourceFileContent = pageSourceFileContent.replace(/[\r|\n]/gm, '')
+
+    // calculate the first 200 characters of the page content
+    let pageContent = pageSourceFileContent.slice(0, 200)
+    // if pageSourceFileContent is longer than 200 characters, add ellipsis
+    if (pageSourceFileContent.length > 200) {
+      pageContent += '...'
+    }
+
+    // add the page content as meta description
+    head.push([
+      'meta',
+      { name: 'description', content: pageContent }
+    ])
+
+    head.push([
+      'meta',
+      { property: 'og:description', content: pageContent }
+    ])
+
+    return head
   },
 });
