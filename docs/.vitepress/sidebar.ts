@@ -9,6 +9,7 @@ function generate() {
     useFolderTitleFromIndexFile: true,
     useFolderLinkFromIndexFile: true,
     excludeFilesByFrontmatter: true,
+    collapsed: true,
   }
 
   let sidebar = generateSidebar([
