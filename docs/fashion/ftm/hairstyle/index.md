@@ -1,6 +1,5 @@
 ---
 title: 发型
-tags: [RLE]
 ---
 
 通常来说，发型是 RLE 的一部分。
@@ -33,9 +32,15 @@ tags: [RLE]
 - 若想要发型完美，需要用发型产品（随后会介绍）
 - 最后可以叫理发师帮你修整一下发际线与鬓角，显得更加精神
 
+<!--
+
+TODO
+
 接下来为大家上一些展示图 后面两张是作者
 
 {{< gallery pattern="figure/quiff-*.jpg" fit="400x400" >}}
+
+-->
 
 ### 侧背油头（[Side Back](https://www.google.com/search?tbm=isch&q=Side+Back+Hair)） {#side-back}
 
@@ -47,7 +52,13 @@ tags: [RLE]
 - 记得要修鬓角和发际线
 - 剪此发型，需要**头发长度有 7cm 以上**，上不封顶
 
+<!--
+
+TODO
+
 {{< gallery pattern="figure/sideback-*.jpg" fit="400x400" >}}
+
+-->
 
 ### 寸头（[Buzz Cut](https://www.google.com/search?tbm=isch&q=Buzz+Cut+Hair)）{#buzz-cut}
 
@@ -60,7 +71,13 @@ tags: [RLE]
 
 剪寸头是一个挑战，但是你不剪永远不知道自己那么帅（以下两张为作者）
 
+<!--
+
+TODO
+
 {{< gallery pattern="figure/buzzcut-2-*.jpg" fit="400x400" >}}
+
+-->
 
 ### 中长发（[Medium Hair](https://www.google.com/search?tbm=isch&q=Medium+Hair+Men)） {#medium-hair}
 

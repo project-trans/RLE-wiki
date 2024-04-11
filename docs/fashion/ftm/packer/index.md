@@ -1,11 +1,10 @@
 ---
 title: 假体
-tags: [RLE]
 ---
 
 ## 假体（packer） {#packer}
 
-很多 {{< abbr FtM >}} 会选择戴假体。
+很多 FtM 会选择戴假体。
 
 非FTM/FTX也可能会戴假体，例如一些coser
 
@@ -26,9 +25,9 @@ tags: [RLE]
 
 作为 [国内srs四期](https://ftm.wiki/zh-cn/srs/overview-china/) 的项目（非必选项）
 
-也可用于 {{< abbr cisM >}} 的 勃起功能障碍、阴茎硬结症、缺血性阴茎异常勃起、畸形 和 阴茎任何外伤 的 治疗，
+也可用于 cisM 的 勃起功能障碍、阴茎硬结症、缺血性阴茎异常勃起、畸形 和 阴茎任何外伤 的 治疗，
 
-以及 {{< abbr FtM >}} 的 {{< page "srs" >}} 中的 阴茎成形术。
+以及 FtM的 [SRS](https://ftm.wiki/zh-cn/srs/) 中的 阴茎成形术。
 
 以增进 阴茎 的 硬度、大小、勃起 的 可控度。
 
@@ -56,10 +55,6 @@ Axolom品牌假体官网：
 
 某宝等网站：
 
-{{< figure src="figure-1.png" title="内裤罩杯" mask="true" >}}
-
 搜索关键词是：“内裤罩杯”、“男式防尴尬内裤”、“护鸟神器”等
-
-{{< figure src="figure-2.png" title="一体成型的软式假体例子" mask="true" >}}
 
 搜索关键词是：”填充假体“等

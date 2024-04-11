@@ -13,12 +13,12 @@ tags: [ComeOut]
 
 在向⽗母及其他⼈出柜前，⾸先⾃⾝要有清楚且积极的⾃我认同和相对全⾯的知识储备。
 
-⽐如要清楚 [性别认同]({{< ref "terminology#identity" >}}) 和 [性取向]({{< ref "terminology#orientation" >}}) 是两个独⽴的概念，
-相互之间并不影响，以及准确地了解有关跨性别的⼀些概念，例如：“[性别酷⼉]({{< ref "terminology#queer" >}})”，“泛性恋”等。
+⽐如要清楚 [性别认同](https://ftm.wiki/zh-cn/psycho/terminology/#identity) 和 [性取向](https://ftm.wiki/zh-cn/psycho/terminology/#orientation) 是两个独⽴的概念，
+相互之间并不影响，以及准确地了解有关跨性别的⼀些概念，例如：“[性别酷⼉](https://ftm.wiki/zh-cn/psycho/terminology/#queer)”，“泛性恋”等。
 
 了解国内对“跨性别”能够做出权威解释的医院以及医⽣，出柜前可以先与他们接触，获得权威的⽀持。
 
-可以阅读 [《中国跨性别群体⽣存现状调查报告》][report] 等资料去了解中国跨性别群体的现状，扩充⾃⼰的知识储备，
+可以阅读 [《中国跨性别群体⽣存现状调查报告》](https://2345.lgbt/zh-cn/reports) 等资料去了解中国跨性别群体的现状，扩充⾃⼰的知识储备，
 
 在应对⽗母的疑问时，能够做到有理有据，减少他们的担忧，向他们提供更多正⾯的信息。
 
