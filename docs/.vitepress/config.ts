@@ -110,7 +110,7 @@ export default defineConfig({
         'meta',
         {
           name: 'description',
-          content: '跨性别和多元性别人群健康照护指南第八版（SOC-8）',
+          content: siteDescription,
         },
       ])
 
@@ -167,6 +167,10 @@ export default defineConfig({
     // if pageSourceFileContent is longer than 200 characters, add ellipsis
     if (pageSourceFileContent.length > 100)
       pageContent += '...'
+
+    if (context.pageData.frontmatter?.layout === 'home') {
+      pageContent = context.pageData.frontmatter?.hero?.tagline ?? siteDescription
+    }
 
     head.push([
       'meta',

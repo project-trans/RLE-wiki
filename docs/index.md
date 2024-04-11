@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "RLE.wiki"
   text: "一份 RLE 指北"
-  tagline: 欢迎大家来到 RLE.wiki. 这是一份给跨性别者们的 RLE 指南。部分内容由 MtF.wiki 迁移而来，更多帮助正在路上，敬请期待。
+  tagline: 欢迎大家来到 RLE.wiki. 这是一份给跨性别者与性别多元群体的 RLE 指南。更多帮助正在路上，敬请期待……
   actions:
     - theme: brand
       text: 大学指南 🏫
@@ -33,7 +33,7 @@ import HomeContent from './.vitepress/theme/components/HomeContent.vue'
 :::
 
 ::: tip ℹ️
-本项目的内容包括且不仅限于校园指南，后期会加入其他 RLE 指导。当前处于建设初期，其他条目暂未完成，欢迎大家帮助项目完善。
+网站当前处于建设初期，条目暂未完成，欢迎大家帮助项目完善。
 :::
 
 ::: info 🕯️
