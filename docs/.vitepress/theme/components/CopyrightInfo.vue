@@ -25,7 +25,7 @@ function searchClosestInTrie(
 }
 
 const paths = useData()
-  .page.value.relativePath.split('/')
+  .page.value.relativePath.replace('.md', '').split('/')
   .filter((item: string) => item !== '');
 const attrs = searchClosestInTrie(data, paths);
 const frontmatter = useData().frontmatter.value;
