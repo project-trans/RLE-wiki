@@ -29,7 +29,7 @@ import HomeContent from './.vitepress/theme/components/HomeContent.vue'
 <HomeContent>
 
 ::: tip ℹ️
-本项目由 Project Trans 团队发起，内容包括但不仅限于 MtF 的 RLE 指导，也欢迎广大 FtM 及非二元同胞一起建设本项目。
+本项目由 Project Trans 团队发起，内容将包括 MtF、FtM、酷儿以及其他性别多元群体的 RLE 指导与探讨，欢迎大家一起建设本项目。
 :::
 
 ::: tip ℹ️
