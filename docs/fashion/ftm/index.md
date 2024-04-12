@@ -1,5 +1,8 @@
 ---
 title: 男性倾向跨性别者的 RLE
+author: 航
+copyright:
+  enable: true
 ---
 
 :::info

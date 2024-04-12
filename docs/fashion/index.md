@@ -1,6 +1,9 @@
 ---
 title: Fashion
 icon: creative
+author:
+  - admins
+  - amber
 category:
   - Fashion
 index: false

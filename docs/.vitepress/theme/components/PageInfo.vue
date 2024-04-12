@@ -29,9 +29,9 @@ const authors = computed(() => {
     author = [author]
 
   if (!author.length)
-    author = ['匿名']
+    author = []
 
-  return author
+  return [...author, '匿名']
 })
 
 </script>
