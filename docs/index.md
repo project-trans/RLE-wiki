@@ -16,10 +16,12 @@ hero:
     - theme: alt
       text: 防护 🚨
       link: /personal-safety/
+    - theme: alt
+      text: 其它 📚
+      link: /others/
   image:
     src: /logo-with-shadow.png
     alt: RLE.wiki logo
-
 ---
 
 <script setup>
