@@ -1,14 +1,10 @@
-import { sidebar } from "../../sidebar";
+import { createContentLoader } from 'vitepress'
 
-declare const data: {
-  menu: {
-    [key: string]: { base: string; items: { text: string; link: string }[] };
-  };
-};
-export { data };
+declare const data: { url: string, title: string }[]
 
-export default {
-  load() {
-    return { menu: sidebar };
-  },
-};
+export { data }
+
+export default createContentLoader('**/*.md', {
+  transform: list =>
+    list.map(item => ({ url: item.url, title: item.frontmatter.title })),
+})

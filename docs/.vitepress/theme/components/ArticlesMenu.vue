@@ -5,10 +5,21 @@ import { data } from './articlesmenu.data'
 
 const route = useRoute()
 const articles = computed(() =>
-  data.menu[route.path].items.map(item => ({
-    ...item,
-    link: item.link.replace('.md', ''),
-  })),
+  data
+    .filter((article) => {
+      if (!article.url.startsWith(route.path))
+        return false
+      if (article.url === route.path)
+        return false
+      const relateUrl = article.url.replace(route.path, '')
+      const slashCount = relateUrl.split('/').length - 1
+      if (slashCount > 1)
+        return false
+      if (slashCount === 1 && !relateUrl.endsWith('/'))
+        return false
+      return true
+    })
+    .map(article => ({ link: article.url, text: article.title })),
 )
 </script>
 
