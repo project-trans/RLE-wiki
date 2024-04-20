@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppearanceToggle: typeof import('./theme/components/AppearanceToggle.vue')['default']
+    AppFooter: typeof import('./theme/components/AppFooter.vue')['default']
     AppSBox: typeof import('./theme/components/AppSBox.vue')['default']
     ArticlesMenu: typeof import('./theme/components/ArticlesMenu.vue')['default']
     CopyrightInfo: typeof import('./theme/components/CopyrightInfo.vue')['default']

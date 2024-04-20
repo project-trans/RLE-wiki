@@ -1,12 +1,11 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import AppearanceToggle from './components/AppearanceToggle.vue'
+import { h } from 'vue'
 
 import {
-  NolebaseEnhancedReadabilitiesPlugin,
   NolebaseEnhancedReadabilitiesMenu,
+  NolebaseEnhancedReadabilitiesPlugin,
   NolebaseEnhancedReadabilitiesScreenMenu,
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
@@ -15,25 +14,28 @@ import {
 } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 
 import {
-  NolebaseGitChangelogPlugin
+  NolebaseGitChangelogPlugin,
 } from '@nolebase/vitepress-plugin-git-changelog/client'
+import AppearanceToggle from './components/AppearanceToggle.vue'
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
-import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 
 import 'uno.css'
+import AppFooter from './components/AppFooter.vue'
 import './style.css'
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(AppearanceToggle, null, {
-      'default': () => h(DefaultTheme.Layout, null, {
+      default: () => h(DefaultTheme.Layout, null, {
         // https://vitepress.dev/guide/extending-default-theme#layout-slots
         'doc-top': () => [
           h(NolebaseHighlightTargetedHeading),
         ],
+        'doc-after': () => [h(AppFooter)],
         'nav-bar-content-after': () => [
           h(NolebaseEnhancedReadabilitiesMenu),
         ],
@@ -47,15 +49,15 @@ export default {
     app.use(NolebaseEnhancedReadabilitiesPlugin, {
       spotlight: {
         defaultToggle: true,
-      }
+      },
     })
 
     app.use(NolebaseGitChangelogPlugin, {
       locales: {
         'zh-CN': {
           lastEditedDateFnsLocaleName: 'zhCN',
-        }
-      }
+        },
+      },
     })
-  }
+  },
 } satisfies Theme
