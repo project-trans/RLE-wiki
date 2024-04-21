@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "module": "ESNext", /* Specify what module code is generated. */
+    "moduleResolution": "Bundler", /* Ensure that casing is correct in imports. */
+    "strict": true,
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true, /* Enable all strict type-checking options. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "docs/*.d.ts",
+    "docs/*.ts",
+    "docs/.vitepress/**/*.d.ts",
+    "docs/.vitepress/**/*.ts",
+    "docs/.vitepress/**/*.vue"
+  ]
+}
