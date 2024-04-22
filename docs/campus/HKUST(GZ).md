@@ -21,9 +21,9 @@ author: mini-fish
 
 香港科技大学目前有香港清水湾校区和广州校区。虽存在法律框架约束，但两校均希望实现“港科大一体，双校互补”的理念。
 
-- 广州校区位于广州市南沙区东涌镇笃学路。
+- 广州校区位于[广州市南沙区东涌镇笃学路1号](https://www.amap.com/place/B0IGJURJOJ)。
 
-- 香港清水湾校区位于香港九龙清水湾。
+- 香港清水湾校区位于[香港西贡区清水湾畔](https://surl.amap.com/1XaJgc163hH)。
 
 ## 宿舍情况与基础设施
 
@@ -53,4 +53,4 @@ author: mini-fish
 
 mini-fish
 
-- E-Mail: Mini-Fishhh.proton.me
+- E-Mail: Mini-Fishhh@proton.me
