@@ -4,10 +4,20 @@
   "version": "1.0.0",
   "description": "RLE 指北",
   "license": "MIT",
+  "exports": {
+    "./config": {
+      "types": "./dist/config.d.ts",
+      "import": "./dist/config.mjs",
+      "require": "./dist/config.js"
+    }
+  },
+  "main": "./dist/config.js",
+  "module": "./dist/config.mjs",
+  "types": "./dist/config.d.ts",
   "scripts": {
     "dev": "vitepress dev docs",
     "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
-    "build": "vitepress build docs",
+    "build": "unbuild",
     "preview": "vitepress preview docs",
     "update-package": "pnpm dlx vp-update"
   },
