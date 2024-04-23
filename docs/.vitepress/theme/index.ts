@@ -16,14 +16,14 @@ import {
 import {
   NolebaseGitChangelogPlugin,
 } from '@nolebase/vitepress-plugin-git-changelog/client'
-import AppearanceToggle from './components/AppearanceToggle.vue'
+import AppearanceToggle from '@project-trans/vitepress-theme-project-trans/components/AppearanceToggle.vue'
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 
 import 'uno.css'
-import AppFooter from './components/AppFooter.vue'
+import AppFooter from '@project-trans/vitepress-theme-project-trans/components/AppFooter.vue'
 import './style.css'
 
 export default {

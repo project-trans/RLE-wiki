@@ -32,6 +32,9 @@ importers:
       '@project-trans/suggestion-box':
         specifier: ^0.0.9
         version: 0.0.9(vue@3.4.21)
+      '@project-trans/vitepress-theme-project-trans':
+        specifier: workspace:*
+        version: link:packages/vitepress-theme-project-trans
       '@types/markdown-it':
         specifier: ^13.0.7
         version: 13.0.7
@@ -96,6 +99,81 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^4.20240208.0
         version: 4.20240222.0
+
+  packages/vitepress-theme-project-trans:
+    devDependencies:
+      '@antfu/eslint-config':
+        specifier: ^2.13.3
+        version: 2.13.3(@unocss/eslint-plugin@0.59.0)(@vue/compiler-sfc@3.4.21)(eslint-plugin-format@0.1.0)(eslint@8.57.0)(typescript@5.4.5)
+      '@cloudflare/workers-types':
+        specifier: ^4.20240405.0
+        version: 4.20240405.0
+      '@iconify-json/octicon':
+        specifier: ^1.1.53
+        version: 1.1.53
+      '@nolebase/vitepress-plugin-enhanced-readabilities':
+        specifier: 2.0.0-rc3
+        version: 2.0.0-rc3(vitepress@1.0.0-rc.42)
+      '@nolebase/vitepress-plugin-git-changelog':
+        specifier: 2.0.0-rc3
+        version: 2.0.0-rc3(vitepress@1.0.0-rc.42)(vue@3.4.21)
+      '@nolebase/vitepress-plugin-highlight-targeted-heading':
+        specifier: 2.0.0-rc3
+        version: 2.0.0-rc3(vitepress@1.0.0-rc.42)
+      '@project-trans/suggestion-box':
+        specifier: ^0.0.9
+        version: 0.0.9(vue@3.4.21)
+      '@types/markdown-it':
+        specifier: ^13.0.7
+        version: 13.0.7
+      '@types/markdown-it-footnote':
+        specifier: ^3.0.4
+        version: 3.0.4
+      '@unocss/eslint-plugin':
+        specifier: ^0.59.0
+        version: 0.59.0(eslint@8.57.0)(typescript@5.4.5)
+      eslint:
+        specifier: ^8.57.0
+        version: 8.57.0
+      eslint-plugin-format:
+        specifier: ^0.1.0
+        version: 0.1.0(eslint@8.57.0)
+      markdown-it-footnote:
+        specifier: ^3.0.3
+        version: 3.0.3
+      markdown-it-katex:
+        specifier: ^2.0.3
+        version: 2.0.3
+      markdown-it-pangu:
+        specifier: ^1.0.2
+        version: 1.0.2
+      md5:
+        specifier: ^2.3.0
+        version: 2.3.0
+      simple-git:
+        specifier: ^3.24.0
+        version: 3.24.0
+      unocss:
+        specifier: ^0.58.9
+        version: 0.58.9(postcss@8.4.38)(vite@5.2.8)
+      unplugin-vue-components:
+        specifier: ^0.26.0
+        version: 0.26.0(vue@3.4.21)
+      vite:
+        specifier: ^5.2.8
+        version: 5.2.8
+      vitepress:
+        specifier: 1.0.0-rc.42
+        version: 1.0.0-rc.42(@algolia/client-search@4.23.3)(postcss@8.4.38)(search-insights@2.13.0)(typescript@5.4.5)
+      vitepress-sidebar:
+        specifier: ^1.22.0
+        version: 1.22.0
+      vue:
+        specifier: ^3.4.21
+        version: 3.4.21(typescript@5.4.5)
+      wrangler:
+        specifier: ^3.49.0
+        version: 3.49.0(@cloudflare/workers-types@4.20240405.0)
 
 packages:
 

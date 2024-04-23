@@ -1,9 +1,9 @@
 {
-  "name": "rle-wiki",
+  "name": "@project-trans/vitepress-theme-project-trans",
   "type": "module",
   "version": "1.0.0",
   "description": "RLE 指北",
-  "license": "CC-BY-SA-4.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs",
     "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
@@ -19,7 +19,6 @@
     "@nolebase/vitepress-plugin-git-changelog": "2.0.0-rc3",
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "2.0.0-rc3",
     "@project-trans/suggestion-box": "^0.0.9",
-    "@project-trans/vitepress-theme-project-trans": "workspace:*",
     "@types/markdown-it": "^13.0.7",
     "@types/markdown-it-footnote": "^3.0.4",
     "@unocss/eslint-plugin": "^0.59.0",
@@ -37,10 +36,5 @@
     "vitepress-sidebar": "^1.22.0",
     "vue": "^3.4.21",
     "wrangler": "^3.49.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "hasown": "npm:@nolyfill/hasown@latest"
-    }
   }
 }

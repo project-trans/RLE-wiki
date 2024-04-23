@@ -8,7 +8,7 @@ import {
   PageHeaderTemplate,
   TemplateAppSBox,
   TemplateCopyrightInfo,
-} from './.vitepress/plugins/MarkdownSectionWrapper'
+} from '@project-trans/vitepress-theme-project-trans/plugins/MarkdownSectionWrapper'
 
 export default defineConfig({
   server: {
