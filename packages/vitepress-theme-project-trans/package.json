@@ -9,6 +9,11 @@
       "types": "./dist/config.d.ts",
       "import": "./dist/config.mjs",
       "require": "./dist/config.js"
+    },
+    "./utils": {
+      "types": "./dist/utils/index.d.ts",
+      "import": "./dist/utils/index.mjs",
+      "require": "./dist/utils/index.js"
     }
   },
   "main": "./dist/config.js",

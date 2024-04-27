@@ -1,6 +1,6 @@
 import type { HeadConfig } from 'vitepress'
 
-function genHead({ siteTitle }: { siteTitle: string }) {
+export function genHead({ siteTitle }: { siteTitle: string }) {
   return [
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
@@ -11,5 +11,3 @@ function genHead({ siteTitle }: { siteTitle: string }) {
     ['meta', { property: 'og:site_name', content: siteTitle }],
   ] satisfies HeadConfig[]
 }
-
-export default genHead

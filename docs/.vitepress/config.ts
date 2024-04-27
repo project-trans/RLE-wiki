@@ -1,5 +1,5 @@
 import config from '@project-trans/vitepress-theme-project-trans/config'
-import genHead from '@project-trans/vitepress-theme-project-trans/utils/genHead'
+import { genHead } from '@project-trans/vitepress-theme-project-trans/utils'
 import { defineConfig } from 'vitepress'
 
 const siteTitle = 'RLE.wiki'
