@@ -73,7 +73,7 @@ author:
 
 ## 宿舍情况与基础设施
 
-> 涉及宿舍与基础设施的内容，可参照 (https://colleges.chat/universities/zhong-guo-di-zhi-da-xue-bei-jing/)
+> 涉及宿舍与基础设施的内容，可参照 [大学生活质量指北](https://colleges.chat/universities/zhong-guo-di-zhi-da-xue-bei-jing/)
 
 ### 寝室环境
 
