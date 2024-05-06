@@ -31,7 +31,7 @@ function generate() {
       scanStartPath: 'contributor-guide',
       resolvePath: '/contributor-guide/',
     },
-    // Fashion
+    // 时尚护理
     {
       ...baseConfig,
       documentRootPath: '/docs',

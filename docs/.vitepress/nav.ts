@@ -8,7 +8,7 @@ const nav: NavConfig = [
     link: '/campus/',
   },
   {
-    text: 'Fashion',
+    text: '时尚护理',
     link: '/fashion/',
   },
   {

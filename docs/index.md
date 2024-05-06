@@ -11,7 +11,7 @@ hero:
       text: 大学指南 🏫
       link: /campus/
     - theme: alt
-      text: Fashion 👕
+      text: 时尚护理 👕
       link: /fashion/
     - theme: alt
       text: 安全防护 🚨
