@@ -1,12 +1,13 @@
+import { readFileSync, statSync } from 'node:fs'
+import { join } from 'node:path'
 import { defineConfig } from 'vitepress'
-import nav from './nav'
 import mdPangu from 'markdown-it-pangu'
 import katex from 'markdown-it-katex'
 import footnote from 'markdown-it-footnote'
+import nav from './nav'
 import { sidebar } from './sidebar'
-import { rootDir, githubRepoLink } from './meta'
-import { readFileSync, statSync } from 'node:fs'
-import { join } from 'node:path'
+import { githubRepoLink, rootDir } from './meta'
+
 const siteTitle = 'RLE.wiki'
 const siteDescription = '一份 RLE 指北'
 
@@ -17,19 +18,19 @@ export default defineConfig({
   cleanUrls: true,
   markdown: {
     config(md) {
-      md.use(mdPangu);
-      md.use(footnote);
-      md.use(katex);
+      md.use(mdPangu)
+      md.use(footnote)
+      md.use(katex)
     },
   },
   dir: rootDir,
   head: [
-    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" }],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" }],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" }],
-    ['link', { rel: "manifest", href: "/site.webmanifest" }],
-    ['meta', { name: "msapplication-TileColor", content: "#4c4c4c" }],
-    ['meta', { name: "theme-color", content: "#ffffff" }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#4c4c4c' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { property: 'og:site_name', content: siteTitle }],
   ],
   themeConfig: {
@@ -42,7 +43,7 @@ export default defineConfig({
     nav,
     sidebar,
     socialLinks: [
-      { icon: 'github', link: githubRepoLink }
+      { icon: 'github', link: githubRepoLink },
     ],
     editLink: {
       pattern: `${githubRepoLink}/edit/main/docs/:path`,
@@ -82,7 +83,8 @@ export default defineConfig({
         // Add title field in frontmatter to search
         // You can exclude a page from search by adding search: false to the page's frontmatter.
         _render(src, env, md) {
-          if (env.frontmatter?.search === false) return ''
+          if (env.frontmatter?.search === false)
+            return ''
           let html = md.render(src, env)
           if (env.frontmatter?.title)
             html = md.render(`# ${env.frontmatter.title}\n`) + html
@@ -168,9 +170,8 @@ export default defineConfig({
     if (pageSourceFileContent.length > 100)
       pageContent += '...'
 
-    if (context.pageData.frontmatter?.layout === 'home') {
+    if (context.pageData.frontmatter?.layout === 'home')
       pageContent = context.pageData.frontmatter?.hero?.tagline ?? siteDescription
-    }
 
     head.push([
       'meta',
@@ -199,4 +200,4 @@ export default defineConfig({
 
     return head
   },
-});
+})
