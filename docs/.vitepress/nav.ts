@@ -12,7 +12,7 @@ const nav: NavConfig = [
     link: '/fashion/',
   },
   {
-    text: '防护',
+    text: '安全防护',
     link: '/personal-safety/',
   },
   {

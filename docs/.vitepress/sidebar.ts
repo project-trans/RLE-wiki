@@ -38,14 +38,14 @@ function generate() {
       scanStartPath: 'fashion',
       resolvePath: '/fashion/',
     },
-    // 防护
+    // 安全防护
     {
       ...baseConfig,
       documentRootPath: '/docs',
       scanStartPath: 'personal-safety',
       resolvePath: '/personal-safety/',
     },
-    // 防护
+    // 其它
     {
       ...baseConfig,
       documentRootPath: '/docs',

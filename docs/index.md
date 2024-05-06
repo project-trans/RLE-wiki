@@ -14,7 +14,7 @@ hero:
       text: Fashion 👕
       link: /fashion/
     - theme: alt
-      text: 防护 🚨
+      text: 安全防护 🚨
       link: /personal-safety/
     - theme: alt
       text: 其它 📚
