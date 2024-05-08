@@ -117,7 +117,7 @@ order: 2
 
 ### 关于性别重置手术（SRS）
 
-如果开学时将户口迁入学校集体户，后又打算在毕业前完成 SRS，则毕业前户口是可以从集体户口迁出的，具体详见[河北工业大学在读学生集体户口迁出历程](https://limee233.github.io/archived/jitihukou-move-out/)。
+如果开学时将户口迁入学校集体户，后又打算在毕业前完成 SRS，则毕业前户口是可以从集体户口迁出的，具体详见[河北工业大学在读学生集体户口迁出历程](https://limee233.github.io/archived/jitihukou-move-out/)（[备份](https://web.archive.org/web/20240505121213/https://limee233.github.io/archived/jitihukou-move-out/)）。
 
 机械工程学院、本科生院等部门愿意协助更改各类信息，笔者已经在 2023 年 9 月 20 日完成学籍变更，学校大多数部门现在应该有处理此类事务的经验。（注：河北省教育局的回复是「（变更性别）是学校权限，学校处理即可」）
 
