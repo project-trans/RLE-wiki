@@ -11,10 +11,10 @@ hero:
       text: 大学指南 🏫
       link: /campus/
     - theme: alt
-      text: Fashion 👕
+      text: 时尚护理 👕
       link: /fashion/
     - theme: alt
-      text: 防护 🚨
+      text: 安全防护 🚨
       link: /personal-safety/
     - theme: alt
       text: 其它 📚

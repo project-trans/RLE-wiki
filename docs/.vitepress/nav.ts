@@ -8,11 +8,11 @@ const nav: NavConfig = [
     link: '/campus/',
   },
   {
-    text: 'Fashion',
+    text: '时尚护理',
     link: '/fashion/',
   },
   {
-    text: '防护',
+    text: '安全防护',
     link: '/personal-safety/',
   },
   {
