@@ -18,7 +18,7 @@ author: 匿名
 
 ## 概述
 
-[华东~~正常~~师范大学](https://www.ecnu.edu.cn/) (East China Normal University，ECNU) 是诸多简称「华师」的中国高校之一，位于上海市普陀区中山北路和上海市闵行区莲花南路，[院系设置较为齐全](https://www.ecnu.edu.cn/wzcd/xxgk/yxsz.htm)。
+[华东~~正常~~师范大学](https://www.ecnu.edu.cn/) (East China Normal University，ECNU) 是诸多简称「华师」的中国高校之一，[院系设置较为齐全](https://www.ecnu.edu.cn/wzcd/xxgk/yxsz.htm)。
 
 ## 地理位置及交通
 
