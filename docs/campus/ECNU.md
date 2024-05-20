@@ -22,7 +22,7 @@ author: 匿名
 
 ## 地理位置及交通
 
-学生被分配在哪个校区的宿舍原则上取决于招收专业，某些新设立的学院和跨专业培养方案请咨询学工处，具体的学院-校区对应信息可在 [该表格](https://zsb.ecnu.edu.cn/f3/08/c37582a520968/page.htm) 查询。普陀校区位于 [上海市中山北路3663号](https://www.openstreetmap.org/relation/6179557)，毗邻 [华东政法大学]() 和长风公园。闵行校区位于 [上海市东川路500号](https://www.openstreetmap.org/way/293438840)，毗邻 [上海交通大学]() 闵行校区和 [东海学院]()，两校区周边均有基础配套设施。
+学生被分配在哪个校区的宿舍原则上取决于招收专业，某些新设立的学院和跨专业培养方案请咨询学工处，具体的学院-校区对应信息可在 [该表格](https://zsb.ecnu.edu.cn/f3/08/c37582a520968/page.htm) 查询。普陀校区位于 [上海市中山北路3663号](https://www.openstreetmap.org/relation/6179557)，毗邻 [华东政法大学](https://www.openstreetmap.org/way/477227512) 和长风公园。闵行校区位于 [上海市东川路500号](https://www.openstreetmap.org/way/293438840)，毗邻 [上海交通大学闵行校区](https://www.openstreetmap.org/way/288249651)和 [东海学院](https://www.openstreetmap.org/way/294237713)，两校区周边均有基础配套设施。
 
 ### 校车与跨校区通勤
 
