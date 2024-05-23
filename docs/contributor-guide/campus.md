@@ -46,13 +46,7 @@ RLE.wiki 的一个校园页面一般对应一个高考招生代码。也就是�
 
 ## 5. 向 RLE Wiki 维护人员提交内容/寻求帮助
 
-如果你已经准备好了要向 RLE Wiki 提交的信息，可以通过以下几种方式向我们提交：
-
-1. 将这些信息通过邮件发送给 <hi@rle.wiki>，我们会在收到邮件后的一周内完成整理和更新。
-
-2. 将 RLE Wiki fork后提交[Pull request](https://github.com/project-trans/RLE-wiki)。
-
-3. 向 RLE Wiki 仓库提交[Issue](https://github.com/project-trans/RLE-wiki/issues)。
+如果你已经准备好了要向 RLE Wiki 提交的信息，请参阅[投稿指南](./other)。
 
 如果要向我们寻求帮助，上述方式同样适用。
 
