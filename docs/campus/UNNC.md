@@ -1,6 +1,8 @@
 ---
 title: 宁波诺丁汉大学
-author: kirisame_7 和 akiyama hina 等
+author: 
+  - kirisame_7 
+  - akiyama hina
 ---
 
 |        项目        | 情况 |     备注     |
