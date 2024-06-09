@@ -21,7 +21,7 @@
       "require": "./dist/plugins/MarkdownSectionWrapper.js"
     },
     "./components/*": "./dist/components/*"
-    },
+  },
   "main": "./dist/config.js",
   "module": "./dist/config.mjs",
   "types": "./dist/config.d.ts",

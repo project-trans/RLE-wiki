@@ -2,6 +2,7 @@
   "name": "rle-wiki",
   "type": "module",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.2.0",
   "description": "RLE 指北",
   "license": "CC-BY-SA-4.0",
   "scripts": {
@@ -9,7 +10,8 @@
     "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
-    "update-package": "pnpm dlx vp-update"
+    "update-package": "pnpm dlx vp-update",
+    "postinstall": "pnpm --filter @project-trans/* build"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.13.3",
