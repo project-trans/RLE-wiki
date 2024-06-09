@@ -2,58 +2,12 @@ import type {
   SidebarItem,
   SidebarMultiItem,
 } from 'vitepress-sidebar'
-import { generateSidebar } from 'vitepress-sidebar'
-import type Options from 'vitepress-sidebar'
+import { generateSidebar as genSidebar } from 'vitepress-sidebar'
+import { useThemeContext } from './utils/themeContext'
 
-export const sidebar = generate()
-
-function generate() {
-  const baseConfig = {
-    useTitleFromFrontmatter: true,
-    useFolderTitleFromIndexFile: true,
-    useFolderLinkFromIndexFile: true,
-    excludeFilesByFrontmatter: true,
-    collapsed: true,
-  } satisfies Partial<Options>
-
-  const sidebar = generateSidebar([
-    // 大学指南
-    {
-      ...baseConfig,
-      documentRootPath: '/docs',
-      scanStartPath: 'campus',
-      resolvePath: '/campus/',
-    },
-    // 贡献指南
-    {
-      ...baseConfig,
-      documentRootPath: '/docs',
-      scanStartPath: 'contributor-guide',
-      resolvePath: '/contributor-guide/',
-    },
-    // Fashion
-    {
-      ...baseConfig,
-      documentRootPath: '/docs',
-      scanStartPath: 'fashion',
-      resolvePath: '/fashion/',
-    },
-    // 防护
-    {
-      ...baseConfig,
-      documentRootPath: '/docs',
-      scanStartPath: 'personal-safety',
-      resolvePath: '/personal-safety/',
-    },
-    // 防护
-    {
-      ...baseConfig,
-      documentRootPath: '/docs',
-      scanStartPath: 'others',
-      resolvePath: '/others/',
-    },
-  ])
-
+export function generateSidebar() {
+  const { sidebarOptions } = useThemeContext()
+  const sidebar = genSidebar(sidebarOptions)
   for (const key in sidebar) {
     const sidebarMultiItem: SidebarMultiItem = (sidebar as any)[key]
     sidebarMultiItem.items.sort(sidebarTitleSorter)

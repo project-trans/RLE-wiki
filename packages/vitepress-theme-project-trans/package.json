@@ -15,6 +15,11 @@
       "import": "./dist/utils/index.mjs",
       "require": "./dist/utils/index.js"
     },
+    "./theme": {
+      "types": "./dist/theme.d.ts",
+      "import": "./dist/theme.mjs",
+      "require": "./dist/theme.js"
+    },
     "./plugins/MarkdownSectionWrapper": {
       "types": "./dist/plugins/MarkdownSectionWrapper.d.ts",
       "import": "./dist/plugins/MarkdownSectionWrapper.mjs",
@@ -42,6 +47,7 @@
     "@project-trans/suggestion-box": "^0.0.9",
     "@types/markdown-it": "^13.0.7",
     "@types/markdown-it-footnote": "^3.0.4",
+    "@types/node": "^20.14.2",
     "@unocss/eslint-plugin": "^0.59.0",
     "eslint": "^8.57.0",
     "eslint-plugin-format": "^0.1.0",

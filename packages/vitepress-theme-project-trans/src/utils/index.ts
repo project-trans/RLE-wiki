@@ -1,2 +1,2 @@
-export * from './genHead'
 export * from './path'
+export * from './themeContext'
