@@ -1,5 +1,7 @@
 import { relative, resolve } from 'node:path'
 import type { Plugin } from 'vite'
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 import {
   pathEndsWith,
@@ -145,6 +147,7 @@ export function TemplateCopyrightInfo(_frontmatter: string | null, _text: string
 `
 }
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '../../')
 
 export function PageHeaderTemplate(_frontmatter: string | null, _text: string, id: string): string {

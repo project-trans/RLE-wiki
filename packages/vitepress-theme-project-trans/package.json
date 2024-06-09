@@ -14,16 +14,22 @@
       "types": "./dist/utils/index.d.ts",
       "import": "./dist/utils/index.mjs",
       "require": "./dist/utils/index.js"
-    }
-  },
+    },
+    "./plugins/MarkdownSectionWrapper": {
+      "types": "./dist/plugins/MarkdownSectionWrapper.d.ts",
+      "import": "./dist/plugins/MarkdownSectionWrapper.mjs",
+      "require": "./dist/plugins/MarkdownSectionWrapper.js"
+    },
+    "./components/*": "./dist/components/*"
+    },
   "main": "./dist/config.js",
   "module": "./dist/config.mjs",
   "types": "./dist/config.d.ts",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
     "build": "unbuild",
-    "preview": "vitepress preview docs",
+    "dev": "vitepress dev",
+    "dev:wrangler": "wrangler pages dev ./dist/",
+    "preview": "vitepress preview",
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
