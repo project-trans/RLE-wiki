@@ -5,7 +5,6 @@
   "description": "RLE 指北",
   "license": "CC-BY-SA-4.0",
   "scripts": {
-    "postinstall": "cd ./packages/vitepress-theme-project-trans && pnpm install && pnpm build",
     "dev": "vitepress dev docs",
     "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
     "build": "vitepress build docs",
