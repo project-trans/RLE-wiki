@@ -3,6 +3,10 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 
+import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
+
 import {
   NolebaseEnhancedReadabilitiesMenu,
   NolebaseEnhancedReadabilitiesPlugin,
