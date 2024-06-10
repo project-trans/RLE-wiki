@@ -22,7 +22,6 @@ function genConfig() {
         md.use(katex)
       },
     },
-    dir: rootDir,
     head: [
       [
         'link',
