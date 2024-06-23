@@ -1,5 +1,6 @@
 import { readFileSync, statSync } from 'node:fs'
-import { join, resolve } from 'node:path'
+import { dirname, join, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import {
   MarkdownSectionWrapper,
@@ -299,8 +300,8 @@ function genConfig() {
           dirs: [
             'docs/.vitepress/theme/components',
             resolve(
-              typeof import.meta?.dirname === 'string'
-                ? import.meta.dirname
+              typeof dirname(fileURLToPath(import.meta.url)) === 'string'
+                ? dirname(fileURLToPath(import.meta.url))
                 : __dirname,
               './components',
             ),
