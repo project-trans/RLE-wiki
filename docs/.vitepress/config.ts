@@ -12,11 +12,11 @@ const nav: NavConfig = [
     link: '/campus/',
   },
   {
-    text: 'Fashion',
+    text: '时尚护理',
     link: '/fashion/',
   },
   {
-    text: '防护',
+    text: '安全防护',
     link: '/personal-safety/',
   },
   {
@@ -64,19 +64,19 @@ const sidebarOptions = [
     scanStartPath: 'contributor-guide',
     resolvePath: '/contributor-guide/',
   },
-  // Fashion
+  // 时尚护理
   {
     ...baseConfig,
     scanStartPath: 'fashion',
     resolvePath: '/fashion/',
   },
-  // 防护
+  // 安全防护
   {
     ...baseConfig,
     scanStartPath: 'personal-safety',
     resolvePath: '/personal-safety/',
   },
-  // 防护
+  // 其它
   {
     ...baseConfig,
     scanStartPath: 'others',

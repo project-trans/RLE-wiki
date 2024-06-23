@@ -1,5 +1,5 @@
 ---
-title: 防护
+title: 安全防护
 icon: creative
 category:
   - personal-safety
