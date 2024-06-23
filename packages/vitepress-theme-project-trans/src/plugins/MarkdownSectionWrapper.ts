@@ -1,7 +1,6 @@
-import { relative, resolve } from 'node:path'
+import { dirname, relative, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import type { Plugin } from 'vite'
-import path from 'path';
-import { fileURLToPath } from 'url';
 
 import {
   pathEndsWith,
@@ -118,8 +117,8 @@ export function MarkdownSectionWrapper(headerTransformers: ((frontmatter: string
       if (exclude(id, { helpers: { idEndsWith, idEquals, idStartsWith, pathEndsWith, pathEquals, pathStartsWith } }))
         return null
 
-      const frontmatter = (code.match(/(^---$(\s|\S)+?^---$)/m)?.[0] ?? null)
-      const text = code.replace(/(^---$(\s|\S)+?^---$)/m, '')
+      const frontmatter = (code.match(/(^---$([\s\S])+?^---$)/m)?.[0] ?? null)
+      const text = code.replace(/(^---$([\s\S])+?^---$)/m, '')
 
       const headers: string[] = headerTransformers.map(f => f(frontmatter, text, id))
       const footers: string[] = footerTransformers.map(f => f(frontmatter, text, id))
@@ -147,7 +146,7 @@ export function TemplateCopyrightInfo(_frontmatter: string | null, _text: string
 `
 }
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '../../')
 
 export function PageHeaderTemplate(_frontmatter: string | null, _text: string, id: string): string {
@@ -156,7 +155,7 @@ export function PageHeaderTemplate(_frontmatter: string | null, _text: string, i
 
   id = relative(ROOT, id)
 
-  if (id == 'index.md')
+  if (id === 'index.md')
     return ''
 
   return `

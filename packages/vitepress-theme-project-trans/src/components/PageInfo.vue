@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
-import { computed, onMounted, ref, watchEffect } from 'vue';
+import { computed, onMounted, ref, watchEffect } from 'vue'
 
-const { frontmatter, page, theme, lang  } = useData()
+const { frontmatter, page, theme, lang } = useData()
 
 const date = computed(
-  () => new Date(frontmatter.value.lastUpdated ?? page.value.lastUpdated)
+  () => new Date(frontmatter.value.lastUpdated ?? page.value.lastUpdated),
 )
 const isoDatetime = computed(() => date.value.toISOString())
 
@@ -17,8 +17,8 @@ onMounted(() => {
       theme.value.lastUpdated?.formatOptions?.forceLocale ? lang.value : undefined,
       theme.value.lastUpdated?.formatOptions ?? {
         dateStyle: 'short',
-        timeStyle: 'short'
-      }
+        timeStyle: 'short',
+      },
     ).format(date.value)
   })
 })
@@ -33,16 +33,15 @@ const authors = computed(() => {
 
   return [...author, '匿名']
 })
-
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-4 mt-4 mb-10">
+  <div class="mb-10 mt-4 flex flex-wrap gap-4">
     <div class="inline-flex items-center gap-1">
       <span class="i-octicon:person" />
       <span>作者:</span>
       <span class="space-x-2">
-        <span v-for="author of authors">
+        <span v-for="(author, index) in authors" :key="index">
           {{ author }}
         </span>
       </span>
