@@ -16,6 +16,7 @@ import {
 import {
   NolebaseGitChangelogPlugin,
 } from '@nolebase/vitepress-plugin-git-changelog/client'
+import type Options from 'vitepress-sidebar'
 import AppearanceToggle from './components/AppearanceToggle.vue'
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
@@ -23,6 +24,8 @@ import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 
 import AppFooter from './components/AppFooter.vue'
+
+export type SidebarOptions = Options
 
 export default {
   extends: DefaultTheme,

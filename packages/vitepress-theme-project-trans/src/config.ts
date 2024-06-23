@@ -1,16 +1,25 @@
 import { readFileSync, statSync } from 'node:fs'
-import { join } from 'node:path'
-import { defineConfig } from 'vitepress'
-import mdPangu from 'markdown-it-pangu'
-import katex from 'markdown-it-katex'
+import { join, resolve } from 'node:path'
+import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import {
+  MarkdownSectionWrapper,
+  PageHeaderTemplate,
+  TemplateCopyrightInfo,
+} from '@project-trans/vitepress-theme-project-trans/plugins/MarkdownSectionWrapper'
 import footnote from 'markdown-it-footnote'
+import katex from 'markdown-it-katex'
+import mdPangu from 'markdown-it-pangu'
+import UnoCSS from 'unocss/vite'
+import Components from 'unplugin-vue-components/vite'
+import { defineConfig } from 'vitepress'
 import { generateSidebar } from './sidebar'
 import { useThemeContext } from './utils/themeContext'
 
 // https://vitepress.dev/reference/site-config
 function genConfig() {
   const themeConfig = useThemeContext()
-  const { siteTitle, siteDescription, githubRepoLink, rootDir, nav } = themeConfig
+  const { siteTitle, siteDescription, githubRepoLink, rootDir, nav }
+    = themeConfig
   return defineConfig({
     lang: 'zh-CN',
     title: siteTitle,
@@ -251,6 +260,65 @@ function genConfig() {
       ])
 
       return head
+    },
+    vite: {
+      plugins: [
+        MarkdownSectionWrapper(
+          [PageHeaderTemplate, TemplateCopyrightInfo],
+          [],
+          {
+            excludes: [],
+            exclude: (_, { helpers }): boolean => {
+              if (helpers.idEquals('index.md'))
+                return true
+
+              return false
+            },
+          },
+        ),
+        GitChangelog({
+          repoURL: githubRepoLink,
+          maxGitLogCount: 1000,
+          rewritePaths: {
+            'docs/': '',
+          },
+        }),
+        // GitChangelogMarkdownSection({
+        //   sections: {
+        //     disableChangelog: false,
+        //     disableContributors: true,
+        //   },
+        //   getChangelogTitle: (): string => {
+        //     return '文件历史'
+        //   },
+        //   excludes: [],
+        //   exclude: (_, { helpers }): boolean => {
+        //     if (helpers.idEquals('index.md'))
+        //       return true
+
+        //     return false
+        //   },
+        // }),
+        Components({
+          dirs: [
+            'docs/.vitepress/theme/components',
+            resolve(
+              typeof __dirname === 'string' ? __dirname : import.meta.dirname,
+              './components',
+            ),
+          ],
+          include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
+          dts: './.vitepress/components.d.ts',
+          transformer: 'vue3',
+        }),
+        UnoCSS(),
+      ],
+      ssr: {
+        noExternal: [
+          '@nolebase/vitepress-plugin-enhanced-readabilities',
+          '@nolebase/vitepress-plugin-highlight-targeted-heading',
+        ],
+      },
     },
   })
 }

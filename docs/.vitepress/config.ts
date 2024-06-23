@@ -1,7 +1,7 @@
 import genConfig from '@project-trans/vitepress-theme-project-trans/config'
+import type { SidebarOptions } from '@project-trans/vitepress-theme-project-trans/theme'
 import type { ThemeContext } from '@project-trans/vitepress-theme-project-trans/utils'
 import { withThemeContext } from '@project-trans/vitepress-theme-project-trans/utils'
-import type Options from 'vitepress-sidebar'
 import type { DefaultTheme } from 'vitepress'
 
 type NavConfig = DefaultTheme.Config['nav']
@@ -49,7 +49,7 @@ const baseConfig = {
   excludeFilesByFrontmatter: true,
   collapsed: true,
   documentRootPath: '/docs',
-} satisfies Partial<Options>
+} satisfies Partial<SidebarOptions>
 
 const sidebarOptions = [
   // 大学指南
