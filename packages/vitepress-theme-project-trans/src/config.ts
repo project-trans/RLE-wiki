@@ -278,10 +278,6 @@ function genConfig() {
         ),
         GitChangelog({
           repoURL: githubRepoLink,
-          maxGitLogCount: 1000,
-          rewritePaths: {
-            'docs/': '',
-          },
         }),
         // GitChangelogMarkdownSection({
         //   sections: {
@@ -303,7 +299,9 @@ function genConfig() {
           dirs: [
             'docs/.vitepress/theme/components',
             resolve(
-              typeof __dirname === 'string' ? __dirname : import.meta.dirname,
+              typeof import.meta?.dirname === 'string'
+                ? import.meta.dirname
+                : __dirname,
               './components',
             ),
           ],
