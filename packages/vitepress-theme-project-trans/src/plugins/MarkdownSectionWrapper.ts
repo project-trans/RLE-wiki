@@ -1,11 +1,12 @@
-import { resolve, relative } from 'node:path'
+import { dirname, relative, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import type { Plugin } from 'vite'
 
 import {
   pathEndsWith,
   pathEquals,
   pathStartsWith,
-} from '../path'
+} from '../utils/path'
 
 interface Context {
   helpers: {
@@ -79,7 +80,7 @@ export interface MarkdownSectionWrapperOptions {
   exclude?: (id: string, context: Context) => boolean
 }
 
-export function MarkdownSectionWrapper(headerTransformers: ((frontmatter: string|null, text: string, id: string) => string)[], footerTransformers: ((frontmatter: string|null, text: string, id: string) => string)[], options?: MarkdownSectionWrapperOptions): Plugin {
+export function MarkdownSectionWrapper(headerTransformers: ((frontmatter: string | null, text: string, id: string) => string)[], footerTransformers: ((frontmatter: string | null, text: string, id: string) => string)[], options?: MarkdownSectionWrapperOptions): Plugin {
   const {
     excludes = ['index.md'],
     exclude = () => false,
@@ -116,18 +117,18 @@ export function MarkdownSectionWrapper(headerTransformers: ((frontmatter: string
       if (exclude(id, { helpers: { idEndsWith, idEquals, idStartsWith, pathEndsWith, pathEquals, pathStartsWith } }))
         return null
 
-      let frontmatter = (code.match(/(^---$(\s|\S)+?^---$)/m)?.[0] ?? null)
-      let text = code.replace(/(^---$(\s|\S)+?^---$)/m, '')
+      const frontmatter = (code.match(/(^---$([\s\S])+?^---$)/m)?.[0] ?? null)
+      const text = code.replace(/(^---$([\s\S])+?^---$)/m, '')
 
-      let headers: string[] = headerTransformers.map(f => f(frontmatter, text, id))
-      let footers: string[] = footerTransformers.map(f => f(frontmatter, text, id))
+      const headers: string[] = headerTransformers.map(f => f(frontmatter, text, id))
+      const footers: string[] = footerTransformers.map(f => f(frontmatter, text, id))
 
-      return [frontmatter, ...headers, text, ...footers].join("")
+      return [frontmatter, ...headers, text, ...footers].join('')
     },
   }
 }
 
-export function TemplateAppSBox(_frontmatter: string|null, _text: string, _id: string): string {
+export function TemplateAppSBox(_frontmatter: string | null, _text: string, _id: string): string {
   return `
 
 ## 意见反馈
@@ -137,7 +138,7 @@ export function TemplateAppSBox(_frontmatter: string|null, _text: string, _id: s
 `
 }
 
-export function TemplateCopyrightInfo(_frontmatter: string|null, _text: string, _id: string): string {
+export function TemplateCopyrightInfo(_frontmatter: string | null, _text: string, _id: string): string {
   return `
 
 <CopyrightInfo />
@@ -145,21 +146,23 @@ export function TemplateCopyrightInfo(_frontmatter: string|null, _text: string, 
 `
 }
 
+const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '../../')
 
-export function PageHeaderTemplate(_frontmatter: string|null, _text: string, id: string): string {
+export function PageHeaderTemplate(_frontmatter: string | null, _text: string, id: string): string {
   if (!id.endsWith('.md'))
     return ''
 
   id = relative(ROOT, id)
 
-  if (id == 'index.md')
+  if (id === 'index.md')
     return ''
 
   return `
-  
+
 # {{ $frontmatter.title }}
 
 <PageInfo />
 
-`}
+`
+}
