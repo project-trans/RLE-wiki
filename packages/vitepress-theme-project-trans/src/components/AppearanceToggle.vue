@@ -1,16 +1,17 @@
-
 <script setup lang="ts">
 import { useData } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import { nextTick, provide, onMounted } from 'vue'
+import { nextTick, provide } from 'vue'
 
 const { isDark } = useData()
 
 const isSSR = typeof window === 'undefined'
 
-const enableTransitions = () => isSSR ? false :
-  'startViewTransition' in document &&
-  window.matchMedia('(prefers-reduced-motion: no-preference)').matches
+function enableTransitions() {
+  return isSSR
+    ? false
+    : 'startViewTransition' in document
+    && window.matchMedia('(prefers-reduced-motion: no-preference)').matches
+}
 
 provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   if (!enableTransitions()) {
@@ -18,16 +19,15 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     return
   }
 
-  if (!document.documentElement.classList.contains('VPSwitchAppearance-ViewTransition')) {
+  if (!document.documentElement.classList.contains('VPSwitchAppearance-ViewTransition'))
     document.documentElement.classList.add('VPSwitchAppearance-ViewTransition')
-  }
 
   const clipPath = [
     `circle(0px at ${x}px ${y}px)`,
     `circle(${Math.hypot(
       Math.max(x, innerWidth - x),
-      Math.max(y, innerHeight - y)
-    )}px at ${x}px ${y}px)`
+      Math.max(y, innerHeight - y),
+    )}px at ${x}px ${y}px)`,
   ]
 
   await (document as any).startViewTransition(async () => {
@@ -40,8 +40,8 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     {
       duration: 500,
       easing: 'ease-in',
-      pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`
-    }
+      pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`,
+    },
   )
 })
 </script>
