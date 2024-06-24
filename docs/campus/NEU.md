@@ -2,7 +2,8 @@
 title: 东北大学
 author: 
   - 吃糖的系统分析师
-  - SirnoChan 等
+  - SirnoChan
+  - 等
 ---
 
 ::: warning
