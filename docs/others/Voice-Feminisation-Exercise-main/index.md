@@ -22,4 +22,4 @@ copyright:
 <p align="right">Catherina Grace</p>
 <p align="right">—— 2024.6.30</p>
 
-**提问, 反馈**: <CatherinaGrace102@gamil.com>
+**提问, 反馈**: <CatherinaGrace102@gmail.com>
