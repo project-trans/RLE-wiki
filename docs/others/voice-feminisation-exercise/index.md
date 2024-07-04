@@ -23,6 +23,4 @@ copyright:
 <p align="right">Catherina Grace</p>
 <p align="right">—— 2024.6.30</p>
 
-[查看文档](./嗓音女性化练习.md)
-
 **提问, 反馈**: <CatherinaGrace102@gmail.com>
