@@ -25,4 +25,4 @@ copyright:
 
 [查看文档](./嗓音女性化练习.md)
 
-**提问, 反馈**: <CatherinaGrace102@gamil.com>
+**提问, 反馈**: <CatherinaGrace102@gmail.com>
