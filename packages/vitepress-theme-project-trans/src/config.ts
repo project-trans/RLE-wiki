@@ -2,6 +2,7 @@ import { readFileSync, statSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
 import {
   MarkdownSectionWrapper,
   PageHeaderTemplate,
@@ -19,7 +20,7 @@ import { useThemeContext } from './utils/themeContext'
 // https://vitepress.dev/reference/site-config
 function genConfig() {
   const themeConfig = useThemeContext()
-  const { siteTitle, siteDescription, githubRepoLink, rootDir, nav }
+  const { siteTitle, githubRepoLink, nav }
     = themeConfig
   return defineConfig({
     lang: 'zh-CN',
@@ -122,143 +123,12 @@ function genConfig() {
         },
       },
     },
-    transformHead: (context) => {
-      const head = [...context.head] || []
+    transformHead: async (context) => {
+      let head = [...context.head]
 
-      const pageSourceFilePath = join(rootDir, context.pageData.filePath)
-      const pageSourceFileStat = statSync(
-        join(rootDir, context.pageData.filePath),
-      )
-
-      if (pageSourceFileStat.isDirectory()) {
-        head.push([
-          'meta',
-          {
-            property: 'og:title',
-            content: siteTitle,
-          },
-        ])
-
-        head.push([
-          'meta',
-          {
-            name: 'description',
-            content: siteDescription,
-          },
-        ])
-
-        return head
-      }
-
-      let pageSourceFileContent = readFileSync(pageSourceFilePath, {
-        encoding: 'utf-8',
-      })
-
-      // remove all frontmatter
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /---[\s\S]*?---/,
-        '',
-      )
-
-      // remove markdown heading markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /^(#+)\s+(.*)/gm,
-        ' $2 ',
-      )
-      // remove markdown link markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /\[([^\]]+)\]\([^)]+\)/gm,
-        ' $1 ',
-      )
-      // remove markdown image markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /\!\[([^\]]+)\]\([^)]+\)/gm,
-        ' $1 ',
-      )
-      // remove markdown reference link markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(/\[.*]/gm, '')
-      // remove markdown bold markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /\*\*([^*]+)\*\*/gm,
-        ' $1 ',
-      )
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /__([^*]+)__/gm,
-        ' $1 ',
-      )
-      // remove markdown italic markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /\*([^*]+)\*/gm,
-        ' $1 ',
-      )
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /_([^*]+)_/gm,
-        ' $1 ',
-      )
-      // remove markdown code markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /`([^`]+)`/gm,
-        ' $1 ',
-      )
-      // remove markdown code block markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /```([^`]+)```/gm,
-        ' $1 ',
-      )
-      // remove markdown table header markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(/\|:?-+:?\|/gm, '')
-      // remove markdown table cell markup but keep the text content
-      pageSourceFileContent = pageSourceFileContent.replace(
-        /\|([^|]+)\|/gm,
-        ' $1 ',
-      )
-
-      // remove specific html tags completely
-      const tags = ['']
-      tags.forEach((tag) => {
-        pageSourceFileContent = pageSourceFileContent.replace(
-          new RegExp(`<${tag}[^>]*>[\\s\\S]*?<\\/${tag}>`, 'g'),
-          '',
-        )
-      })
-
-      // remove specific html tags but keep the text content
-      const tagsToKeepContent = ['u', 'Containers', 'img', 'a']
-      tagsToKeepContent.forEach((tag) => {
-        pageSourceFileContent = pageSourceFileContent.replace(
-          new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'g'),
-          ' $1 ',
-        )
-      })
-
-      // remove all new lines (either \r, \n)
-      pageSourceFileContent = pageSourceFileContent.replace(/[\r|\n]/gm, '')
-
-      // calculate the first 200 characters of the page content
-      let pageContent = pageSourceFileContent.slice(0, 200)
-      // trim space
-      pageContent = pageContent.trim()
-      // if pageSourceFileContent is longer than 200 characters, add ellipsis
-      if (pageSourceFileContent.length > 100)
-        pageContent += '...'
-
-      if (context.pageData.frontmatter?.layout === 'home') {
-        pageContent
-          = context.pageData.frontmatter?.hero?.tagline ?? siteDescription
-      }
-
-      head.push(['meta', { name: 'description', content: pageContent }])
-
-      head.push(['meta', { property: 'og:title', content: context.title }])
-
-      head.push(['meta', { property: 'og:description', content: pageContent }])
-
-      head.push(['meta', { property: 'og:title', content: context.title }])
-
-      head.push([
-        'meta',
-        { property: 'twitter:description', content: pageContent },
-      ])
+      const returnedHead = await transformHeadMeta()(head, context)
+      if (typeof returnedHead !== 'undefined')
+        head = returnedHead
 
       return head
     },
