@@ -1,0 +1,19 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - antfu
+  - astro
+  - Attributify
+  - iconify
+  - katex
+  - nolebase
+  - octicon
+  - pangu
+  - pjts
+  - unocss
+  - unplugin
+  - vitepress
+ignoreWords: []
+import: []
