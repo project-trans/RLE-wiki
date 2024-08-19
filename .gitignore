@@ -38,3 +38,5 @@ coverage/
 .wrangler
 
 .idea
+
+components.d.ts
