@@ -2,7 +2,7 @@
   "name": "rle-wiki",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.2.0",
+  "packageManager": "pnpm@9.9.0",
   "description": "RLE 指北",
   "license": "CC-BY-SA-4.0",
   "scripts": {
