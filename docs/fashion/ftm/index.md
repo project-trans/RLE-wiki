@@ -1,8 +1,5 @@
 ---
 title: 男性倾向跨性别者的 RLE
-author: 航
-copyright:
-  enable: true
 ---
 
 :::info
@@ -30,7 +27,3 @@ RLE与其他性别肯定步骤是一定程度上相辅相成的--HRT会让您更
 在这里，我们对**穿搭、出行以及日常生活**等各个方面列出可供参考的指引。
 
 对于正在挑选对跨性别相对环境友好、便于RLE的大陆高校的兄弟，请见 [校园指南](https://rle.wiki/campus/)
-
-## 文章目录
-
-<ArticlesMenu />
