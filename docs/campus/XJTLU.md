@@ -1,6 +1,9 @@
 ---
 title: 西交利物浦大学
-author: anyuzu99 Catherina等
+author: 
+ - anyuzu99
+ - Catherina
+ - 等
 ---
 
 |项目|情况|
