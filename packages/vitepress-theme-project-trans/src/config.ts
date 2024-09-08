@@ -102,9 +102,16 @@ function genConfig() {
                 modal: {
                   noResultsText: '无法找到相关结果',
                   resetButtonTitle: '清除查询条件',
+                  displayDetails: '显示详细列表',
                   footer: {
                     selectText: '选择',
                     navigateText: '切换',
+                    closeText: '关闭',
+                    // 无障碍（ARIA）标签，用于描述键盘导航操作
+                    navigateUpKeyAriaLabel: '上箭头',
+                    navigateDownKeyAriaLabel: '下箭头',
+                    selectKeyAriaLabel: '回车',
+                    closeKeyAriaLabel: '退出'
                   },
                 },
               },
