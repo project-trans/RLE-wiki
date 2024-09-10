@@ -38,5 +38,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }} # Cloudflare Pages API Token
           accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }} # Cloudflare 账户 ID
-          projectName: study-wiki # Cloudflare Pages 项目名称
+          projectName: rle-wiki # Cloudflare Pages 项目名称
           directory: docs/.vitepress/dist # 构建输出目录
