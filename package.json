@@ -33,8 +33,7 @@
     "vite": "^5.3.1",
     "vitepress": "^1.2.3",
     "vitepress-sidebar": "^1.23.2",
-    "vue": "^3.4.30",
-    "wrangler": "^3.61.0"
+    "vue": "^3.4.30"
   },
   "pnpm": {
     "overrides": {
