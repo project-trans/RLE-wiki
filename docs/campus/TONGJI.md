@@ -88,5 +88,4 @@ author:
 
 #### yueran
 
-- QQ：1900907250
-- 微信：yueranMTF1128
+- QQ群：897327567
