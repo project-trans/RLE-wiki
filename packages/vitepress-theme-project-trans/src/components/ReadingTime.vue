@@ -1,12 +1,6 @@
-<template>
-  <div v-if="isLoaded" :key="componentKey">
-    <p>字数: {{ wordCount }} &nbsp; 预计阅读时间: {{ readingTime }} 分钟</p>
-  </div>
-</template>
-
 <script setup lang="ts">
-import { ref, onMounted, watch, nextTick } from 'vue'
 import { useRoute } from 'vitepress'
+import { nextTick, ref, watch } from 'vue'
 
 // 获取路由信息
 const route = useRoute()
@@ -21,11 +15,11 @@ const isLoaded = ref(false) // 控制是否加载完成
 function calculateReadingTime(content: string) {
   const wordsPerMinute = 500 // 假设中文阅读速度为每分钟500字
 
-  //定义一个误差值，因为实际字数比读取出的字数约少77个字
+  // 定义一个误差值，因为实际字数比读取出的字数约少77个字
   const wordCountOffset = 77
 
-  const chineseText = content.replace(/<[^>]*>|[^\u4e00-\u9fa5]/g, '') // 去除 HTML 标签和非中文字符
-  const wordCount = (chineseText.length - wordCountOffset)  // 计算中文字符数
+  const chineseText = content.replace(/<[^>]*>|[^\u4E00-\u9FA5]/g, '') // 去除 HTML 标签和非中文字符
+  const wordCount = (chineseText.length - wordCountOffset) // 计算中文字符数
   const readingTime = Math.ceil(wordCount / wordsPerMinute) // 计算预计阅读时间
   return { wordCount, readingTime }
 }
@@ -34,7 +28,7 @@ function calculateReadingTime(content: string) {
 function updateReadingTime() {
   const contentElement = document.querySelector('.VPContent') // 获取文档内容的 DOM 元素
   if (contentElement) {
-    const content = contentElement.innerText || '' // 获取纯文本内容
+    const content = contentElement.textContent || '' // 获取纯文本内容
     const { wordCount: wc, readingTime: rt } = calculateReadingTime(content)
     wordCount.value = wc
     readingTime.value = rt
@@ -51,16 +45,17 @@ function initialize() {
   })
 }
 
-// 在页面挂载后执行初始化
-onMounted(() => {
-  initialize()
-})
-
 // 监听路由变化，执行初始化
 watch(route, () => {
   initialize()
-})
+}, { immediate: true })
 </script>
+
+<template>
+  <div v-if="isLoaded" :key="componentKey">
+    <p>字数: {{ wordCount }} &nbsp; 预计阅读时间: {{ readingTime }} 分钟</p>
+  </div>
+</template>
 
 <style scoped>
 /* 这里可以添加样式 */
