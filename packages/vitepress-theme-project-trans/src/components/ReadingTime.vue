@@ -25,7 +25,7 @@ function calculateReadingTime(content: string) {
   const wordCountOffset = 77
 
   const chineseText = content.replace(/<[^>]*>|[^\u4e00-\u9fa5]/g, '') // 去除 HTML 标签和非中文字符
-  const wordCount = (chineseText.length - wordCountOffset)
+  const wordCount = (chineseText.length - wordCountOffset)  // 计算中文字符数
   const readingTime = Math.ceil(wordCount / wordsPerMinute) // 计算预计阅读时间
   return { wordCount, readingTime }
 }
