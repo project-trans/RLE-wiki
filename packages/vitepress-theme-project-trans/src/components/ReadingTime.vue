@@ -20,8 +20,12 @@ const isLoaded = ref(false) // 控制是否加载完成
 // 计算字数和预计阅读时间的函数
 function calculateReadingTime(content: string) {
   const wordsPerMinute = 500 // 假设中文阅读速度为每分钟500字
+
+  //定义一个误差值，因为实际字数比读取出的字数约少77个字
+  const wordCountOffset = 77
+
   const chineseText = content.replace(/<[^>]*>|[^\u4e00-\u9fa5]/g, '') // 去除 HTML 标签和非中文字符
-  const wordCount = (chineseText.length - 77) // 使用中文字符数 - 77 作为字数统计（测过了，减77的误差在可接受范围内）
+  const wordCount = (chineseText.length - wordCountOffset)
   const readingTime = Math.ceil(wordCount / wordsPerMinute) // 计算预计阅读时间
   return { wordCount, readingTime }
 }
