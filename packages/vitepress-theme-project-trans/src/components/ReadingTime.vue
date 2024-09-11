@@ -19,7 +19,7 @@ function calculateReadingTime(content: string) {
   const wordCountOffset = 77
 
   const chineseText = content.replace(/<[^>]*>|[^\u4E00-\u9FA5]/g, '') // 去除 HTML 标签和非中文字符
-  const wordCount = (chineseText.length - wordCountOffset) // 计算中文字符数
+  const wordCount = chineseText.length - wordCountOffset // 计算中文字符数
   const readingTime = Math.ceil(wordCount / wordsPerMinute) // 计算预计阅读时间
   return { wordCount, readingTime }
 }
@@ -39,16 +39,20 @@ function updateReadingTime() {
 function initialize() {
   isLoaded.value = false // 重置加载状态
   componentKey.value += 1
-  nextTick(() => {
+  nextTick().then(() => {
     updateReadingTime()
     isLoaded.value = true // 设置加载完成
   })
 }
 
 // 监听路由变化，执行初始化
-watch(route, () => {
-  initialize()
-}, { immediate: true })
+watch(
+  route,
+  () => {
+    initialize()
+  },
+  { immediate: true },
+)
 </script>
 
 <template>

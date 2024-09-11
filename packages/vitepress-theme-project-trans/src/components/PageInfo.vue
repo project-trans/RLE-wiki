@@ -43,8 +43,9 @@ const authors = computed(() => {
 const displayAuthors = computed(() => {
   if (authors.value.length === 0) {
     return '匿名'
-  } else {
-    return authors.value.join(', ') + ' 等'
+  }
+  else {
+    return `${authors.value.join(', ')} 等`
   }
 })
 </script>
@@ -62,7 +63,8 @@ const displayAuthors = computed(() => {
       <span>{{ theme.lastUpdated?.text || 'Last updated' }}:</span>
       <time :datetime="isoDatetime">{{ datetime }}</time>
     </div>
-
-    <ReadingTime /> <!-- 添加 ReadingTime 组件 -->
+    <ClientOnly>
+      <ReadingTime /> <!-- 添加 ReadingTime 组件 -->
+    </ClientOnly>
   </div>
 </template>
