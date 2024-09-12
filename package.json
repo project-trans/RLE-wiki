@@ -40,5 +40,8 @@
     "overrides": {
       "hasown": "npm:@nolyfill/hasown@latest"
     }
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
   }
 }
