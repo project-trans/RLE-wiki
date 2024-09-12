@@ -5,6 +5,7 @@ import ArticlesMenu from './ArticlesMenu.vue'
 import CopyrightInfo from './CopyrightInfo.vue'
 import HomeContent from './HomeContent.vue'
 import PageInfo from './PageInfo.vue'
+import ReadingTime from './ReadingTime.vue'
 
 
 export {
@@ -14,5 +15,6 @@ export {
   ArticlesMenu,
   CopyrightInfo,
   HomeContent,
-  PageInfo
+  PageInfo,
+  ReadingTime
 }
