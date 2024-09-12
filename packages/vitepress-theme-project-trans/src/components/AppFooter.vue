@@ -21,7 +21,7 @@ const updateKeyAndFrontmatter = () => {
 watch(() => route.path, () => {
   isFrontmatterLoaded.value = false;
   updateKeyAndFrontmatter();
-}, { immediate: true });
+}, { immediate: true }); // 在组件挂载时立即执行一次，确保第一次渲染时 key 和 frontmatter 是正确的
 
 // 在组件挂载时更新 key 和 frontmatter
 // onMounted(updateKeyAndFrontmatter);
