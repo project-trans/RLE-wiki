@@ -52,26 +52,31 @@ const baseConfig = {
 } satisfies Partial<SidebarOptions>
 
 const sidebarOptions = [
+  // 大学指南
   {
     ...baseConfig,
     scanStartPath: 'campus',
     resolvePath: '/campus/',
   },
+  // 贡献指南
   {
     ...baseConfig,
     scanStartPath: 'contributor-guide',
     resolvePath: '/contributor-guide/',
   },
+  // 时尚护理
   {
     ...baseConfig,
     scanStartPath: 'fashion',
     resolvePath: '/fashion/',
   },
+  // 安全防护
   {
     ...baseConfig,
     scanStartPath: 'personal-safety',
     resolvePath: '/personal-safety/',
   },
+  // 其它
   {
     ...baseConfig,
     scanStartPath: 'others',
@@ -82,11 +87,15 @@ const sidebarOptions = [
 const themeConfig: ThemeContext = {
   siteTitle: 'RLE.wiki',
   siteDescription: '一份 RLE 指北',
+  /** Repo */
   githubRepoLink: 'https://github.com/project-trans/RLE-wiki',
+  /** vitepress 根目录 */
   rootDir: 'docs',
+  /** 文档所在目录（目前似未使用此项） */
   include: ['campus', 'contributor-guide', 'fashion'],
   nav,
   sidebarOptions,
 }
 
+// https://vitepress.dev/reference/site-config
 export default withThemeContext(themeConfig, genConfig)
