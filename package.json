@@ -6,7 +6,6 @@
   "description": "RLE 指北",
   "license": "CC-BY-SA-4.0",
   "scripts": {
-    "prebuild": "node insert-word-count.js",
     "dev": "vitepress dev docs",
     "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
     "build": "vitepress build docs",
@@ -41,8 +40,5 @@
     "overrides": {
       "hasown": "npm:@nolyfill/hasown@latest"
     }
-  },
-  "dependencies": {
-    "gray-matter": "^4.0.3"
   }
 }

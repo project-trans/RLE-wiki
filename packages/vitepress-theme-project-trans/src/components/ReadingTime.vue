@@ -1,22 +1,26 @@
 <script setup lang="ts">
-import { computed } from 'vue'
 import { useData } from 'vitepress'
 
-// 使用 VitePress 的 useData 获取当前页面的 Frontmatter
+// 获取页面数据
 const { frontmatter } = useData()
 
-// 获取 Frontmatter 中的字数 (wordCount)
-const wordCount = computed(() => frontmatter.value.wordCount || 0)
+// 计算阅读时间的函数
+function calculateReadingTime(wordCount: number) {
+  const wordsPerMinute = 500 // 假设中文阅读速度为每分钟500字
+  return Math.ceil(wordCount / wordsPerMinute) // 计算预计阅读时间
+}
 
-// 每分钟阅读速度，假设 500 字每分钟
-const wordsPerMinute = 500
-
-// 根据字数计算预计阅读时间，最少为 1 分钟
-const readingTime = computed(() => Math.max(Math.ceil(wordCount.value / wordsPerMinute), 1))
+// 从 frontmatter 获取字数和计算阅读时间
+const wordCount = frontmatter.value.wordCount || 0
+const readingTime = calculateReadingTime(wordCount)
 </script>
 
 <template>
-  <div v-if="wordCount > 0">
-    字数: {{ wordCount }} &nbsp; 预计阅读时间: {{ readingTime }} 分钟
+  <div>
+    <p>字数: {{ wordCount }} &nbsp; 预计阅读时间: {{ readingTime }} 分钟</p>
   </div>
 </template>
+
+<style scoped>
+/* 这里可以添加样式 */
+</style>
