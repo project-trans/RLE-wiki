@@ -8,39 +8,43 @@ type NavConfig = DefaultTheme.Config['nav']
 
 const nav: NavConfig = [
   {
-    text: '大学指南',
-    link: '/campus/',
+    text: "大学指南",
+    link: "/campus/",
   },
   {
-    text: '时尚护理',
-    link: '/fashion/',
+    text: "时尚护理",
+    link: "/fashion/",
   },
   {
-    text: '安全防护',
-    link: '/personal-safety/',
+    text: "安全防护",
+    link: "/personal-safety/",
   },
   {
-    text: '其它',
-    link: '/others/',
+    text: "志愿填报",
+    link: "/admission/",
   },
   {
-    text: '贡献指南',
+    text: "其它",
+    link: "/others/",
+  },
+  {
+    text: "贡献指南",
     items: [
       {
-        text: '校园版块投稿指南',
-        link: '/contributor-guide/campus.md',
+        text: "校园版块投稿指南",
+        link: "/contributor-guide/campus.md",
       },
       {
-        text: '其他投稿指南',
-        link: '/contributor-guide/other.md',
+        text: "其他投稿指南",
+        link: "/contributor-guide/other.md",
       },
       {
-        text: '校园版块贡献模板',
-        link: '/contributor-guide/CampusTemplate.md',
+        text: "校园版块贡献模板",
+        link: "/contributor-guide/CampusTemplate.md",
       },
     ],
   },
-]
+];
 
 const baseConfig = {
   useTitleFromFrontmatter: true,
@@ -55,34 +59,40 @@ const sidebarOptions = [
   // 大学指南
   {
     ...baseConfig,
-    scanStartPath: 'campus',
-    resolvePath: '/campus/',
+    scanStartPath: "campus",
+    resolvePath: "/campus/",
   },
   // 贡献指南
   {
     ...baseConfig,
-    scanStartPath: 'contributor-guide',
-    resolvePath: '/contributor-guide/',
+    scanStartPath: "contributor-guide",
+    resolvePath: "/contributor-guide/",
   },
   // 时尚护理
   {
     ...baseConfig,
-    scanStartPath: 'fashion',
-    resolvePath: '/fashion/',
+    scanStartPath: "fashion",
+    resolvePath: "/fashion/",
   },
   // 安全防护
   {
     ...baseConfig,
-    scanStartPath: 'personal-safety',
-    resolvePath: '/personal-safety/',
+    scanStartPath: "personal-safety",
+    resolvePath: "/personal-safety/",
+  },
+  // 志愿填报
+  {
+    ...baseConfig,
+    scanStartPath: "admission",
+    resolvePath: "/admission/",
   },
   // 其它
   {
     ...baseConfig,
-    scanStartPath: 'others',
-    resolvePath: '/others/',
+    scanStartPath: "others",
+    resolvePath: "/others/",
   },
-]
+];
 
 const themeConfig: ThemeContext = {
   siteTitle: 'RLE.wiki',
