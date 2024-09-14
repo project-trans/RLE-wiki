@@ -4,7 +4,7 @@ title: 芬兰
 
 ## 跨性别相关政策与资源
 
-关于在申请居留许可前后与到达后的一些细节，此处有 [文章](/zh-hans/posts/starter-package-finland/) 可供参考。
+关于在申请居留许可前后与到达后的一些细节，此处有 [文章](experiences/finalnd_start) 可供参考。
 
 ### 政策
 
