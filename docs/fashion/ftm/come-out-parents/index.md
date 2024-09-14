@@ -1,6 +1,6 @@
 ---
 title: 如何向你的家长出柜？
-tags: [ComeOut]
+author: 航
 ---
 
 ::: tip 为什么出柜
@@ -21,7 +21,7 @@ tags: [ComeOut]
 
 北京同志中心（现北同文化）跨儿出柜手册：本手册仅适用于年满 16 周岁及以上的跨性别者及性别酷儿。
 
-[中国跨性别出柜指南 v1.3.2.pdf](guide.pdf)
+[中国跨性别出柜指南 v1.3.2.pdf](/resources/guide.pdf)
 
 ## 出柜前
 

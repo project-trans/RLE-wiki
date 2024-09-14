@@ -1,5 +1,6 @@
 ---
 title: 发型
+author: 航
 ---
 
 通常来说，发型是 RLE 的一部分。
@@ -34,9 +35,9 @@ title: 发型
 
 接下来为大家上一些展示图 后面两张是作者Finn
 
-[Quiff1](figure/quiff-1.jpg)
+![Quiff1](figure/quiff-1.jpg)
 
-[Quiff2](figure/quiff-2.jpg)
+![Quiff2](figure/quiff-2.jpg)
 
 
 ### 侧背油头（[Side Back](https://www.google.com/search?tbm=isch&q=Side+Back+Hair)） {#side-back}

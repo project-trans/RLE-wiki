@@ -1,5 +1,6 @@
 ---
 title: 我是跨性别男性吗？
+author: 航
 ---
 
 ::: tip 跨性别者是什么
@@ -110,7 +111,7 @@ ICD-11 是「国际疾病分类第十一次修订本」的简称，于2019年第
 
 如果您正在寻找跨性别医疗援助，您或许需要了解[世界跨性别健康专业协会 （WPATH）](https://www.wpath.org/about/mission-and-vision)
 
-WPATH 提供了许多医疗机构（包括保险公司）在为跨性别者、性别不合格者提供医疗指导时使用的[护理标准](https://www.wpath.org/publications/soc)
+WPATH 提供了许多医疗机构（包括保险公司）在为跨性别者、性别不合格者提供医疗指导时使用的[护理标准](https://www.wpath.org/publications/soc) [链接补档](https://web.archive.org/web/20180401112524/https://www.wpath.org/publications/soc)
 
 它提供了深入的指导方针，不仅缓解性别焦虑，而且还在尊重的角度上关怀跨性别者与性别不合格者。
 
