@@ -114,6 +114,6 @@ BarberShop 也是集潮流文化，英伦商务风于一身的男士专属休闲
 
 喜欢长发的兄弟不必要为了贴合短发阳刚的男性刻板印象而放弃长发。
 
-![长发](figure/longhair.jpg)
+![长发](figure/LongHair.jpg)
 
 尽管长发可能会导致misgender，但不要因此太过焦虑 -- 长发顺男被misgender也是常有的事情。
