@@ -1,5 +1,6 @@
 ---
 title: 发型
+author: 航
 ---
 
 通常来说，发型是 RLE 的一部分。
@@ -32,15 +33,12 @@ title: 发型
 - 若想要发型完美，需要用发型产品（随后会介绍）
 - 最后可以叫理发师帮你修整一下发际线与鬓角，显得更加精神
 
-<!--
+接下来为大家上一些展示图 后面两张是作者Finn
 
-TODO
+![Quiff1](figure/quiff-1.jpg)
 
-接下来为大家上一些展示图 后面两张是作者
+![Quiff2](figure/quiff-2.jpg)
 
-{{< gallery pattern="figure/quiff-*.jpg" fit="400x400" >}}
-
--->
 
 ### 侧背油头（[Side Back](https://www.google.com/search?tbm=isch&q=Side+Back+Hair)） {#side-back}
 
@@ -52,13 +50,7 @@ TODO
 - 记得要修鬓角和发际线
 - 剪此发型，需要**头发长度有 7cm 以上**，上不封顶
 
-<!--
-
-TODO
-
-{{< gallery pattern="figure/sideback-*.jpg" fit="400x400" >}}
-
--->
+![SideBack](figure/sideback-1.jpg)
 
 ### 寸头（[Buzz Cut](https://www.google.com/search?tbm=isch&q=Buzz+Cut+Hair)）{#buzz-cut}
 
@@ -69,15 +61,12 @@ TODO
 
 ![buzzcut](figure/buzzcut-1-1.jpg)
 
-剪寸头是一个挑战，但是你不剪永远不知道自己那么帅（以下两张为作者）
+剪寸头是一个挑战，但是你不剪永远不知道自己那么帅（以下两张为作者Finn）
 
-<!--
 
-TODO
+![buzzcut1](figure/buzzcut-2-1.jpg)
 
-{{< gallery pattern="figure/buzzcut-2-*.jpg" fit="400x400" >}}
-
--->
+![buzzcut2](figure/buzzcut-2-2.jpg)
 
 ### 中长发（[Medium Hair](https://www.google.com/search?tbm=isch&q=Medium+Hair+Men)） {#medium-hair}
 
@@ -110,7 +99,7 @@ BarberShop 目前的意思是男士专属理发店，但这只是字面的解释
 
 Barber Shop 擅长的是推剪和雕刻，salon 则专注于剪发和染发，这也就是两者最大的区别。
 
-### BarberShop 是否值得一试？ {#try-barbershop}
+#### BarberShop 是否值得一试？ {#try-barbershop}
 
 作者去过很多广州和上海不同风格的 BarberShop，里面的 Barber 都很热心店内装饰都很特别。
 
@@ -119,3 +108,13 @@ Barber Shop 擅长的是推剪和雕刻，salon 则专注于剪发和染发，�
 BarberShop 也是集潮流文化，英伦商务风于一身的男士专属休闲场所，除了理发外，还提供专业的修面，刮胡服务。
 
 是一个放松身心的绝佳去处。
+
+### 长发{# long-hair}
+
+长发男也是存在的，而且人数还不少。
+
+喜欢长发的兄弟不必要为了贴合短发阳刚的男性刻板印象而放弃长发。
+
+![长发](figure/LongHair.jpg)
+
+尽管长发可能会导致misgender，但不要因此太过焦虑 -- 长发顺男被misgender也是常有的事情。
