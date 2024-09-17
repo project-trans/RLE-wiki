@@ -1,6 +1,5 @@
 ---
 title: 武汉理工大学
-author: 匿名
 ---
 
 [武汉理工大学](https://www.whut.edu.cn)（Wuhan University of Technology，WUT） 是教育部直属全国重点大学，是首批列入国家“211 工程”和“双一流”建设高校，是教育部和交通运输部等部委共建高校。

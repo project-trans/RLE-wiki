@@ -1,9 +1,5 @@
 ---
 title: 合肥工业大学（宣城校区）
-author:
-  - 葱酱nya_
-  - 等
-order: 2
 ---
 
 |        项目        | 情况 |    备注    |
@@ -86,11 +82,4 @@ order: 2
 
 ## 投稿人联系方式
 
-可以访问我的[个人主页](https://snowmiku-home.top/contact)联系我！
-
-### 贡献者姓名
-
-#### @葱酱nya\_
-
-- QQ：1352218398
-- E-Mail：<1352218398@qq.com>
+- [Telegram](https://t.me/MMMIKU_18650)

@@ -1,10 +1,8 @@
 ---
 title: 苏州大学
-
-author: 
-- 山前
-- Celia
-- 等
+author:
+  - 山前
+  - Celia
 ---
 
 |项目|情况|

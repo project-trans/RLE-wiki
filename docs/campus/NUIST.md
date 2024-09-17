@@ -3,7 +3,6 @@ title: 南京信息工程大学
 author:
   - 凌莞
   - 北雁云依
-  - 等
 ---
 
 <div class="flex justify-center">
