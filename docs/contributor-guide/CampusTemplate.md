@@ -3,7 +3,6 @@ title: 校园版块贡献模板
 author:
   - 一作
   - 二作
-  - 等
 order: 2
 ---
 
