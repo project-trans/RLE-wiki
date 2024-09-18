@@ -1,8 +1,8 @@
 {
   "name": "@project-trans/vitepress-theme-project-trans",
   "type": "module",
-  "version": "1.0.0",
-  "description": "RLE 指北",
+  "version": "0.0.1",
+  "description": "A VitePress theme made with ❤️ by project-trans",
   "license": "MIT",
   "exports": {
     "./config": {
