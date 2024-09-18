@@ -1,9 +1,13 @@
 {
   "name": "@project-trans/vitepress-theme-project-trans",
   "type": "module",
-  "version": "1.0.0",
-  "description": "RLE 指北",
+  "version": "0.0.1",
+  "description": "A VitePress theme made with ❤️ by project-trans",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/project-trans/RLE-wiki"
+  },
   "exports": {
     "./config": {
       "types": "./dist/config.d.ts",
@@ -25,7 +29,11 @@
       "import": "./dist/plugins/MarkdownSectionWrapper.mjs",
       "require": "./dist/plugins/MarkdownSectionWrapper.js"
     },
-    "./components/*": "./dist/components/*"
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "import": "./dist/components.mjs",
+      "require": "./dist/components.js"
+    }
   },
   "main": "./dist/config.js",
   "module": "./dist/config.mjs",
