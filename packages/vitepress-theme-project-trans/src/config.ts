@@ -1,6 +1,8 @@
-import { readFileSync, statSync } from 'node:fs'
-import { dirname, join, resolve } from 'node:path'
+import fs from 'node:fs'
+import path, { dirname, resolve } from 'node:path'
+import process from 'node:process'
 import { fileURLToPath } from 'node:url'
+
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
 import {
@@ -14,18 +16,16 @@ import mdPangu from 'markdown-it-pangu'
 import UnoCSS from 'unocss/vite'
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vitepress'
+
 import { generateSidebar } from './sidebar'
 import { useThemeContext } from './utils/themeContext'
-
-import fs from 'fs';
-import path from 'path';
 
 // 从文件系统读取 Markdown 文件内容
 function readMarkdownFileContent(filePath: string): string {
   if (fs.existsSync(filePath)) {
-    return fs.readFileSync(filePath, 'utf-8');
+    return fs.readFileSync(filePath, 'utf-8')
   }
-  return '';
+  return ''
 }
 
 // 统计文档的字数函数
@@ -34,15 +34,15 @@ function countWords(content: string): number {
     .replace(/```[\s\S]*?```/g, '') // 移除代码块
     .replace(/!\[.*?\]\(.*?\)/g, '') // 移除图片链接
     .replace(/\[.*?\]\(.*?\)/g, '') // 移除普通链接
-    .replace(/<\/?[^>]+(>|$)/g, '') // 移除 HTML 标签
-    .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, '') // 移除标点符号
+    .replace(/<[^>]+(>|$)/g, '') // 移除 HTML 标签
+    .replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '') // 移除标点符号
     .replace(/\s+/g, ' ') // 将多余的空格归为一个空格
-    .trim(); // 去除首尾空格
+    .trim() // 去除首尾空格
 
-  const chineseCharacters = cleanedContent.match(/[\u4e00-\u9fff\uff01-\uffe5]/g) || [];
-  const words = cleanedContent.split(/\s+/).filter(Boolean);
+  const chineseCharacters = cleanedContent.match(/[\u4E00-\u9FFF\uFF01-\uFFE5]/g) || []
+  const words = cleanedContent.split(/\s+/).filter(Boolean)
 
-  return chineseCharacters.length + words.length;
+  return chineseCharacters.length + words.length
 }
 
 // https://vitepress.dev/reference/site-config
@@ -139,7 +139,7 @@ function genConfig() {
                     navigateUpKeyAriaLabel: '上箭头',
                     navigateDownKeyAriaLabel: '下箭头',
                     selectKeyAriaLabel: '回车',
-                    closeKeyAriaLabel: '退出'
+                    closeKeyAriaLabel: '退出',
                   },
                 },
               },
@@ -226,23 +226,23 @@ function genConfig() {
     },
     transformPageData(pageData) {
       // 构建 Markdown 文件路径
-      const markdownFile = `${pageData.relativePath}`;
-      const filePath = path.join(process.cwd(), 'docs', markdownFile);
+      const markdownFile = `${pageData.relativePath}`
+      const filePath = path.join(process.cwd(), 'docs', markdownFile)
 
       // 从文件系统读取文件内容
-      const content = readMarkdownFileContent(filePath);
+      const content = readMarkdownFileContent(filePath)
 
       // 统计字数并插入到 Frontmatter
-      const wordCount = countWords(content);
+      const wordCount = countWords(content)
 
       return {
         frontmatter: {
           ...pageData.frontmatter,
           wordCount, // 将字数写入 Frontmatter
         },
-      };
+      }
     },
-  });
+  })
 }
 
-export default genConfig;
+export default genConfig

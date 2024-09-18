@@ -25,7 +25,11 @@
       "import": "./dist/plugins/MarkdownSectionWrapper.mjs",
       "require": "./dist/plugins/MarkdownSectionWrapper.js"
     },
-    "./components/*": "./dist/components/*"
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "import": "./dist/components.mjs",
+      "require": "./dist/components.js"
+    }
   },
   "main": "./dist/config.js",
   "module": "./dist/config.mjs",
