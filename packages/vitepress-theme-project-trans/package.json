@@ -4,6 +4,10 @@
   "version": "0.0.1",
   "description": "A VitePress theme made with ❤️ by project-trans",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/project-trans/RLE-wiki"
+  },
   "exports": {
     "./config": {
       "types": "./dist/config.d.ts",
