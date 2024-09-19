@@ -8,16 +8,25 @@ import {
   NolebaseEnhancedReadabilitiesScreenMenu,
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
+import { useData } from 'vitepress'
+import CopyrightInfo from './components/CopyrightInfo.vue'
 import AppFooter from './components/AppFooter.vue'
 import AppearanceToggle from './components/AppearanceToggle.vue'
+import PageInfo from './components/PageInfo.vue'
 
 const { Layout } = DefaultTheme
+const { frontmatter } = useData()
 </script>
 
 <template>
   <AppearanceToggle>
     <Layout>
-      <template #doc-top>
+      <template #doc-before>
+        <div class="vp-doc">
+          <h1>{{ frontmatter.title }}</h1>
+          <PageInfo />
+          <CopyrightInfo />
+        </div>
         <NolebaseHighlightTargetedHeading />
       </template>
       <template #doc-after>

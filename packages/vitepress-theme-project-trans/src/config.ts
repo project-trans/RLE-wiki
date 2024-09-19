@@ -5,11 +5,6 @@ import { fileURLToPath } from 'node:url'
 
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
-import {
-  MarkdownSectionWrapper,
-  PageHeaderTemplate,
-  TemplateCopyrightInfo,
-} from '@project-trans/vitepress-theme-project-trans/plugins/MarkdownSectionWrapper'
 import footnote from 'markdown-it-footnote'
 import katex from 'markdown-it-katex'
 import mdPangu from 'markdown-it-pangu'
@@ -169,19 +164,6 @@ function genConfig() {
     },
     vite: {
       plugins: [
-        MarkdownSectionWrapper(
-          [PageHeaderTemplate, TemplateCopyrightInfo],
-          [],
-          {
-            excludes: [],
-            exclude: (_, { helpers }): boolean => {
-              if (helpers.idEquals('index.md'))
-                return true
-
-              return false
-            },
-          },
-        ),
         GitChangelog({
           repoURL: githubRepoLink,
         }),

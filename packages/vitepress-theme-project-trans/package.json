@@ -24,11 +24,6 @@
       "import": "./dist/theme.mjs",
       "require": "./dist/theme.js"
     },
-    "./plugins/MarkdownSectionWrapper": {
-      "types": "./dist/plugins/MarkdownSectionWrapper.d.ts",
-      "import": "./dist/plugins/MarkdownSectionWrapper.mjs",
-      "require": "./dist/plugins/MarkdownSectionWrapper.js"
-    },
     "./components": {
       "types": "./dist/components.d.ts",
       "import": "./dist/components.mjs",
