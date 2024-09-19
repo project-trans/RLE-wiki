@@ -13,6 +13,8 @@ jobs:
       # 第一步：检出代码
       - name: 检出代码
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       # 第二步：安装 pnpm
       - name: 安装 pnpm
@@ -23,7 +25,7 @@ jobs:
       # 第三步：安装依赖
       - name: 安装依赖
         run: pnpm install
-        
+
       # 第四步：构建项目
       - name: 构建项目
         run: pnpm build # 构建 VitePress 项目
