@@ -1,0 +1,66 @@
+name: 部署 PR 到 Cloudflare Pages
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened] # 当 PR 被创建、更新或重新打开时触发
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 第一步：检出主仓库代码
+      - name: 检出主仓库代码
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+          fetch-depth: 0
+
+      # 第二步：检出 PR 修改的部分
+      - name: 检出 PR 修改的部分
+        run: |
+          git fetch origin +refs/pull/${{ github.event.pull_request.number }}/merge
+          git checkout -qf FETCH_HEAD
+
+      # 第三步：安装 pnpm
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+
+      # 第四步：安装依赖
+      - name: 安装依赖
+        run: pnpm install
+
+      # 第五步：构建项目
+      - name: 构建项目
+        run: pnpm build # 构建 VitePress 项目
+
+      # 第六步：安装 Wrangler
+      - name: 安装 Wrangler
+        run: pnpm add -g wrangler@3 # 安装 Wrangler v3
+
+      # 第七步：发布到 Cloudflare Pages
+      - name: 发布到 Cloudflare Pages
+        id: deploy
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }} # Cloudflare Pages API Token
+          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }} # Cloudflare 账户 ID
+          projectName: rle-wiki-preview # Cloudflare Pages 项目名称
+          directory: docs/.vitepress/dist # 构建输出目录
+
+      # 第八步：获取预览链接并发送到 PR
+      - name: 评论 PR 部署链接
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const previewUrl = `${{ steps.deploy.outputs.url }}`;
+            const comment = `🚀 预览部署完成! 访问链接: ${previewUrl}`;
+            github.rest.issues.createComment({
+              issue_number: prNumber,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment,
+            });
