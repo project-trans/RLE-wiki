@@ -22,12 +22,12 @@ const { frontmatter } = useData()
   <AppearanceToggle>
     <Layout>
       <template #doc-before>
-        <div class="vp-doc">
+        <NolebaseHighlightTargetedHeading />
+        <div class="vp-doc vp-doc-before">
           <h1>{{ frontmatter.title }}</h1>
           <PageInfo />
           <CopyrightInfo />
         </div>
-        <NolebaseHighlightTargetedHeading />
       </template>
       <template #doc-after>
         <AppFooter />
@@ -41,3 +41,10 @@ const { frontmatter } = useData()
     </Layout>
   </AppearanceToggle>
 </template>
+
+<style>
+.vp-doc-before + main > div > div > h2:first-of-type {
+  border-top: unset;
+  margin-top: 0;
+}
+</style>

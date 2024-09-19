@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
+import { computed } from 'vue'
 import type { Node, Trie } from '../plugins/CopyrightLoader.data'
 import { data } from '../plugins/CopyrightLoader.data'
 
@@ -28,16 +29,16 @@ function searchClosestInTrie(
 const paths = useData()
   .page.value.relativePath.replace('.md', '').split('/')
   .filter((item: string) => item !== '')
-const attrs = searchClosestInTrie(data, paths)
-const frontmatter = useData().frontmatter.value
+const attrs = computed(() => searchClosestInTrie(data, paths))
+const frontmatter = useData().frontmatter
 
-const originUrlExists = (attrs?.copyright?.url ?? null) != null
-const originUrl = attrs?.copyright?.url ?? 'javascript:void(0)'
+const originUrlExists = computed(() => (attrs.value?.copyright?.url ?? null) != null)
+const originUrl = computed(() => attrs.value?.copyright?.url ?? 'javascript:void(0)')
 
-const license = attrs?.copyright?.license ?? null
-const licenseExists = license != null
-const licenseUrlExists = (attrs?.copyright?.licenseUrl ?? null) != null
-const licenseUrl = attrs?.copyright?.licenseUrl ?? 'javascript:void(0)'
+const license = computed(() => attrs.value?.copyright?.license ?? null)
+const licenseExists = computed(() => license.value != null)
+const licenseUrlExists = computed(() => (attrs.value?.copyright?.licenseUrl ?? null) != null)
+const licenseUrl = computed(() => attrs.value?.copyright?.licenseUrl ?? 'javascript:void(0)')
 </script>
 
 <template>
