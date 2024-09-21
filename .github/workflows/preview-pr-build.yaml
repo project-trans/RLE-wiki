@@ -57,7 +57,7 @@ jobs:
           script: |
             const prNumber = context.payload.pull_request.number;
             const previewUrl = `${{ steps.deploy.outputs.url }}`;
-            const comment = `🚀 预览部署完成! 访问链接: ${previewUrl}`;
+            const comment = `🚀 预览部署完成！ 访问链接: ${previewUrl}`;
             github.rest.issues.createComment({
               issue_number: prNumber,
               owner: context.repo.owner,
