@@ -2,10 +2,16 @@ name: 部署 PR 到 Cloudflare Pages
 
 on:
   pull_request_target:
-    types: [opened, synchronize, reopened] # 当 PR 被创建、更新或重新打开时触发
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'docs/**'
+      - '.github/workflows/preview-pr-build.yaml'
+      - 'package.json'
+      - 'packages/**'
 
 jobs:
   deploy:
+    if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
 
     steps:
@@ -31,6 +37,9 @@ jobs:
       # 第四步：安装依赖
       - name: 安装依赖
         run: pnpm install
+
+      # - name: 更新主题包
+      #   run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
 
       # 第五步：构建项目
       - name: 构建项目
