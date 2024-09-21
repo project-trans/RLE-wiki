@@ -15,8 +15,11 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.21.1",
     "@cloudflare/workers-types": "^4.20240620.0",
+    "@iconify-json/carbon": "^1.2.1",
+    "@iconify-json/icon-park-outline": "^1.2.0",
+    "@iconify-json/octicon": "^1.2.0",
     "@project-trans/suggestion-box": "^0.0.9",
-    "@project-trans/vitepress-theme-project-trans": "^0.3.1726849205",
+    "@project-trans/vitepress-theme-project-trans": "^0.3.1726906831",
     "@unocss/eslint-plugin": "^0.59.4",
     "eslint": "^8.57.0",
     "eslint-plugin-format": "^0.1.2",

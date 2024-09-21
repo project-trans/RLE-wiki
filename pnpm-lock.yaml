@@ -17,12 +17,21 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^4.20240620.0
         version: 4.20240620.0
+      '@iconify-json/carbon':
+        specifier: ^1.2.1
+        version: 1.2.1
+      '@iconify-json/icon-park-outline':
+        specifier: ^1.2.0
+        version: 1.2.0
+      '@iconify-json/octicon':
+        specifier: ^1.2.0
+        version: 1.2.0
       '@project-trans/suggestion-box':
         specifier: ^0.0.9
         version: 0.0.9(vue@3.4.30(typescript@5.5.2))
       '@project-trans/vitepress-theme-project-trans':
-        specifier: ^0.3.1726849205
-        version: 0.3.1726849205(@algolia/client-search@4.23.3)(@babel/parser@7.24.7)(@iconify-json/carbon@1.2.1)(@iconify-json/icon-park-outline@1.2.0)(@iconify-json/octicon@1.2.0)(@project-trans/suggestion-box@0.0.9(vue@3.4.30(typescript@5.5.2)))(@types/node@20.14.8)(less@4.2.0)(postcss@8.4.38)(rollup@4.18.0)(search-insights@2.14.0)(typescript@5.5.2)(unocss@0.58.9(postcss@8.4.38)(rollup@4.18.0)(vite@5.3.1(@types/node@20.14.8)(less@4.2.0)))(vite@5.3.1(@types/node@20.14.8)(less@4.2.0))(vitepress-sidebar@1.23.2)(vitepress@1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.8)(less@4.2.0)(postcss@8.4.38)(search-insights@2.14.0)(typescript@5.5.2))(vue@3.4.30(typescript@5.5.2))(webpack-sources@3.2.3)
+        specifier: ^0.3.1726906831
+        version: 0.3.1726906831(@algolia/client-search@4.23.3)(@babel/parser@7.24.7)(@iconify-json/carbon@1.2.1)(@iconify-json/icon-park-outline@1.2.0)(@iconify-json/octicon@1.2.0)(@project-trans/suggestion-box@0.0.9(vue@3.4.30(typescript@5.5.2)))(@types/node@20.14.8)(less@4.2.0)(postcss@8.4.38)(rollup@4.18.0)(search-insights@2.14.0)(typescript@5.5.2)(unocss@0.58.9(postcss@8.4.38)(rollup@4.18.0)(vite@5.3.1(@types/node@20.14.8)(less@4.2.0)))(vite@5.3.1(@types/node@20.14.8)(less@4.2.0))(vitepress-sidebar@1.23.2)(vitepress@1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.8)(less@4.2.0)(postcss@8.4.38)(search-insights@2.14.0)(typescript@5.5.2))(vue@3.4.30(typescript@5.5.2))(webpack-sources@3.2.3)
       '@unocss/eslint-plugin':
         specifier: ^0.59.4
         version: 0.59.4(eslint@8.57.0)(typescript@5.5.2)
@@ -668,8 +677,8 @@ packages:
     peerDependencies:
       vue: '3'
 
-  '@project-trans/vitepress-theme-project-trans@0.3.1726849205':
-    resolution: {integrity: sha512-fS3aBQ1UfwfXcSmS4o5/j/yO8+B/FBxW5UMnuvn0UUxwW0vNZ8Ld/jtAdmN4WWiWE95a9oiQNAdtCzbtMFAo2w==}
+  '@project-trans/vitepress-theme-project-trans@0.3.1726906831':
+    resolution: {integrity: sha512-6MZYtY7JMIns3HzNqRCXWNBqCPy79q9HZOkokcrS9vHKkwYGZGdDRcei+vOK1JYFI401b6V7V10ldc5qlsYDDg==}
     peerDependencies:
       '@iconify-json/carbon': ^1.2.1
       '@iconify-json/icon-park-outline': ^1.2.0
@@ -3943,7 +3952,7 @@ snapshots:
     dependencies:
       vue: 3.4.30(typescript@5.5.2)
 
-  '@project-trans/vitepress-theme-project-trans@0.3.1726849205(@algolia/client-search@4.23.3)(@babel/parser@7.24.7)(@iconify-json/carbon@1.2.1)(@iconify-json/icon-park-outline@1.2.0)(@iconify-json/octicon@1.2.0)(@project-trans/suggestion-box@0.0.9(vue@3.4.30(typescript@5.5.2)))(@types/node@20.14.8)(less@4.2.0)(postcss@8.4.38)(rollup@4.18.0)(search-insights@2.14.0)(typescript@5.5.2)(unocss@0.58.9(postcss@8.4.38)(rollup@4.18.0)(vite@5.3.1(@types/node@20.14.8)(less@4.2.0)))(vite@5.3.1(@types/node@20.14.8)(less@4.2.0))(vitepress-sidebar@1.23.2)(vitepress@1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.8)(less@4.2.0)(postcss@8.4.38)(search-insights@2.14.0)(typescript@5.5.2))(vue@3.4.30(typescript@5.5.2))(webpack-sources@3.2.3)':
+  '@project-trans/vitepress-theme-project-trans@0.3.1726906831(@algolia/client-search@4.23.3)(@babel/parser@7.24.7)(@iconify-json/carbon@1.2.1)(@iconify-json/icon-park-outline@1.2.0)(@iconify-json/octicon@1.2.0)(@project-trans/suggestion-box@0.0.9(vue@3.4.30(typescript@5.5.2)))(@types/node@20.14.8)(less@4.2.0)(postcss@8.4.38)(rollup@4.18.0)(search-insights@2.14.0)(typescript@5.5.2)(unocss@0.58.9(postcss@8.4.38)(rollup@4.18.0)(vite@5.3.1(@types/node@20.14.8)(less@4.2.0)))(vite@5.3.1(@types/node@20.14.8)(less@4.2.0))(vitepress-sidebar@1.23.2)(vitepress@1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.8)(less@4.2.0)(postcss@8.4.38)(search-insights@2.14.0)(typescript@5.5.2))(vue@3.4.30(typescript@5.5.2))(webpack-sources@3.2.3)':
     dependencies:
       '@iconify-json/carbon': 1.2.1
       '@iconify-json/icon-park-outline': 1.2.0
