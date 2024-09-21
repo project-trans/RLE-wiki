@@ -1,48 +1,40 @@
-name: 部署到 Cloudflare Pages
+name: 更新主题包并部署到 Cloudflare Pages
 
 on:
-  push:
-    branches:
-      - 'main' # 当推送到 main 分支时触发
-    paths:
-      - 'docs/**'
-      - '.github/workflows/deploy-docs.yml'
-      - 'package.json'
-      - 'packages/**'
+  workflow_dispatch:
+    inputs:
+      theme_version:
+        description: '指定的主题包版本'
+        required: false
+        default: 'prerelease'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 第一步：检出代码
       - name: 检出代码
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # 第二步：安装 pnpm
       - name: 安装 pnpm
         uses: pnpm/action-setup@v3
         with:
           version: latest
 
-      # 第三步：安装依赖
       - name: 安装依赖
         run: pnpm install
 
-      # - name: 更新主题包
-      #  run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
+      - name: 更新主题包
+        run: pnpm update @project-trans/vitepress-theme-project-trans@${{ github.event.inputs.theme_version }}
 
-      # 第四步：构建项目
       - name: 构建项目
         run: pnpm build # 构建 VitePress 项目
 
-      # 第五步：安装 Wrangler
       - name: 安装 Wrangler
         run: pnpm add -g wrangler@3 # 安装 Wrangler v3
 
-      # 第六步：发布到 Cloudflare Pages
       - name: 发布到 Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
