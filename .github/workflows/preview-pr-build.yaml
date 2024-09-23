@@ -36,8 +36,8 @@ jobs:
       - name: 安装依赖
         run: pnpm install
 
-      # - name: 更新主题包
-      #   run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
+      - name: 更新主题包
+        run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
 
       # 第五步：构建项目
       - name: 构建项目
