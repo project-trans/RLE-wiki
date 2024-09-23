@@ -17,7 +17,7 @@ jobs:
     steps:
       # 第一步：检出主仓库代码
       - name: 检出主仓库代码
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.base.ref }}
           fetch-depth: 0
@@ -30,9 +30,7 @@ jobs:
 
       # 第三步：安装 pnpm
       - name: 安装 pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: latest
+        uses: pnpm/action-setup@v4
 
       # 第四步：安装依赖
       - name: 安装依赖
