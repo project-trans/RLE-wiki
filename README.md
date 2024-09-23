@@ -42,6 +42,19 @@
 }
 ```
 
+## 部署指南
+
+### 项目代码
+
+部分项目代码存放在 [vitepress-theme-project-trans](https://github.com/project-trans/vitepress-theme-project-trans) 仓库中，并通过 npm 包的形式引入到项目。
+
+### 构建流程
+
+为了确保本地开发环境和生产环境的一致性，建议在本地构建项目前，执行以下命令以更新到最新的预发布版本：
+```bash
+pnpm update @project-trans/vitepress-theme-project-trans@prerelease
+```
+
 ## 联系方式
 
 GitHub [![GitHub issues][badge-gh-issues]](https://github.com/project-trans/RLE-wiki/issues/new/choose)
