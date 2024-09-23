@@ -42,18 +42,24 @@
 }
 ```
 
-## 部署指南
+## 部署
 
 ### 项目代码
 
-部分项目代码存放在 [vitepress-theme-project-trans](https://github.com/project-trans/vitepress-theme-project-trans) 仓库中，并通过 npm 包的形式引入到项目。
+部分项目代码存放在 [vitepress-theme-project-trans](https://github.com/project-trans/vitepress-theme-project-trans) 仓库中，并通过 [npm 包](https://www.npmjs.com/package/@project-trans/vitepress-theme-project-trans) 的形式引入到项目。
+
+RLE.wiki 将长期作为 `vitepress-theme-project-trans` 的预览测试场地，因此本组织的自动构建系统会在 `vitepress-theme-project-trans` 更新时自动将 RLE.wiki 的依赖版本升级并部署到生产环境中，而非使用本仓库中 `package.json` 声明的版本，拉取请求的预览部署亦会使用最新版本的 `vitepress-theme-project-trans`。
 
 ### 构建流程
 
-为了确保本地开发环境和生产环境的一致性，建议在本地构建项目前，执行以下命令以更新到最新的预发布版本：
+我们不承诺 RLE.wiki 在生产环境中部署版本对于本仓库的可复现性。如欲复现生产环境，请在 GitHub Action 日志中查阅 `vitepress-theme-project-trans` 的版本并在本地开发环境中手动升级。
+
+对于一般性开发，可直接使用以下命令升级将 `vitepress-theme-project-trans` 升级至最新版本。
 ```bash
 pnpm update @project-trans/vitepress-theme-project-trans@prerelease
 ```
+
+对于内容贡献，一般情况下可能不需要本地可复现的开发环境。
 
 ## 联系方式
 
