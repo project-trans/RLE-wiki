@@ -87,10 +87,8 @@ const sidebarOptions = [
 const themeConfig: ThemeContext = {
   siteTitle: 'RLE.wiki',
   siteDescription: '一份 RLE 指北',
-  logo: {
-    src: '/logo-horizontal.svg',
-    alt: 'Logo: RLE.wiki',
-  },
+  siteLogo: '/logo-horizontal.svg',
+  SiteTitle: false,
   /** Repo */
   githubRepoLink: 'https://github.com/project-trans/RLE-wiki',
   /** vitepress 根目录 */
