@@ -99,7 +99,7 @@ const themeConfig: ThemeContext = {
   nav,
   sidebarOptions,
   /** 文档所在目录（用于GitHub编辑链接） */
-  sitePattern: `src`,
+  sitePattern: `docs`,
 }
 
 // https://vitepress.dev/reference/site-config
