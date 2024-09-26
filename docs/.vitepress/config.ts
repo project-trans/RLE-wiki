@@ -98,6 +98,8 @@ const themeConfig: ThemeContext = {
   include: ['campus', 'contributor-guide', 'fashion'],
   nav,
   sidebarOptions,
+  /** 文档所在目录（用于GitHub编辑链接） */
+  sitePattern: `src`,
 }
 
 // https://vitepress.dev/reference/site-config
