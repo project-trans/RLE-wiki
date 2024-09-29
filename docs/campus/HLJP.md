@@ -66,6 +66,5 @@ author: 浅羽织雪
 
 建筑工程专业导员较友善，会了解情况。
 
-## twitter：@Oriyukiiiii
-
 ### 浅羽织雪
+## twitter：@Oriyukiiiii
