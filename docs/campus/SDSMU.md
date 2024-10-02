@@ -1,7 +1,8 @@
 ---
 title: 山东第二医科大学
 author:
-kaedeaya
+  - kaedeaya
+  - 与岭
 ---
 
 ## 学校概况
