@@ -1,0 +1,44 @@
+name: 更新主题包并部署到 Cloudflare Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      theme_version:
+        description: '指定的主题包版本'
+        required: false
+        default: 'prerelease'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+
+      - name: 安装依赖
+        run: pnpm install
+
+      - name: 更新主题包
+        run: pnpm update @project-trans/vitepress-theme-project-trans@${{ github.event.inputs.theme_version }}
+
+      - name: 构建项目
+        run: pnpm build # 构建 VitePress 项目
+
+      - name: 安装 Wrangler
+        run: pnpm add -g wrangler@3 # 安装 Wrangler v3
+
+      - name: 发布到 Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }} # Cloudflare Pages API Token
+          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }} # Cloudflare 账户 ID
+          projectName: rle-wiki # Cloudflare Pages 项目名称
+          directory: docs/.vitepress/dist # 构建输出目录
