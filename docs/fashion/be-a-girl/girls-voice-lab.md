@@ -58,7 +58,8 @@ https://www.google.com/amp/s/pttweb.tw/amp/transgender/m-1301896607-a-794.html
 
 還有這個
 
-https://zhuanlan.zhihu.com/p/45974316
+https://zhuanlan.zhihu.com/p/45974316\
+存档链接：https://web.archive.org/web/20220913002923/https://zhuanlan.zhihu.com/p/45974316
 
 頻譜圖相關知識
 

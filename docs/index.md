@@ -28,7 +28,7 @@ hero:
 ---
 
 <script setup>
-import HomeContent from '@project-trans/vitepress-theme-project-trans/components/HomeContent.vue'
+import { HomeContent } from '@project-trans/vitepress-theme-project-trans/components'
 </script>
 
 <HomeContent>
