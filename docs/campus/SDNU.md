@@ -1,10 +1,9 @@
 ---
 title: 山东师范大学
 author:
-- GekkaSaori
-- Zn
-- 月季
-- 等
+  - GekkaSaori
+  - Zn
+  - 月季
 ---
 
 ## 概况

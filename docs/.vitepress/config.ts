@@ -97,6 +97,9 @@ const sidebarOptions = [
 const themeConfig: ThemeContext = {
   siteTitle: 'RLE.wiki',
   siteDescription: '一份 RLE 指北',
+  siteLogo: '/logo-horizontal.svg',
+  // SiteTitle值为false时，logo位置不显示标题。未定义SiteTitle时，显示标题。SiteTitle值为abcd时，显示abcd。
+  SiteTitle: false,
   /** Repo */
   githubRepoLink: 'https://github.com/project-trans/RLE-wiki',
   /** vitepress 根目录 */
@@ -105,6 +108,8 @@ const themeConfig: ThemeContext = {
   include: ['campus', 'contributor-guide', 'fashion'],
   nav,
   sidebarOptions,
+  /** 文档所在目录（用于GitHub编辑链接） */
+  sitePattern: `docs`,
 }
 
 // https://vitepress.dev/reference/site-config

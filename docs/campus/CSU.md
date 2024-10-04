@@ -1,9 +1,8 @@
 ---
 title: 中南大学
-author: 
-- AlbacoreMeow
-- Cryolitia
-- 等
+author:
+  - AlbacoreMeow
+  - Cryolitia
 ---
 
 ## 概况
