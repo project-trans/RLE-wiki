@@ -27,7 +27,7 @@ title: 芬兰
 
 ### 相关组织
 
-许多组织会定期举办活动，比如咖啡会、游戏会、节日聚会等，可以在其网站的行事历找到更多信息：
+许多组织会定期举办活动，比如咖啡会、游戏会、节日聚会等，可以在其网站的日历找到更多信息：
 
 - [Seta ry](https://seta.fi/)
 - [TransHelsinki](https://transhelsinki.fi/)
@@ -103,11 +103,11 @@ title: 芬兰
 
 ## 居留
 
-芬兰发给学生的不是申根签证，而是居留许可。
+芬兰发给学生的不是申根签证，而是居留许可。因而，部分国家允许「申根签证」持有者免签证访问的政策并不适用于芬兰留学生。
 
-2022 年初，芬兰更新了自己的学生居留许可政策，学生可以获得 A 类居留许可。且毕业后也给找工作签证。
+2022 年初，芬兰更新了自己的学生居留许可政策，学生可以获得 A 类居留许可。且截至 2024 年，毕业后也给 1 年的找工作签证。
 
-关于财产证明，芬兰在 [InfoFinland](https://www.infofinland.fi/zh/moving-to-finland/non-eu-citizens/study-in-finland) 中要求 6,720 欧元/年，当学校提供住房或食物时此条款可降低。
+关于财产证明，截至 2024 年 10 月，芬兰在 [InfoFinland](https://www.infofinland.fi/zh/moving-to-finland/non-eu-citizens/study-in-finland) 中要求 6,720 欧元/年，当学校提供住房或食物时此条款可降低。
 
 ### A 类居留许可
 
