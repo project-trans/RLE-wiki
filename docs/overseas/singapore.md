@@ -15,7 +15,7 @@ author:
 
 ### 医疗
 
-[新加坡 HRT 综述 - MtF.wiki](https://mtf.wiki/zh-cn/docs/hrt/singapore/overview/)
+[新加坡 HRT 综述 - MtF.wiki](https://mtf.wiki/zh-cn/docs/hrt/singapore/)
 
 如果您希望从新加坡境外协带药物入境，请查询 [Bringing personal medications into Singapore - HSA](https://www.hsa.gov.sg/personal-medication)。具体来说，截至 2024 年 1 月，新加坡允许个人协带不超过三个月的非管制类型药品入境，若剂量超过三个月或药品类型受管控，需要申请，具体请查看 [Submit application for approval to bring in personal medications - HSA](https://www.hsa.gov.sg/personal-medication/submit-application-for-approval-to-bring-in-personal-medications-(new))。同时，需要注意的是，注射剂是不允许协带的。
 
