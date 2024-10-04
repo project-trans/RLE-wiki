@@ -14,7 +14,7 @@ title: 芬兰
 
 学生医疗服务，由 [Finnish Student Health Service](https://www.yths.fi/en/frontpage/) 负责。 FSHS 提供了牙科心理科与一般门诊，当医师无法处理您的状况/请求时，会转诊至其它医院。在赫尔辛基大区往往为 [赫尔辛基大学附属医院（HUS）](https://www.hus.fi/en) 。
 
-作为留学生，芬兰的激素类药物相对容易获取，FSHS 往往可以提供处方（_此信息需进一步核实_）。若有额外需求，可以申请转诊，但排队时间较长。因而部分跨性别者申请在 [GenderGP](../#gendergp) 中获取处方。
+作为留学生，芬兰的激素类药物相对容易获取，FSHS 往往可以提供处方，据 2022 年反馈，未公证处方即可获取芬兰境内的激素处方更新；2024 年的反馈提供了公证的处方单，也获得了长期处方。若未芬兰境外持有有效处方，则需在芬兰境内开示性别确认序列，然而时间较长且过程繁琐。因而部分跨性别者申请在 [GenderGP](https://www.gendergp.com/) 中获取处方[^2]。此外，若有额外需求，如手术，可以申请转诊。
 
 2023 年 2 月 1 日，芬兰通过了 gender self-identification 法案[^3]，允许跨性别人士自行更改性别，而不需要医生的诊断、手术等任何额外步骤。
 
@@ -101,7 +101,6 @@ title: 芬兰
 
 而计算机类专业主要的毕业去向为咨询，即为其它公司提供解决方案，工资较为可观。因而对于计算机类的学生来说，一定的工程、开发能力可以让 ta 们更好的找到工作。
 
-
 ## 居留
 
 芬兰发给学生的不是申根签证，而是居留许可。
@@ -121,3 +120,5 @@ A 类居留许可持有满一定年限且达到要求时，可以申请永久居
 B 类居留许可是临时居留许可，不计入申请永久居留权的时间。
 
 [^1]: [Permanent residence permit - Finnish Immigration Service](https://migri.fi/en/permanent-residence-permit), [Frequently asked questions: Finnish citizenship - Finnish Immigration Service](https://migri.fi/en/faq-finnish-citizenship)
+[^2]: 以某愿意提供此信息的跨性别女性为例。她第一次註册支付了 100 英镑（现在为 195 英镑）的初始谘询费，且每六个月需要进行複诊，价格为 30 英镑。同时，每月有 30 英镑的订阅费，每三个月有 73 欧元的血液检查费用。其获得的药物是标准药房价格。具体可以查看其 [费用](https://www.gendergp.com/help-centre/gendergp-service-costs/) 页面。
+[^3]: [Parliament passes long-awaited amendments to Finland's transgender law - yle](https://yle.fi/a/74-20015866)
