@@ -20,6 +20,10 @@ const nav: NavConfig = [
     link: "/personal-safety/",
   },
   {
+    text: "志愿填报",
+    link: "/admission/",
+  },
+  {
     text: "海外生活",
     link: "/overseas/",
   },
@@ -59,26 +63,32 @@ const sidebarOptions = [
   // 大学指南
   {
     ...baseConfig,
-    scanStartPath: 'campus',
-    resolvePath: '/campus/',
+    scanStartPath: "campus",
+    resolvePath: "/campus/",
   },
   // 贡献指南
   {
     ...baseConfig,
-    scanStartPath: 'contributor-guide',
-    resolvePath: '/contributor-guide/',
+    scanStartPath: "contributor-guide",
+    resolvePath: "/contributor-guide/",
   },
   // 时尚护理
   {
     ...baseConfig,
-    scanStartPath: 'fashion',
-    resolvePath: '/fashion/',
+    scanStartPath: "fashion",
+    resolvePath: "/fashion/",
   },
   // 安全防护
   {
     ...baseConfig,
-    scanStartPath: 'personal-safety',
-    resolvePath: '/personal-safety/',
+    scanStartPath: "personal-safety",
+    resolvePath: "/personal-safety/",
+  },
+  // 志愿填报
+  {
+    ...baseConfig,
+    scanStartPath: "admission",
+    resolvePath: "/admission/",
   },
   // 海外生活
   {
@@ -89,10 +99,10 @@ const sidebarOptions = [
   // 其它
   {
     ...baseConfig,
-    scanStartPath: 'others',
-    resolvePath: '/others/',
+    scanStartPath: "others",
+    resolvePath: "/others/",
   },
-]
+];
 
 const themeConfig: ThemeContext = {
   siteTitle: 'RLE.wiki',
