@@ -24,6 +24,10 @@ const nav: NavConfig = [
     link: "/admission/",
   },
   {
+    text: "海外生活",
+    link: "/overseas/",
+  },
+  {
     text: "其它",
     link: "/others/",
   },
@@ -85,6 +89,12 @@ const sidebarOptions = [
     ...baseConfig,
     scanStartPath: "admission",
     resolvePath: "/admission/",
+  },
+  // 海外生活
+  {
+    ...baseConfig,
+    scanStartPath: 'overseas',
+    resolvePath: '/overseas/',
   },
   // 其它
   {

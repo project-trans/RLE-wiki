@@ -20,6 +20,9 @@ hero:
       text: 安全防护 🚨
       link: /personal-safety/
     - theme: alt
+      text: 海外生活 🌍
+      link: /overseas/
+    - theme: alt
       text: 其它 📚
       link: /others/
   image:

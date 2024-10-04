@@ -9,6 +9,7 @@ on:
       - '.github/workflows/deploy-docs.yml'
       - 'package.json'
       - 'packages/**'
+  workflow_dispatch:
 
 jobs:
   deploy:
