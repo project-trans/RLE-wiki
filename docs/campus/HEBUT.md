@@ -3,7 +3,6 @@ title: 河北工业大学
 author:
   - Li Mee
   - Nickel
-order: 2
 ---
 
 |        项目        | 情况 |     备注     |

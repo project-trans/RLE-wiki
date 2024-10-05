@@ -1,6 +1,7 @@
 ---
 title: 中山大学
-author: DreamingLri 等
+author:
+  - DreamingLri
 ---
 
 |项目|情况|

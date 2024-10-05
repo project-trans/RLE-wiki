@@ -1,8 +1,8 @@
 ---
 title: 北京师范大学-香港浸会大学联合国际学院
 author:
-  - Catherina Grace,dfdtc
-order: 2
+  - Catherina Grace
+  - dfdtc
 ---
 
 |        项目        | 情况 |     备注     |

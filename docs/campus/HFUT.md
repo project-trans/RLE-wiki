@@ -1,6 +1,7 @@
 ---
 title: 合肥工业大学
-author: Windancer 等
+author:
+  - Windancer
 ---
 
 ## 学校概况

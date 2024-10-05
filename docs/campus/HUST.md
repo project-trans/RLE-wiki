@@ -1,6 +1,7 @@
 ---
 title: 华中科技大学
-author: Circlecircle 等
+author:
+  - Circlecircle
 ---
 
 ## 概况

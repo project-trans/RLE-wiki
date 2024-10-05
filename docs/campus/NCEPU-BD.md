@@ -1,6 +1,7 @@
 ---
-title: 华北电力大学（保定） 
-author: ready4bf 等 
+title: 华北电力大学（保定）
+author:
+  - ready4bf
 ---
 
 |        项目        | 情况 |     备注     |

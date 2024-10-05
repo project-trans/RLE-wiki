@@ -1,6 +1,8 @@
 ---
 title: "电子科技大学"
-author: Yukari 丽塔 等
+author:
+  - Yukari
+  - 丽塔
 ---
 
 ::: info 注意
