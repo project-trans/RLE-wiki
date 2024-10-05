@@ -60,7 +60,7 @@ jobs:
       # 第八步：获取预览链接并发送到 PR
   comment_on_pr:
     needs: deploy
-    uses: project-trans/Workflow/.github/workflows/comment-pr-preview-link.yml@main
+    uses: project-trans/actions/.github/workflows/comment-pr-preview-link.yml@main
     secrets: inherit
     with:
           previewUrl: ${{ needs.deploy.outputs.preview_url }}
