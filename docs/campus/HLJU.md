@@ -1,6 +1,7 @@
 ---
 title: 黑龙江大学
-author: MisakaLiu 等
+author:
+  - MisakaLiu
 ---
 
 |项目|情况|

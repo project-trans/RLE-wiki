@@ -1,7 +1,7 @@
 ---
 title: 西南大学
-author: 
- - 蘑菇
+author:
+  - 蘑菇
 ---
 
 

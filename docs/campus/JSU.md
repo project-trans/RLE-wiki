@@ -1,6 +1,7 @@
 ---
 title: 吉首大学
-author: 余霞 等
+author:
+  - 余霞
 ---
 
 ## 前言

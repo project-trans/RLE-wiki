@@ -1,6 +1,7 @@
 ---
 title: 南京中医药大学
-author: Ameki 等
+author:
+  - Ameki
 ---
 
 |        项目        | 情况 |

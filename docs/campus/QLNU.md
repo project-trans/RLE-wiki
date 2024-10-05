@@ -1,6 +1,7 @@
 ---
 title: "齐鲁师范学院"
-author: Zn 等
+author:
+  - Zn
 ---
 
 ## 概况

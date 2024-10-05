@@ -1,7 +1,7 @@
 ---
 title: 西湖大学-Westlake University
-author: 
- - 未命名魔法少女
+author:
+  - 未命名魔法少女
 order: 2
 ---
 
