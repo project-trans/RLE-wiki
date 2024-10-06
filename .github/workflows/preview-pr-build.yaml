@@ -10,7 +10,6 @@ on:
 
 jobs:
   deploy:
-    if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     outputs:
       preview_url: ${{ steps.deploy.outputs.url }}
