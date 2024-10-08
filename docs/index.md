@@ -14,8 +14,14 @@ hero:
       text: 时尚护理 👕
       link: /fashion/
     - theme: alt
+      text: 志愿填报 📝
+      link: /admission/
+    - theme: alt
       text: 安全防护 🚨
       link: /personal-safety/
+    - theme: alt
+      text: 海外生活 🌍
+      link: /overseas/
     - theme: alt
       text: 其它 📚
       link: /others/

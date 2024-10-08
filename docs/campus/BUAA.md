@@ -1,9 +1,9 @@
 ---
 title: 北京航空航天大学
-author: 
- - Kohaku
- - 块儿
- - 星璃
+author:
+  - Kohaku
+  - 块儿
+  - 星璃
 ---
 
 |    项目     |   情况    |      备注       |

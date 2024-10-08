@@ -1,6 +1,7 @@
 ---
 title: 中南林业科技大学
-author: Crystal 等
+author:
+  - Crystal
 ---
 
 ## 概况

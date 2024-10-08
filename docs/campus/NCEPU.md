@@ -1,6 +1,7 @@
 ---
 title: 华北电力大学
-author: 植梓 等
+author:
+  - 植梓
 ---
 
 ::: warning

@@ -1,9 +1,9 @@
 ---
 title: 中国传媒大学
 author:
- - Hash
- - 唐泽AvrovaDonz
- - 呇星
+  - Hash
+  - 唐泽AvrovaDonz
+  - 呇星
 ---
 
 

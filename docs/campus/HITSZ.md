@@ -1,6 +1,7 @@
 ---
 title: 哈尔滨工业大学（深圳）
-author: Takehana 等
+author:
+  - Takehana
 ---
 
 ## 概况

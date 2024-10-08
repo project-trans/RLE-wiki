@@ -1,6 +1,8 @@
 ---
 title: 中国科学技术大学
-author: 猫山 & Unknow 等
+author:
+  - 猫山
+  - Unknow
 ---
 
 ::: tip

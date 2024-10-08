@@ -5,7 +5,6 @@ on:
     types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - 'docs/**'
-      - '.github/workflows/preview-pr-build.yaml'
       - 'package.json'
       - 'packages/**'
 
@@ -13,7 +12,8 @@ jobs:
   deploy:
     if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
-
+    outputs:
+      preview_url: ${{ steps.deploy.outputs.url }}
     steps:
       # 第一步：检出主仓库代码
       - name: 检出主仓库代码
@@ -58,16 +58,9 @@ jobs:
           directory: docs/.vitepress/dist # 构建输出目录
 
       # 第八步：获取预览链接并发送到 PR
-      - name: 评论 PR 部署链接
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const prNumber = context.payload.pull_request.number;
-            const previewUrl = `${{ steps.deploy.outputs.url }}`;
-            const comment = `🚀 预览部署完成！ 访问链接: ${previewUrl}`;
-            github.rest.issues.createComment({
-              issue_number: prNumber,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment,
-            });
+  comment_on_pr:
+    needs: deploy
+    uses: project-trans/actions/.github/workflows/comment-pr-preview-link.yml@main
+    secrets: inherit
+    with:
+          previewUrl: ${{ needs.deploy.outputs.preview_url }}

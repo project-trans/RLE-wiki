@@ -1,6 +1,8 @@
 ---
 title: 山东大学
-author: Annie Chorly, 雨橙
+author:
+  - Annie Chorly
+  - 雨橙
 ---
 
 ::: warning
