@@ -48,6 +48,31 @@ const nav: NavConfig = [
       },
     ],
   },
+  {
+    text: "切换字体",
+    items: [
+      {
+        text: "使用系统字体",
+        link: "#",
+      },
+      {
+        text: "霞鹜文楷",
+        link: "#",
+      },
+      {
+        text: "霞鹜文楷-等宽",
+        link: "#",
+      },
+      {
+        text: "霞鹜新晰黑",
+        link: "#",
+      },
+      {
+        text: "霞鹜新晰黑-等宽",
+        link: "#",
+      },
+    ],
+  },
 ];
 
 const baseConfig = {

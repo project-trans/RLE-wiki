@@ -162,3 +162,25 @@
 .vp-doc {
   text-align: justify;
 }
+
+@font-face {
+  font-family: '霞鹜文楷';
+  src: url('/fonts/LXGWWenKai-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: '霞鹜文楷-等宽';
+  src: url('/fonts/LXGWWenKaiMono-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: '霞鹜新晰黑';
+  src: url('/fonts/LXGWNeoXiHei.ttf') format('truetype');
+}
+@font-face {
+  font-family: '霞鹜新晰黑-等宽';
+  src: url('/fonts/NeoXiHeiCode-Regular.ttf') format('truetype');
+}
+
+:root {
+  --vp-font-family-base: var(--main-font, '霞鹜新晰黑');/* 文本字体 */
+  --vp-font-family-mono: var(--main-font, '霞鹜新晰黑-等宽');/* 代码字体 */
+}
