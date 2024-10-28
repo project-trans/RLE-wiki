@@ -26,7 +26,7 @@ hero:
       text: 其它 📚
       link: /others/
   image:
-    src: /logo-with-shadow.png
+    src: /logo.svg
     alt: RLE.wiki logo
 ---
 
