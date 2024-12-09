@@ -2,6 +2,7 @@
 title: 华中科技大学
 author:
   - Circlecircle
+  - Misaka10042
 ---
 
 ## 概况
@@ -72,3 +73,7 @@ HGP（HUST GAY PRIDE）与 HLP（HUST LES PRIDE）是华科的性少数小组。
 ## 院系探路
 
 > 了解到的 MtF 的辅导员都算友好
+
+## 警告
+华中师范大学同济医学院护理学院疑似会对改证的 MtF 进行盒打击（申请改证时会**公开张贴**您的姓名，学号，专业，班级，**原性别**，**原身份证号与新身份证号**等信息）  
+![警告图片](/assets/HUST_WARNING.jpg)
