@@ -2,6 +2,7 @@
 title: 华中科技大学
 author:
   - Circlecircle
+  - Misaka10042
 ---
 
 ## 概况
