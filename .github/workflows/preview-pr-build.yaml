@@ -11,9 +11,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    outputs:
-      preview_url: ${{ steps.deploy.outputs.deployment-url }}
-      pageUrls: ${{ steps.url.outputs.all_file_urls }}
     steps:
       # 第一步：检出主仓库代码
       - name: 检出主仓库代码
