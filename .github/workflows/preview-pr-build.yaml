@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     outputs:
-      preview_url: ${{ steps.deploy.outputs.url }}
+      preview_url: ${{ steps.deploy.outputs.deployment-url }}
       pageUrls: ${{ steps.url.outputs.all_file_urls }}
     steps:
       # 第一步：检出主仓库代码
@@ -42,20 +42,14 @@ jobs:
       # 第五步：构建项目
       - name: 构建项目
         run: pnpm build # 构建 VitePress 项目
-
-      # 第六步：安装 Wrangler
-      - name: 安装 Wrangler
-        run: pnpm add -g wrangler@3 # 安装 Wrangler v3
-
-      # 第七步：发布到 Cloudflare Pages
-      - name: 发布到 Cloudflare Pages
+    
+      - name: Deploy to Cloudflare Pages
         id: deploy
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }} # Cloudflare Pages API Token
-          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }} # Cloudflare 账户 ID
-          projectName: rle-wiki-preview # Cloudflare Pages 项目名称
-          directory: docs/.vitepress/dist # 构建输出目录
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
+          command: pages deploy docs/.vitepress/dist --project-name=rle-wiki-preview
 
       - name: List PR files using GitHub CLI
         id: url
