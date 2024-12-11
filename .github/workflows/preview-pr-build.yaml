@@ -41,7 +41,7 @@ jobs:
         run: pnpm build # 构建 VitePress 项目
 
       - name: 安装 Wrangler
-        run: pnpm add -g wrangler@3.90.0
+        run: pnpm add -wg wrangler@3.90.0
     
       - name: Deploy to Cloudflare Pages
         id: deploy
