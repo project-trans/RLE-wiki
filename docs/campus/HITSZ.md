@@ -1,11 +1,18 @@
 ---
 title: 哈尔滨工业大学（深圳）
-author: Takehana 等
+author:
+  - Takehana
 ---
 
 ## 概况
 
 [哈尔滨工业大学（深圳）](https://www.hitsz.edu.cn)（Harbin Institute of Technology, Shenzhen，HITSZ）由哈尔滨工业大学与深圳市政府合作共建，以全日制本科生与研究生教育为主、非全日制教育为辅。
+
+另见：
+
+- 校本部（哈尔滨校区）在本 wiki 上的页面：<https://rle.wiki/campus/HIT>
+
+- 威海校区待补充
 
 ## 地理位置及交通
 

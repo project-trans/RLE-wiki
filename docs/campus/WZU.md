@@ -1,6 +1,7 @@
 ---
 title: 温州大学
-author: 九猫 等
+author:
+  - 九猫
 ---
 
 

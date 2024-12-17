@@ -1,6 +1,7 @@
 ---
 title: 西安工程大学
-author: Lycher 等
+author:
+  - Lycher
 ---
 
 ## 学校概况
