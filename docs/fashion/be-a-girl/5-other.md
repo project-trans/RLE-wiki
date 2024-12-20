@@ -96,6 +96,6 @@ exclude: true
 
 :::
 
-[自切教程萱酱版.doc](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0472a87a-d17f-43e9-81f3-cf7c6e2668d0/.doc)
+[自切教程萱酱版.doc](https://digital.transchinese.org/%E7%A4%BE%E7%BE%A4%E5%8F%8ANGO%E6%96%87%E4%BB%B6/%E6%89%8B%E5%86%8C%E6%8C%87%E5%8D%97/%E8%87%AA%E5%88%87%E6%95%99%E7%A8%8B%E8%90%B1%E9%85%B1%E7%89%88.doc)
 
 注: 利多卡因麻醉剂可在 1688 上购买.
