@@ -4,9 +4,9 @@ on:
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review]
     paths:
-      - "docs/**"
-      - "package.json"
-      - "packages/**"
+      - 'docs/**'
+      - 'package.json'
+      - 'packages/**'
 
 jobs:
   deploy:
@@ -29,26 +29,20 @@ jobs:
       - name: 安装 pnpm
         uses: pnpm/action-setup@v4
 
-      # 第四步：安装 node 并配置缓存
-      - name: 设置 Node.js 环境
-        uses: actions/setup-node@v4
-        with:
-          node-version: "latest"
-          registry-url: "https://registry.npmjs.org/"
-          cache: "pnpm"
-
-      # 第五步：安装依赖
+      # 第四步：安装依赖
       - name: 安装依赖
         run: pnpm install
 
       - name: 更新主题包
         run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
 
-      # 第六步：构建项目
+      # 第五步：构建项目
       - name: 构建项目
         run: pnpm build # 构建 VitePress 项目
 
-      # 第六步：发布到 Cloudflare Pages
+      - name: 安装 Wrangler
+        run: npm install -g wrangler@^3.90.0
+    
       - name: Deploy to Cloudflare Pages
         id: deploy
         uses: cloudflare/wrangler-action@v3
