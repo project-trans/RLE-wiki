@@ -14,8 +14,14 @@ hero:
       text: 时尚护理 👕
       link: /fashion/
     - theme: alt
+      text: 志愿填报 📝
+      link: /admission/
+    - theme: alt
       text: 安全防护 🚨
       link: /personal-safety/
+    - theme: alt
+      text: 海外生活 🌍
+      link: /overseas/
     - theme: alt
       text: 其它 📚
       link: /others/
@@ -25,7 +31,7 @@ hero:
 ---
 
 <script setup>
-import HomeContent from './.vitepress/theme/components/HomeContent.vue'
+import { HomeContent } from '@project-trans/vitepress-theme-project-trans/components'
 </script>
 
 <HomeContent>

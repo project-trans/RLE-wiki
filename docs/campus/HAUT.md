@@ -2,7 +2,6 @@
 title: 河南工业大学
 author:
   - yu_jun_ge
-order: 2
 ---
 
 |        项目        | 情况 |     备注     |

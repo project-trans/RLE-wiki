@@ -1,7 +1,7 @@
 ---
 title: 中国矿业大学
-author: 
- - 紫雪
+author:
+  - 紫雪
 ---
 
 

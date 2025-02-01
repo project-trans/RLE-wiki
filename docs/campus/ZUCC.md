@@ -1,6 +1,7 @@
 ---
 title: 浙大城市学院
-author: MossCG 等
+author:
+  - MossCG
 ---
 
 ## 概况

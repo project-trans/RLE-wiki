@@ -1,0 +1,62 @@
+name: 部署 PR 到 Cloudflare Pages
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'docs/**'
+      - 'package.json'
+      - 'packages/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 第一步：检出主仓库代码
+      - name: 检出主仓库代码
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+          fetch-depth: 0
+
+      # 第二步：检出 PR 修改的部分
+      - name: 检出 PR 修改的部分
+        run: |
+          git fetch origin +refs/pull/${{ github.event.pull_request.number }}/merge
+          git checkout -qf FETCH_HEAD
+
+      # 第三步：安装 pnpm
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v4
+
+      # 第四步：安装依赖
+      - name: 安装依赖
+        run: pnpm install
+
+      - name: 更新主题包
+        run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
+
+      # 第五步：构建项目
+      - name: 构建项目
+        run: pnpm build # 构建 VitePress 项目
+
+      - name: 安装 Wrangler
+        run: npm install -g wrangler@^3.90.0
+    
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
+          command: pages deploy docs/.vitepress/dist --project-name=rle-wiki-preview
+
+      - name: pr preview action
+        uses: project-trans/pr-preview-action@v1.0.0
+        with:
+          previewUrl: ${{ steps.deploy.outputs.deployment-url }}
+          BOT_APP_ID: ${{ vars.BOT_APP_ID }}
+          BOT_APP_SECRET: ${{ secrets.BOT_APP_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REMOVE_PREFIX: docs
+          REMOVE_SUFFIX: .md

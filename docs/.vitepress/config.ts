@@ -1,202 +1,127 @@
-import { defineConfig } from 'vitepress'
-import nav from './nav'
-import mdPangu from 'markdown-it-pangu'
-import katex from 'markdown-it-katex'
-import footnote from 'markdown-it-footnote'
-import { sidebar } from './sidebar'
-import { rootDir, githubRepoLink } from './meta'
-import { readFileSync, statSync } from 'node:fs'
-import { join } from 'node:path'
-const siteTitle = 'RLE.wiki'
-const siteDescription = '一份 RLE 指北'
+import genConfig from '@project-trans/vitepress-theme-project-trans/config'
+import type { SidebarOptions } from '@project-trans/vitepress-theme-project-trans/theme'
+import type { ThemeContext } from '@project-trans/vitepress-theme-project-trans/utils'
+import { withThemeContext } from '@project-trans/vitepress-theme-project-trans/utils'
+import type { DefaultTheme } from 'vitepress'
+
+type NavConfig = DefaultTheme.Config['nav']
+
+const nav: NavConfig = [
+  {
+    text: "大学指南",
+    link: "/campus/",
+  },
+  {
+    text: "时尚护理",
+    link: "/fashion/",
+  },
+  {
+    text: "安全防护",
+    link: "/personal-safety/",
+  },
+  {
+    text: "志愿填报",
+    link: "/admission/",
+  },
+  {
+    text: "海外生活",
+    link: "/overseas/",
+  },
+  {
+    text: "其它",
+    link: "/others/",
+  },
+  {
+    text: "贡献指南",
+    items: [
+      {
+        text: "校园版块投稿指南",
+        link: "/contributor-guide/campus.md",
+      },
+      {
+        text: "其他投稿指南",
+        link: "/contributor-guide/other.md",
+      },
+      {
+        text: "校园版块贡献模板",
+        link: "/contributor-guide/CampusTemplate.md",
+      },
+    ],
+  },
+];
+
+const baseConfig = {
+  useTitleFromFrontmatter: true,
+  useFolderTitleFromIndexFile: true,
+  useFolderLinkFromIndexFile: true,
+  excludeFilesByFrontmatterFieldName: true,
+  collapsed: true,
+  documentRootPath: '/docs',
+} satisfies Partial<SidebarOptions>
+
+const sidebarOptions = [
+  // 大学指南
+  {
+    ...baseConfig,
+    scanStartPath: "campus",
+    resolvePath: "/campus/",
+  },
+  // 贡献指南
+  {
+    ...baseConfig,
+    scanStartPath: "contributor-guide",
+    resolvePath: "/contributor-guide/",
+  },
+  // 时尚护理
+  {
+    ...baseConfig,
+    scanStartPath: "fashion",
+    resolvePath: "/fashion/",
+  },
+  // 安全防护
+  {
+    ...baseConfig,
+    scanStartPath: "personal-safety",
+    resolvePath: "/personal-safety/",
+  },
+  // 志愿填报
+  {
+    ...baseConfig,
+    scanStartPath: "admission",
+    resolvePath: "/admission/",
+  },
+  // 海外生活
+  {
+    ...baseConfig,
+    scanStartPath: 'overseas',
+    resolvePath: '/overseas/',
+  },
+  // 其它
+  {
+    ...baseConfig,
+    scanStartPath: "others",
+    resolvePath: "/others/",
+  },
+];
+
+const themeConfig: ThemeContext = {
+  siteTitle: 'RLE.wiki',
+  siteDescription: '一份 RLE 指北',
+  siteLogo: '/logo-horizontal.svg',
+  // SiteTitle值为false时，logo位置不显示标题。未定义SiteTitle时，显示标题。SiteTitle值为abcd时，显示abcd。
+  SiteTitle: false,
+  /** Repo */
+  githubRepoLink: 'https://github.com/project-trans/RLE-wiki',
+  /** vitepress 根目录 */
+  rootDir: 'docs',
+  /** 文档所在目录（目前似未使用此项） */
+  include: ['campus', 'contributor-guide', 'fashion'],
+  nav,
+  sidebarOptions,
+  /** 文档所在目录（用于GitHub编辑链接） */
+  sitePattern: `docs`,
+  hostName: 'https://rle.wiki',
+}
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  lang: 'zh-CN',
-  title: siteTitle,
-  cleanUrls: true,
-  markdown: {
-    config(md) {
-      md.use(mdPangu);
-      md.use(footnote);
-      md.use(katex);
-    },
-  },
-  dir: rootDir,
-  head: [
-    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" }],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" }],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" }],
-    ['link', { rel: "manifest", href: "/site.webmanifest" }],
-    ['meta', { name: "msapplication-TileColor", content: "#4c4c4c" }],
-    ['meta', { name: "theme-color", content: "#ffffff" }],
-    ['meta', { property: 'og:site_name', content: siteTitle }],
-  ],
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    siteTitle: false,
-    logo: {
-      src: '/logo-horizontal.svg',
-      alt: 'Logo: RLE.wiki',
-    },
-    nav,
-    sidebar,
-    socialLinks: [
-      { icon: 'github', link: githubRepoLink }
-    ],
-    editLink: {
-      pattern: `${githubRepoLink}/edit/main/docs/:path`,
-      text: '在 GitHub 上编辑此页面', // label localization
-    },
-    // label localization
-    outline: { label: '本页大纲', level: 'deep' },
-    lastUpdated: { text: '最后更新' },
-    darkModeSwitchLabel: '深色模式',
-    sidebarMenuLabel: '目录',
-    returnToTopLabel: '返回顶部',
-    docFooter: {
-      prev: '上一页',
-      next: '下一页',
-    },
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          root: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档',
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换',
-                },
-              },
-            },
-          },
-        },
-        // Add title field in frontmatter to search
-        // You can exclude a page from search by adding search: false to the page's frontmatter.
-        _render(src, env, md) {
-          if (env.frontmatter?.search === false) return ''
-          let html = md.render(src, env)
-          if (env.frontmatter?.title)
-            html = md.render(`# ${env.frontmatter.title}\n`) + html
-          return html
-        },
-      },
-    },
-  },
-  transformHead: (context) => {
-    const head = [...context.head] || []
-
-    const pageSourceFilePath = join(rootDir, context.pageData.filePath)
-    const pageSourceFileStat = statSync(join(rootDir, context.pageData.filePath))
-
-    if (pageSourceFileStat.isDirectory()) {
-      head.push([
-        'meta',
-        {
-          property: 'og:title',
-          content: siteTitle,
-        },
-      ])
-
-      head.push([
-        'meta',
-        {
-          name: 'description',
-          content: siteDescription,
-        },
-      ])
-
-      return head
-    }
-
-    let pageSourceFileContent = readFileSync(pageSourceFilePath, { encoding: 'utf-8' })
-
-    // remove all frontmatter
-    pageSourceFileContent = pageSourceFileContent.replace(/---[\s\S]*?---/, '')
-
-    // remove markdown heading markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/^(#+)\s+(.*)/gm, ' $2 ')
-    // remove markdown link markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/\[([^\]]+)\]\([^)]+\)/gm, ' $1 ')
-    // remove markdown image markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/\!\[([^\]]+)\]\([^)]+\)/gm, ' $1 ')
-    // remove markdown reference link markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/\[.*]/gm, '')
-    // remove markdown bold markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/\*\*([^*]+)\*\*/gm, ' $1 ')
-    pageSourceFileContent = pageSourceFileContent.replace(/__([^*]+)__/gm, ' $1 ')
-    // remove markdown italic markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/\*([^*]+)\*/gm, ' $1 ')
-    pageSourceFileContent = pageSourceFileContent.replace(/_([^*]+)_/gm, ' $1 ')
-    // remove markdown code markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/`([^`]+)`/gm, ' $1 ')
-    // remove markdown code block markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/```([^`]+)```/gm, ' $1 ')
-    // remove markdown table header markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/\|:?-+:?\|/gm, '')
-    // remove markdown table cell markup but keep the text content
-    pageSourceFileContent = pageSourceFileContent.replace(/\|([^|]+)\|/gm, ' $1 ')
-
-    // remove specific html tags completely
-    const tags = ['']
-    tags.forEach((tag) => {
-      pageSourceFileContent = pageSourceFileContent.replace(new RegExp(`<${tag}[^>]*>[\\s\\S]*?<\\/${tag}>`, 'g'), '')
-    })
-
-    // remove specific html tags but keep the text content
-    const tagsToKeepContent = ['u', 'Containers', 'img', 'a']
-    tagsToKeepContent.forEach((tag) => {
-      pageSourceFileContent = pageSourceFileContent.replace(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'g'), ' $1 ')
-    })
-
-    // remove all new lines (either \r, \n)
-    pageSourceFileContent = pageSourceFileContent.replace(/[\r|\n]/gm, '')
-
-    // calculate the first 200 characters of the page content
-    let pageContent = pageSourceFileContent.slice(0, 200)
-    // trim space
-    pageContent = pageContent.trim()
-    // if pageSourceFileContent is longer than 200 characters, add ellipsis
-    if (pageSourceFileContent.length > 100)
-      pageContent += '...'
-
-    if (context.pageData.frontmatter?.layout === 'home') {
-      pageContent = context.pageData.frontmatter?.hero?.tagline ?? siteDescription
-    }
-
-    head.push([
-      'meta',
-      { name: 'description', content: pageContent },
-    ])
-
-    head.push([
-      'meta',
-      { property: 'og:title', content: context.title },
-    ])
-
-    head.push([
-      'meta',
-      { property: 'og:description', content: pageContent },
-    ])
-
-    head.push([
-      'meta',
-      { property: 'og:title', content: context.title },
-    ])
-
-    head.push([
-      'meta',
-      { property: 'twitter:description', content: pageContent },
-    ])
-
-    return head
-  },
-});
+export default withThemeContext(themeConfig, genConfig)

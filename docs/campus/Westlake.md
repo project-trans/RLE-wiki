@@ -1,8 +1,7 @@
 ---
 title: 西湖大学-Westlake University
-author: 
- - 未命名魔法少女
-order: 2
+author:
+  - 未命名魔法少女
 ---
 
 这所学校是如此的年轻！
