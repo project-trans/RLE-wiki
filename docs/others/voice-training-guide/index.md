@@ -10,7 +10,7 @@ copyright:
 https://www.reddit.com/r/transvoice/comments/d3clhe/ls_voice_training_guide_level_1_for_mtf/)。
 已取得原作者授权。
 
-# 译者注：
+# 译者注
 
 作为现有简中资料的补充，本文将从另一个视角探讨声音训练的可能性，提供不同的方法和思路，帮助读者更全面地理解和实践相关技巧。同时，这篇译文也是译者自身的学习历程，通过翻译和整理这些内容，希望能与读者一同探索声音训练的多种可能性，并丰富现有的学习资源。
 
@@ -102,7 +102,7 @@ I've organized this guide into four levels, from Foundations to Mastery, each sp
 Ready? Let's begin. 
 -->
 
-本指南的许多内容都可以追溯到 Zheanna Erose 的先驱性探索（TransVoiceLessons），以及 New York Vocal Coaching 提供的优质免费视频。同时，我也要感谢 Scinguistics 社区，以及在 r/transvoice 论坛的所有朋友们！
+本指南的许多内容都可以追溯到 [Zheanna Erose](https://www.youtube.com/c/ZheannaErose) 的先驱性探索（[TransVoiceLessons](https://www.youtube.com/channel/UCBYlEnfAUbrYSwF0VujcmHA)），以及 [New York Vocal Coaching](https://www.youtube.com/user/NewYorkVocalCoaching) 提供的优质免费视频。同时，我也要感谢 [Scinguistics](https://cramdvoicelessons.blog/about/) 社区，以及在 [r/transvoice](https://www.reddit.com/r/transvoice/) 论坛的所有朋友们！
 
 我已将本指南分为四个阶段，从基础到精通，每个阶段又分为三个章节，如上目录所示。每个阶段的用时估计是大约一个月时间，每个章节大约一到两周。不过，并不需要彻底掌握一个章节的内容后才能开始下一个章节。请给自己足够的时间消化内容，熟悉并掌握发声的感觉，在确保不过度疲劳的前提下继续学习。
 
