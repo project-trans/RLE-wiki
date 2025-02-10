@@ -122,7 +122,6 @@ author:
 
 北航跨性别群：[BUAA魔法少女协会 316629815](https://qm.qq.com/cgi-bin/qm/qr?k=ywfUdTI1zqDzt-4Yc0L8J7rNuBqah_M6&jump_from=webapi&authKey=ZuLs/EizddLoJxdNJm/HgQBHBQ3XYAmgnCkw+dOR6Oq/Li/b7pBEpq++mJ2rBpxc)
 
-
 ## 院系探路
 
 待补充

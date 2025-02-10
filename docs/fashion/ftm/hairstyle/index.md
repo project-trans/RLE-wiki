@@ -39,7 +39,6 @@ author: 航
 
 ![Quiff2](figure/quiff-2.jpg)
 
-
 ### 侧背油头（[Side Back](https://www.google.com/search?tbm=isch&q=Side+Back+Hair)） {#side-back}
 
 - 较成熟/商务复古的兄弟，或者有发型打理习惯（**需要用发油定型**）
@@ -62,7 +61,6 @@ author: 航
 ![buzzcut](figure/buzzcut-1-1.jpg)
 
 剪寸头是一个挑战，但是你不剪永远不知道自己那么帅（以下两张为作者Finn）
-
 
 ![buzzcut1](figure/buzzcut-2-1.jpg)
 

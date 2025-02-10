@@ -112,4 +112,4 @@ author: Arts Suraimu 史莱姆
 - 德国的跨性别婚姻在中国不被承认，中国仅承认已婚身份。
 - 德国海关对入境的包裹检查非常严格，特别是药品类。因此，不建议从德国海关进口非申根区药物。相比之下，德国海关对离境的检查较为宽松。
 
-[^1]: https://trans-recht.de/information-und-treffen-zum-urteil-des-bsg-am-29-10-2023-1100uhr-am-wall-190/
+[^1]: <https://trans-recht.de/information-und-treffen-zum-urteil-des-bsg-am-29-10-2023-1100uhr-am-wall-190/>

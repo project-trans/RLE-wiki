@@ -117,7 +117,6 @@ title: 初到芬兰
 
 [infoFinland.fi](https://www.infofinland.fi)，该网站有中文，但似乎内容不如英文的全。
 
-
 ## 更新说明
 
 2023.1.12 第一稿。

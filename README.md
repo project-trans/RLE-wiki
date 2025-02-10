@@ -55,6 +55,7 @@ RLE.wiki 将长期作为 `vitepress-theme-project-trans` 的预览测试场地�
 我们不承诺 RLE.wiki 在生产环境中部署版本对于本仓库的可复现性。如欲复现生产环境，请在 GitHub Action 日志中查阅 `vitepress-theme-project-trans` 的版本并在本地开发环境中手动升级。
 
 对于一般性开发，可直接使用以下命令升级将 `vitepress-theme-project-trans` 升级至最新版本。
+
 ```bash
 pnpm update @project-trans/vitepress-theme-project-trans@prerelease
 ```

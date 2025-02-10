@@ -22,6 +22,5 @@ title: 瑞典
 
 如果您拥有高等教育学习的居留许可，并且在瑞典完成了至少两个学期的大学课程，您可以获得居留许可，以便在瑞典寻找工作或调查创办自己公司的可能性。
 
-
 [^1]: [Uppdaterade rekommendationer för hormonbehandling vid könsdysfori hos unga - Socialstyrelsen](https://www.socialstyrelsen.se/om-socialstyrelsen/pressrum/press/uppdaterade-rekommendationer-for-hormonbehandling-vid-konsdysfori-hos-unga/) mentioned in [LGBT rights in Sweden, Transgender rights, Access to healthcare - Wikipedia](https://en.wikipedia.org/wiki/LGBT_rights_in_Sweden) retrieved 2023-02-04
 [^2]: [Resi­dence permit for studies in higher educa­tion - Migrationsverket](https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden/Higher-education/Residence-permit-for-studies-in-higher-education.html#financialsupprt)
