@@ -114,4 +114,4 @@ RLE在男寝不太会有多少风波，比较常见？？。
 
 ## 杂项与疑问联系
 
-有任何其他疑问可致信alaikiouss@gmail.com。
+有任何其他疑问可致信 <alaikiouss@gmail.com> 。

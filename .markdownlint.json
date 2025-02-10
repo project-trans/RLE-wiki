@@ -1,0 +1,14 @@
+{
+  "default": true,
+  "line-length": false,
+  "no-duplicate-heading": {
+    "siblings_only": true
+  },
+  "no-blanks-blockquote": false,
+  "no-inline-html": false,
+  "no-emphasis-as-heading": false,
+  "no-alt-text": false,
+  "emphasis-style": {
+    "style": "underscore"
+  }
+}
