@@ -14,14 +14,12 @@ jobs:
 
     steps:
       - name: 检出代码
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: 安装 pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: latest
+        uses: pnpm/action-setup@v4
 
       - name: 安装依赖
         run: pnpm install
