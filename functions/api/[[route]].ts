@@ -4,6 +4,9 @@ import { Bot, InputFile, InputMediaBuilder } from 'grammy'
 import { Hono } from 'hono'
 import { env } from 'hono/adapter'
 import { handle } from 'hono/cloudflare-pages'
+import { customAlphabet } from 'nanoid'
+
+const nanoid = customAlphabet('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890', 8)
 
 const IP_HEADER = 'CF-Connecting-IP'
 
@@ -69,7 +72,7 @@ app.post('/api/v1/suggestion', async (c) => {
     return c.json(newErrorFormat400(), 400)
   }
 
-  const msgs = [`<b>意见箱收到新消息</b>\n`]
+  const msgs = [`<b>意见箱收到新消息</b> #TN-${nanoid()}\n`]
   msgs.push(`${replaceHtmlTag(textContent)}\n`)
   contactContent
   && msgs.push(

@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "strict": true,
+    "jsx": "preserve",
     "lib": [
       "ESNext"
     ],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "types": [
       "@cloudflare/workers-types"
     ],
-    "jsx": "preserve",
+    "strict": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true
-  },
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  }
 }
