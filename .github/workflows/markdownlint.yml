@@ -1,0 +1,22 @@
+name: Run markdownlint
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install
+      - run: npx markdownlint-cli "**/*.md" --ignore "docs/index.md"

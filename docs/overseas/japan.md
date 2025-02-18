@@ -36,5 +36,5 @@ title: 日本
 
 此外，如果要读语校，记得不要缺勤，如果表现好、语言成绩过关，无论是工作还是学习都会简单很多。
 
-[^1]: - [你日开药医院一览](http://wasadasan.com/voice2/hormon-byouin/), [backup](https://drive.google.com/file/d/1MCmDobItGdIaovm4c5CrbhrGmxrpA1IT/view?usp=drivesdk). [整个站都可以翻翻](http://naowasada.xsrv.jp/) いや見た目では怪しすぎる.
+[^1]: [你日开药医院一览](http://wasadasan.com/voice2/hormon-byouin/), [backup](https://drive.google.com/file/d/1MCmDobItGdIaovm4c5CrbhrGmxrpA1IT/view?usp=drivesdk). [整个站都可以翻翻](http://naowasada.xsrv.jp/) いや見た目では怪しすぎる.
 [^2]: [非自愿单身](https://zh.wikipedia.org/wiki/%E9%9D%9E%E8%87%AA%E9%A1%98%E5%96%AE%E8%BA%AB), 多指一些认为自己因为外貌、性格或社会地位等原因无法与异性建立亲密关系，进而产生怨恨和极端思想的群体。

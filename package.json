@@ -2,7 +2,7 @@
   "name": "rle-wiki",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a",
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
   "description": "RLE 指北",
   "license": "CC-BY-SA-4.0",
   "scripts": {
@@ -22,6 +22,7 @@
     "@unocss/eslint-plugin": "^0.65.1",
     "eslint": "^9.16.0",
     "eslint-plugin-format": "^0.1.3",
+    "markdownlint-cli": "^0.44.0",
     "unocss": "^0.65.1",
     "unplugin-vue-components": "^0.27.5",
     "vite": "^6.0.3",
@@ -32,6 +33,10 @@
     "overrides": {
       "hasown": "npm:@nolyfill/hasown@^1",
       "is-core-module": "npm:@nolyfill/is-core-module@^1"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "vue-demi"
+    ]
   }
 }
