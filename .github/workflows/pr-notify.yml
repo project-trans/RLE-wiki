@@ -1,0 +1,29 @@
+name: PR 邮件通知
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 发送邮件通知
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.feishu.cn
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "【LindongNote】新的 PR 请求 #${{ github.event.pull_request.number }}"
+          to: ${{ secrets.TEAM_EMAILS }}
+          from: ${{ secrets.MAIL_USERNAME }}
+          body: |
+            有新的 PR 需要审核：
+            
+            标题：${{ github.event.pull_request.title }}
+            作者：${{ github.event.pull_request.user.login }}
+            
+            PR 链接：${{ github.event.pull_request.html_url }}
+            
+            请及时审核。
