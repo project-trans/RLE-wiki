@@ -180,8 +180,6 @@ author:
 
 ### 弦鱼
 
-- Twitter: https://x.com/String_fish/
-
-- Telegram: https://t.me/String_Fish/
-
+- Twitter: <https://x.com/String_fish/>
+- Telegram: <https://t.me/String_Fish/>
 - E-Mail: <hfgzsatguge@gmail.com>

@@ -16,8 +16,6 @@ author: Seimo
 |      医保使用      |  ?   |   校医院不作诊疗，校外医院部分可用  |
 |     校医院服务     |  ✗   |              |
 
-
-
 ## 概述
 
 [黄淮学院](https://www.huanghuai.edu.cn/)Huanghuai  University, HHU），黄淮学院是一所公办省属全日制普通本科高校，设有18个二级学院，拥有工学、理学、管理学、经济学、文学、艺术学、法学、农学、教育学等9大学科门类，在招本科专业59个，计算机科学与技术专业本科一批次招生，医学院与国际教育学院为专科招生，其余均为二本招生。
@@ -57,5 +55,5 @@ author: Seimo
 ## 贡献者
 
 ### Seimo
-- E-mail <seimo@seimo.cn>
 
+- E-mail <seimo@seimo.cn>

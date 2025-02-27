@@ -10,27 +10,31 @@ exclude: true
 
 （有很科學的解說！！
 
-https://www.youtube.com/channel/UCBYlEnfAUbrYSwF0VujcmHA
+<https://www.youtube.com/channel/UCBYlEnfAUbrYSwF0VujcmHA>
 
 L’s voice guide
 
-https://www.reddit.com/r/transvoice/comments/d3clhe/ls_voice_training_guide_level_1_for_mtf/?utm_medium=android_app&utm_source=share
+<https://www.reddit.com/r/transvoice/comments/d3clhe/ls_voice_training_guide_level_1_for_mtf/?utm_medium=android_app&utm_source=share>
+
+::: tip 编者注
+L’s voice guide 本站目前已有[中文翻译](../../others/voice-training-guide/)。
+:::
 
 靜靜偽聲
 
-https://youtu.be/u52zDVwqJ64
+<https://youtu.be/u52zDVwqJ64>
 
 我覺得這個重要的說 可以平常呼吸時練習姆
 
-https://youtu.be/BW8X2nXexQs
+<https://youtu.be/BW8X2nXexQs>
 
 這個是白噪音歐 可以輔助練習R1的說
 
-https://youtu.be/nMfPqeZjc2c
+<https://youtu.be/nMfPqeZjc2c>
 
 上面的翻譯
 
-https://www.ptt.cc/bbs/transgender/M.1586411343.A.F21.html
+<https://www.ptt.cc/bbs/transgender/M.1586411343.A.F21.html>
 
 上面替代方法
 
@@ -38,49 +42,49 @@ https://www.ptt.cc/bbs/transgender/M.1586411343.A.F21.html
 
 姆這也是替代方法
 
-https://youtu.be/F6Noi2qERus
+<https://youtu.be/F6Noi2qERus>
 
 粵語使用的
 
-https://youtu.be/c2wa9ySb1FQ
+<https://youtu.be/c2wa9ySb1FQ>
 
 探索尼的女聲(中文)
 
-https://zhuanlan.zhihu.com/p/104372678
+<https://zhuanlan.zhihu.com/p/104372678>
 
 Finding your female voice
 
-https://t.me/c/1245336380/2001
+<https://t.me/c/1245336380/2001>
 
 文字教程姆：
 
-https://www.google.com/amp/s/pttweb.tw/amp/transgender/m-1301896607-a-794.html
+<https://www.google.com/amp/s/pttweb.tw/amp/transgender/m-1301896607-a-794.html>
 
 還有這個
 
-https://zhuanlan.zhihu.com/p/45974316\
-存档链接：https://web.archive.org/web/20220913002923/https://zhuanlan.zhihu.com/p/45974316
+<https://zhuanlan.zhihu.com/p/45974316> \
+存档链接：<https://web.archive.org/web/20220913002923/https://zhuanlan.zhihu.com/p/45974316>
 
 頻譜圖相關知識
 
-https://bideyuanli.com/p/3668
+<https://bideyuanli.com/p/3668>
 
 免費聲譜圖app
 
-https://play.google.com/store/apps/details?id=org.intoorbit.spectrum
+<https://play.google.com/store/apps/details?id=org.intoorbit.spectrum>
 
 耳返app可以聽自己的聲音
 
-https://play.google.com/store/apps/details?id=com.jazibkhan.noiseuncanceller
+<https://play.google.com/store/apps/details?id=com.jazibkhan.noiseuncanceller>
 
 林俊卿傅士聲樂咽音
 
-https://youtu.be/NAFYpUii9R4
+<https://youtu.be/NAFYpUii9R4>
 
 录音工具（软件）
 Github的聲譜實時分析軟體
 
-https://github.com/ichi-rika/speech-analysis/releases
+<https://github.com/ichi-rika/speech-analysis/releases>
 
 手机录音机、录音笔等 特点：方便；压缩率高，音质差。基本上不能用于语音声学实验分析
 
@@ -96,8 +100,8 @@ Praat（录音及语音声学分析功能强大）；
 
 這是分析軟體linwave（for win
 
-https://www.wevosys.de/support/support_download.html#lingwaves_software
+<https://www.wevosys.de/support/support_download.html#lingwaves_software>
 
 這是praat呦
 
-http://www.fon.hum.uva.nl/praat/
+<http://www.fon.hum.uva.nl/praat/>

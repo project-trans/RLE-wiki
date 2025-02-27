@@ -4,6 +4,10 @@ import { Bot, InputFile, InputMediaBuilder } from 'grammy'
 import { Hono } from 'hono'
 import { env } from 'hono/adapter'
 import { handle } from 'hono/cloudflare-pages'
+import { cors } from 'hono/cors'
+import { customAlphabet } from 'nanoid'
+
+const nanoid = customAlphabet('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890', 8)
 
 const IP_HEADER = 'CF-Connecting-IP'
 
@@ -24,6 +28,8 @@ app.onError((err, c) => {
   console.error(String(err))
   return c.json(newError500(), 500)
 })
+
+app.use('/api/*', cors())
 
 app.get('/api', (c) => {
   return c.text('Hello, Project Trans SuggestionBox!')
@@ -69,7 +75,9 @@ app.post('/api/v1/suggestion', async (c) => {
     return c.json(newErrorFormat400(), 400)
   }
 
-  const msgs = [`<b>意见箱收到新消息</b>\n`]
+  const ticketNumber = `#TN-${nanoid()}`
+
+  const msgs = [`<b>意见箱收到新消息</b> ${ticketNumber}\n`]
   msgs.push(`${replaceHtmlTag(textContent)}\n`)
   contactContent
   && msgs.push(
@@ -115,7 +123,7 @@ app.post('/api/v1/suggestion', async (c) => {
     else {
       await bot.api.sendMessage(TG_GROUP_ID, message, { parse_mode: 'HTML' })
     }
-    return c.json(newSuccess())
+    return c.json(newSuccess(ticketNumber))
   }
   catch (error) {
     // TODO handle error

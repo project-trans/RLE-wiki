@@ -64,6 +64,7 @@ author:
 总体来看宿舍条件较差，具体情况可以在 [colleges.chat](https://colleges.chat/universities/he-bei-gong-ye-da-xue) 查看。
 
 额外补充的住宿条件如下：
+
 - 可用床帘、床上桌，不要求固定物品摆放位置。
 - 出门不要求断电，无需叠被子。
 - 不会严查宿舍违禁品，柜子可以装锁，不会强制打开。
@@ -137,6 +138,7 @@ author:
 |校门口门禁照片|照片|差异过大会导致无法刷脸进校|
 
 以下相关信息可供参考：
+
 - 学校可能会以「认识“之前的你”的女同学在宿舍里面见到你，会引发舆论」等理由拒绝你住女生宿舍，但可以**明确**表明自己的住宿意愿，并拿出「家长同意」的理由尝试沟通。
 - 如果需要租房，北辰区教师公寓租金 500-1600 元/月左右；如有经济困难，可以尝试勤工助学或向辅导员申请临时困难补助；如果不再回宿舍记得退宿，否则仍需要缴纳住宿费。
 
@@ -144,8 +146,8 @@ author:
 
 ### Li Mee
 
-- E-Mail: LiMee233@outlook.com
+- E-Mail: <LiMee233@outlook.com>
 
 ### Nickel
 
-- E-Mail: Nickel.Windy@outlook.com
+- E-Mail: <Nickel.Windy@outlook.com>
