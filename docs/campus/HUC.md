@@ -1,6 +1,6 @@
 ---
 title: 哈尔滨商业大学
-author:Yuluoxk
+author: Yuluoxk
 ---
 
 |        项目        | 情况 |        备注        |

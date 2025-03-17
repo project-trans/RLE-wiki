@@ -1,7 +1,4 @@
----
-title: 华侨大学
-author: Noira
----
+
 
 ## 概况
 
