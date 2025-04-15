@@ -85,7 +85,7 @@ author:
 
 ### 跨性别分布情况
 
-跨性别没有形成群体。我没有统计，但猜想MtF在信智学部富集。
+存在一个跨性别的 QQ 群。目前已知的在校 MtF 和 FtM 有十余人，分布于少院、数院、物院、化院和信智学部等。
 
 ### 院系探路
 
@@ -111,3 +111,9 @@ author:
 ### 汐虹
 
 - E-Mail：<kaleielspheria@gmail.com>
+
+### 虹光
+
+- E-Mail: <lsy.rainbowlight@gmail.com>
+
+欢迎联系！
