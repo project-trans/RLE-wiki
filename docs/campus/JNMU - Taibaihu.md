@@ -76,8 +76,7 @@ author: 蝶依（超级无敌小蝴蝶版）
 ## 投稿人联系方式
 
 
-### 贡献者姓名
-蝶依（超级无敌小蝴蝶版）
+### 蝶依（超级无敌小蝴蝶版）
 
 - telegram：@luotianyi_butterfly
 - X：@0712_luotianyi
