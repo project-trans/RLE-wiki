@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Setup pnpm
-        uses: pnpm/actions-setup@v4
+        uses: pnpm/action-setup@v4
       - name: Install and build
         run: |
           git submodule init
