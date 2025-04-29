@@ -164,7 +164,8 @@ const themeConfig: ThemeContext = {
       summaryHtml: commonDisclaimerStrSummary,
       detailHtml: commonDisclaimerStrDetail,
     },
-  ]
+  ],
+  disclaimerStatusKey: 'disclaimerStatus',
 }
 
 // https://vitepress.dev/reference/site-config
