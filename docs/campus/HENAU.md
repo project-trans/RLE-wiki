@@ -19,7 +19,7 @@ author:
 
 ## 概述
 
-[河南农业大学](https://www.henau.edu.cn/) （Henan Agricultural University），
+[河南农业大学](https://www.henau.edu.cn/) （Henan Agricultural University）。
 
 ## 地理位置及交通
 
