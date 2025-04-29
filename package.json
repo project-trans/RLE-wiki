@@ -18,7 +18,7 @@
     "@iconify-json/carbon": "^1.2.7",
     "@iconify-json/icon-park-outline": "^1.2.2",
     "@iconify-json/octicon": "^1.2.4",
-    "@project-trans/vitepress-theme-project-trans": "^0.7.1739887139",
+    "@project-trans/vitepress-theme-project-trans": "^0.8.1745932069",
     "@unocss/eslint-plugin": "^66.0.0",
     "eslint": "^9.20.1",
     "eslint-plugin-format": "^1.0.1",
