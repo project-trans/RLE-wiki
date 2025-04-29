@@ -1,0 +1,35 @@
+name: Build and deploy
+
+on:
+  push:
+    branches:
+      - "main"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup pnpm
+        uses: pnpm/actions-setup@v4
+      - name: Install and build
+        run: |
+          git submodule init
+          git submodule update
+          export NODE_OPTIONS="--max-old-space-size=4096"
+          pnpm install
+          pnpm build
+      - name: Publish artifact code
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: docs/dist
+      - name: Deploy to GitHub branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs/dist

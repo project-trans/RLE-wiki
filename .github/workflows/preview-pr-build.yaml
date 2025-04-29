@@ -1,12 +1,13 @@
 name: 部署 PR 到 Cloudflare Pages
 
 on:
-  pull_request_target:
-    types: [opened, synchronize, reopened, ready_for_review]
-    paths:
-      - 'docs/**'
-      - 'package.json'
-      - 'packages/**'
+  #pull_request_target:
+  #  types: [opened, synchronize, reopened, ready_for_review]
+  #  paths:
+  #    - 'docs/**'
+  #    - 'package.json'
+  #    - 'packages/**'
+  workflow_dispatch:
 
 jobs:
   deploy:
