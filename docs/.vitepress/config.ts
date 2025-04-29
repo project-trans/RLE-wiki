@@ -103,6 +103,13 @@ const sidebarOptions = [
     resolvePath: "/others/",
   },
 ];
+const disclaimerStr = '<p>特别注意，RLE.wiki 中的医学、法律或其他专业内容仅供参考，并不能替代专业人士的建议。RLE.wiki 不提供法律或医学建议，请在必要时咨询合资格的专家。</p>' +
+'<p>RLE.wiki 中提及的任何机构、服务或产品相关内容仅供参考，不构成任何形式的推荐或保证，也无法对所提及内容的真实性或可靠性提供担保，请您务必谨慎甄别相关信息。</p>' +
+'<p>若存在任何有误或不当内容，请联系 <a href="mailto:rlewiki@project-trans.org">rlewiki@project-trans.org</a>。</p>';
+const commonDisclaimerStrSummary = 'RLE.wiki 的内容仅供参考，可能存在过时或不准确的信息，请谨慎甄别。';
+const commonDisclaimerStrDetail = '<p>RLE.wiki 的内容仅供参考，可能存在过时或不准确的信息，请谨慎甄别。</p>' +
+  '<p>RLE.wiki 中的内容，多数来自于读者投稿，并经编辑简单整理和形式审查后登载，主要体现投稿者主观观点，不代表 RLE.wiki 编辑团队及我们的任何相关维护人员立场。</p>' +
+  disclaimerStr;
 
 const themeConfig: ThemeContext = {
   siteTitle: 'RLE.wiki',
@@ -121,6 +128,43 @@ const themeConfig: ThemeContext = {
   /** 文档所在目录（用于GitHub编辑链接） */
   sitePattern: `docs`,
   hostName: 'https://rle.wiki',
+  enableDisclaimer: true,
+  disclaimerPaths: [
+    {
+      path: '/campus/',
+      summaryHtml: 'RLE.wiki「大学指南」中的内容，仅供参考。可能存在过时或不准确的信息，请谨慎甄别。',
+      detailHtml: '<p>RLE.wiki「大学指南」中的内容，仅供参考。可能存在过时或不准确的信息，请谨慎甄别。</p>' +
+        '<p>「大学指南」板块中的内容，多数来自于读者投稿，并经编辑简单整理和形式审查后登载，主要体现投稿者主观观点，不代表 RLE.wiki 编辑团队及我们的任何相关维护人员立场。</p>' +
+        disclaimerStr,
+    },
+    {
+      path: '/fashion/',
+      summaryHtml: 'RLE.wiki「时尚护理」中的内容，多数来自于读者投稿，主要体现投稿者主观观点，仅供参考。',
+      detailHtml: '<p>RLE.wiki「时尚护理」中的内容，多数来自于读者投稿，主要体现投稿者主观观点，仅供参考。</p>' +
+        '<p>「时尚护理」板块中的内容，多数来自于读者投稿，并经编辑简单整理和形式审查后登载，不代表 RLE.wiki 编辑团队及我们的任何相关维护人员立场。</p>' +
+        disclaimerStr,
+    },
+    {
+      path: '/personal-safety/',
+      summaryHtml: commonDisclaimerStrSummary,
+      detailHtml: commonDisclaimerStrDetail,
+    },
+    {
+      path: '/admission/',
+      summaryHtml: commonDisclaimerStrSummary,
+      detailHtml: commonDisclaimerStrDetail,
+    },
+    {
+      path: '/overseas/',
+      summaryHtml: commonDisclaimerStrSummary,
+      detailHtml: commonDisclaimerStrDetail,
+    },
+    {
+      path: '/others/',
+      summaryHtml: commonDisclaimerStrSummary,
+      detailHtml: commonDisclaimerStrDetail,
+    },
+  ]
 }
 
 // https://vitepress.dev/reference/site-config
