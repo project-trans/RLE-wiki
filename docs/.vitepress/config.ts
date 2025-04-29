@@ -164,7 +164,9 @@ const themeConfig: ThemeContext = {
       summaryHtml: commonDisclaimerStrSummary,
       detailHtml: commonDisclaimerStrDetail,
     },
-  ]
+  ],
+  disclaimerStatusKey: 'disclaimerStatus',
+  disclaimerStatusExpiration: 2592000000, // 30 days
 }
 
 // https://vitepress.dev/reference/site-config
