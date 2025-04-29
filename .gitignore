@@ -17,7 +17,7 @@ docs/.vitepress/cache
 
 
 # VS Code Config file
-# .vscode/
+.vscode/settings.json
 
 # Rollup Cache
 .rollup.cache/
