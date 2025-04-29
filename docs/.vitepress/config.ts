@@ -110,9 +110,6 @@ const commonDisclaimerStrSummary = 'RLE.wiki 的内容仅供参考，可能存�
 const commonDisclaimerStrDetail = '<p>RLE.wiki 的内容仅供参考，可能存在过时或不准确的信息，请谨慎甄别。</p>' +
   '<p>RLE.wiki 中的内容，多数来自于读者投稿，并经编辑简单整理和形式审查后登载，主要体现投稿者主观观点，不代表 RLE.wiki 编辑团队及我们的任何相关维护人员立场。</p>' +
   disclaimerStr;
-function convertToScrollableHtml(html: string) {
-  return '<div style="overflow-y: auto; max-height: 300px;">' + html + '</div>';
-}
 
 const themeConfig: ThemeContext = {
   siteTitle: 'RLE.wiki',
@@ -136,36 +133,36 @@ const themeConfig: ThemeContext = {
     {
       path: '/campus/',
       summaryHtml: 'RLE.wiki「大学指南」中的内容，仅供参考。可能存在过时或不准确的信息，请谨慎甄别。',
-      detailHtml: convertToScrollableHtml('<p>RLE.wiki「大学指南」中的内容，仅供参考。可能存在过时或不准确的信息，请谨慎甄别。</p>' +
+      detailHtml: '<p>RLE.wiki「大学指南」中的内容，仅供参考。可能存在过时或不准确的信息，请谨慎甄别。</p>' +
         '<p>「大学指南」板块中的内容，多数来自于读者投稿，并经编辑简单整理和形式审查后登载，主要体现投稿者主观观点，不代表 RLE.wiki 编辑团队及我们的任何相关维护人员立场。</p>' +
-        disclaimerStr),
+        disclaimerStr,
     },
     {
       path: '/fashion/',
       summaryHtml: 'RLE.wiki「时尚护理」中的内容，多数来自于读者投稿，主要体现投稿者主观观点，仅供参考。',
-      detailHtml: convertToScrollableHtml('<p>RLE.wiki「时尚护理」中的内容，多数来自于读者投稿，主要体现投稿者主观观点，仅供参考。</p>' +
+      detailHtml: '<p>RLE.wiki「时尚护理」中的内容，多数来自于读者投稿，主要体现投稿者主观观点，仅供参考。</p>' +
         '<p>「时尚护理」板块中的内容，多数来自于读者投稿，并经编辑简单整理和形式审查后登载，不代表 RLE.wiki 编辑团队及我们的任何相关维护人员立场。</p>' +
-        disclaimerStr),
+        disclaimerStr,
     },
     {
       path: '/personal-safety/',
       summaryHtml: commonDisclaimerStrSummary,
-      detailHtml: convertToScrollableHtml(commonDisclaimerStrDetail),
+      detailHtml: commonDisclaimerStrDetail,
     },
     {
       path: '/admission/',
       summaryHtml: commonDisclaimerStrSummary,
-      detailHtml: convertToScrollableHtml(commonDisclaimerStrDetail),
+      detailHtml: commonDisclaimerStrDetail,
     },
     {
       path: '/overseas/',
       summaryHtml: commonDisclaimerStrSummary,
-      detailHtml: convertToScrollableHtml(commonDisclaimerStrDetail),
+      detailHtml: commonDisclaimerStrDetail,
     },
     {
       path: '/others/',
       summaryHtml: commonDisclaimerStrSummary,
-      detailHtml: convertToScrollableHtml(commonDisclaimerStrDetail),
+      detailHtml: commonDisclaimerStrDetail,
     },
   ]
 }
