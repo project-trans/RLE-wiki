@@ -1,5 +1,5 @@
 ---
-title: 河南农业大学（许昌校区）
+title: 河南农业大学
 author:
   - 四氢铝锂
 ---
@@ -19,11 +19,13 @@ author:
 
 ## 概述
 
-[河南农业大学（许昌校区）](https://www.henau.edu.cn/) （Henan Agricultural University (Xuchang Campus), HENAU-XUCHANG），河南农业大学（许昌校区）是河南农业大学在许昌设置的学院，招生批次为本科。
+[河南农业大学](https://www.henau.edu.cn/) （Henan Agricultural University），
 
 ## 地理位置及交通
 
-- 校区位于[许昌市建安区劳动北路](https://surl.amap.com/hUyFiLpK9Om)，校区距离市区较远，且附近未开发，如要去市区需乘坐公交约 1h，若乘坐出租车则为 30min 左右。
+- 郑州文化路校区
+- 郑州龙子湖校区
+- 许昌校区，位于[许昌市建安区劳动北路](https://surl.amap.com/hUyFiLpK9Om)，校区距离市区较远，且附近未开发，如要去市区需乘坐公交约 1h，若乘坐出租车则为 30min 左右。本文内容**主要针对许昌校区**。
 
 ## 军训与体育
 
