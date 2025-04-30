@@ -7,7 +7,7 @@ title: 中国本科志愿填报
 
 关于学校的状况与跨性别友善程度，可以参考：
 
-- [大学指南 - RLE.wiki](http://rle.wiki/campus/).
+- [大学指南 - RLE.wiki](http://rle.oau.app/campus/).
 - [colleges chat](https://colleges.chat/)
 
 其中，[colleges chat](https://colleges.chat/) 亦提供了一定 [出国相关信息](https://colleges.chat/choose-a-college/%E5%87%BA%E5%9B%BD%E5%8F%97%E9%98%BB/) 与 [择校细节](https://colleges.chat/choose-a-college/%E5%A6%82%E4%BD%95%E6%AD%A3%E4%B9%89%E5%8A%9D%E9%80%80%EF%BC%9F/) 。

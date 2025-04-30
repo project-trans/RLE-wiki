@@ -29,7 +29,7 @@ RLE.wiki 的一个校园页面一般对应一个高考招生代码。也就是�
 
 校园部分每个页面应当分为概况、地理位置及交通、军训与体育、宿舍情况与基础设施、医疗资源、LGBT 友善梗概、院系探路、其他信息几个部分。文件名为`学校英文缩写.md`。
 
-我们提供了一份[贡献模版](https://github.com/project-trans/RLE-wiki/blob/main/docs/contributor-guide/CampusTemplate.md)，模版文件本身的渲染效果可以前往 <https://rle.wiki/contributor-guide/CampusTemplate.html> 查看。
+我们提供了一份[贡献模版](https://github.com/one-among-us/neo-RLEwiki/blob/main/docs/contributor-guide/CampusTemplate.md)，模版文件本身的渲染效果可以前往 <https://rle.oau.app/contributor-guide/CampusTemplate.html> 查看。
 
 - 推荐的做法是使用GitHub的Pull Request直接提交内容，请您将[模板文档](https://github.com/project-trans/RLE-wiki/blob/main/docs/contributor-guide/CampusTemplate.md)复制一份到`docs/campus`目录下，然后将文件名修改为`学校英文缩写.md`。特别的，如果有多个招生代码且缩写一致，那应该在缩写后加上`- 城市英文缩写`的后缀。
 - 您也可以直接复制模版内容，使用任何我们能理解的方式编辑后，通过电子邮件 <rlewiki@project-trans.org> 或页面下方意见箱发送给我们。
