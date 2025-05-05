@@ -204,4 +204,4 @@ author:
 > 除了体育的考核过于严苛以外，武汉这个城市和CCNU各方面都还算不错，我愿意为来到这里的伙伴在需要时尽量提供一些帮助和陪伴。
 
 - E-Mail：<xxWuchangxx@outlook.com>
-- Twitter：[@xxWuchangxx](https://twitter.com/xxWuchangxx_R)
+- Twitter：[@xxWuchangxx_R](https://twitter.com/xxWuchangxx_R)
