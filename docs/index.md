@@ -44,8 +44,12 @@ import { HomeContent } from '@project-trans/vitepress-theme-project-trans/compon
 网站当前处于建设初期，条目暂未完成，欢迎大家帮助项目完善。
 :::
 
+::: info ℹ️
+本站为由 One Among Us 构建部署的非镜像站
+:::
+
 ::: info 🕯️
-沉痛悼念原 RLE-wiki 核心维护人员 ArtsEpiphany 🕯 R.I.P 2023.3.13 🕯
+沉痛悼念原核心维护人员 ArtsEpiphany 🕯 R.I.P 2023.3.13 🕯
 :::
 
 </HomeContent>
