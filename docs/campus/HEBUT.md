@@ -151,3 +151,7 @@ author:
 
 - E-Mail: <siiyan1323@outlook.com>
 - QQ（添加时注意备注所在学院及专业）:1424334267
+
+### Nickel
+
+- E-Mail: <Nickel.Windy@outlook.com>
