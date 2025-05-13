@@ -66,7 +66,7 @@ author:
 
 ## 宿舍情况与基础设施
 
-6人间，无独立卫浴。总体来看宿舍条件较差，具体情况可以在 [colleges.chat](https://colleges.chat/universities/he-bei-gong-ye-da-xue) 查看。
+六人间，无独立卫浴。总体来看宿舍条件较差，具体情况可以在 [colleges.chat](https://colleges.chat/universities/he-bei-gong-ye-da-xue) 查看。
 
 额外补充的住宿条件如下：
 
