@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "RLE.wiki"
+  name: "neo-RLEwiki"
   text: "一份 RLE 指北"
-  tagline: 欢迎大家来到 RLE.wiki. 这是一份给跨性别者与性别多元群体的 RLE 指南。更多帮助正在路上，敬请期待……
+  tagline: 欢迎大家来到 neo-RLEwiki. 这是一份给跨性别者与性别多元群体的 RLE 指南。更多帮助正在路上，敬请期待……
   actions:
     - theme: brand
       text: 大学指南 🏫
