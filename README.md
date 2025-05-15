@@ -51,5 +51,4 @@
 [cc-url]: https://creativecommons.org/licenses/by-sa/4.0
 [vitepress-url]: https://vitepress.dev
 [nolebase-integrations-url]: https://nolebase-integrations.ayaka.io
-[repo]: https://github.com/one-among-us/neo-RLEwiki
 [wiki-url]: https://rle.oau.app
