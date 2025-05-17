@@ -17,6 +17,8 @@ jobs:
       - run: pnpm install
       - run: npx markdownlint-cli "**/*.md" --ignore "docs/index.md" --fix
       - uses: googleapis/code-suggester@v5
+        env:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           command: review
           pull_number: ${{ github.event.pull_request.number }}
