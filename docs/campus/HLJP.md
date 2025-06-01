@@ -16,9 +16,7 @@ author: 浅羽织雪
 |      医保使用      |  ✓   |              |
 |     校医院服务     |  ✗   |              |
 
-
 ## 概述
-
 
 [黑龙江职业学院](https://www.hljp.edu.cn/zsw/bzsy.htm)（Heilongjiang Polytechnic, HLJP）， 黑龙江职业学院（黑龙江省经济管理干部学院）是一所教育部批准成立的公办全日制普通高等职业学校。
 
@@ -68,4 +66,5 @@ author: 浅羽织雪
 ## 投稿人联系方式
 
 ### 浅羽织雪
+
 - twitter：@Oriyukiiiii

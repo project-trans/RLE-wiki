@@ -56,4 +56,5 @@ author: mini-fish
 ## 联系人信息
 
 ### mini-fish
-- E-Mail: Mini-Fishhh@proton.me
+
+- E-Mail: <Mini-Fishhh@proton.me>
