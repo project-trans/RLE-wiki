@@ -11,6 +11,7 @@ order: 3
 1. 将 RLE Wiki fork 后提交 [Pull request](https://github.com/one-among-us/neo-RLEwiki)。
 1. 向 RLE Wiki 仓库提交 [Issue](https://github.com/one-among-us/neo-RLEwiki/issues)。
 1. 直接在下方的意见反馈提交。
+1. 通过 [UCE.life](https://uce.life/workspace/051372b6-666d-4121-89e9-088bd2ea5fc4/S96jUSFbWi) 的匿名公用账号或注册账号，进行在线编辑，并将分享链接通过邮箱、issue 或意见反馈提交。
 
 如果要向我们寻求帮助，上述方式同样适用。
 
