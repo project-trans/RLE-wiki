@@ -112,8 +112,6 @@ author:
 ***
 ## 投稿人联系方式
 
-### 贡献者姓名
-
 ### 滑姬
 
 - Telegram:[@huaji_huaji](https://t.me/huaji_huaji)
