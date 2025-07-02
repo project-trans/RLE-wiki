@@ -54,7 +54,7 @@ const baseConfig = {
   useTitleFromFrontmatter: true,
   useFolderTitleFromIndexFile: true,
   useFolderLinkFromIndexFile: true,
-  excludeFilesByFrontmatterFieldName: true,
+  excludeFilesByFrontmatterFieldName: 'exclude',
   collapsed: true,
   documentRootPath: '/docs',
 } satisfies Partial<SidebarOptions>
