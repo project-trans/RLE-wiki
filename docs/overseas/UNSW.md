@@ -1,6 +1,6 @@
 ---
 title: 澳大利亞新南威爾士大學 (UNSW)
-auther: "Mary Walter Lawliet, MEngSc 魏天樂"
+author: "Mary Walter Lawliet, MEngSc 魏天樂"
 ---
 
 ## Introduction
@@ -23,16 +23,22 @@ auther: "Mary Walter Lawliet, MEngSc 魏天樂"
 ## Method and material
 
 ### English Requirement
+
 - UNSW大多數專業要求 IELTS ≥ 6.5 (6), 文科類則大於7，詳細請尋我校官網或詢問authoritized仲介或代理。
+
 ### Academic Requirement
+
 - 碩士多數專業要求本科分數不低於75%，醫學類不低於80%
 - 博士，本科請詢官網或聯繫Supervisor
+
 ### Visa Condition
+
 - 提供10萬澳元或左右的等值貨幣資信證明
 - 提供房產，車輛作為輔助手段
 - 提供COE，英文成績單等
 
 ## Result
+
 - UNSW學術氣息濃厚，在這裡學習比在中國的學校辛苦。但在這裡可以學到真正的本領和知識。這裡的課程可沒有政治課、體育課或軍訓，完全沈浸在學術和專業研究的內容中。
 - UNSW和雪梨對跨性別者極其友好，是世界上最不歧視性少數群體的城市之一。同時文化包容，也是最不歧視外國移民的城市之一。亞裔，原住民，黑人，都可以很好地共存；基督教各教派，伊斯蘭教，佛教甚至道教也都有相關的宗教場所。
 - UNSW接受Preferred Name作為日常使用，日常生活可以徹底避免相關的尷尬或性別焦慮。UNSW亦有大量Unisex Toilet，甚至在沒有常規洗手間的地方也有，對跨性別者和殘障人士極其友好。
@@ -50,6 +56,6 @@ auther: "Mary Walter Lawliet, MEngSc 魏天樂"
 - 感謝我的父母托舉我到雪梨唸書，接受性別重置手術
 - 感謝一切讀者的閱讀。
 
-Mary Walter Lawliet, MEngSc
-9 Jul 2025
+Mary Walter Lawliet, MEngSc\
+9 Jul 2025\
 Sydney, Commonwealth of Australia
