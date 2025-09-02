@@ -6,17 +6,13 @@ on:
     branches:
       - main
   pull_request:
-    branches:
-      - main
+    paths: ['**/*.md']
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - uses: pnpm/action-setup@v4
       - run: pnpm install
       - run: npx markdownlint-cli "**/*.md" --ignore "docs/index.md"
