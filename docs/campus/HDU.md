@@ -73,6 +73,6 @@ author:
 
 ## 投稿人联系方式
 
-### Qfwfq、Azimech
+### Qfwfq
 
 - E-Mail：<sales@hdu.edu.cn>
