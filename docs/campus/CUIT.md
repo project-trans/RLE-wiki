@@ -101,10 +101,10 @@ Ros: 笔者本人只认识毕业了的学姐（
 
 ### Rosmontic
 
-- Telegram:<https://t.me/Rosmontis233>
-- Twitter:<https://x.com/Rosmontis233>
-- E-Mail:<rosmontis233@hotmail.com>
+- Telegram: <https://t.me/Rosmontis233>
+- Twitter: <https://x.com/Rosmontis233>
+- E-Mail: <rosmontis233@hotmail.com>
 
 ### 芋头
 
-- Contact:<https://leohearts.com/about.html>
+- Contact: <https://leohearts.com/about.html>
