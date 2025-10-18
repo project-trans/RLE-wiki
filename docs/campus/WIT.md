@@ -1,8 +1,7 @@
 ---
 title: 武汉工程大学
 author:
-  - 一作 Rainbow_LIN
-  - 二作
+  - Rainbow_LIN
 ---
 
 |        项目        | 情况 |     备注     |
