@@ -20,7 +20,7 @@ author:
 
 ## 概述
 
-[北师香港浸会大学](https://uic.edu.cn)（Beijing Normal–Hong Kong Baptist University, BNBU），曾用名北京师范大学-香港浸会大学联合国际学院（Beijing Normal University–Hong Kong Baptist University United International College, UIC），位于广东珠海市唐家湾，是由北京师范大学及香港浸会大学合办的高等学校。
+[北师香港浸会大学](https://bnbu.edu.cn)（Beijing Normal–Hong Kong Baptist University, BNBU），曾用名北京师范大学-香港浸会大学联合国际学院（Beijing Normal University–Hong Kong Baptist University United International College, UIC），位于广东珠海市唐家湾，是由北京师范大学及香港浸会大学合办的高等学校。
 
 ## 地理位置及交通
 
