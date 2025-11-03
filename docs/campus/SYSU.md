@@ -97,7 +97,7 @@ author:
 
 推荐前往[暨南大学附属第一医院](https://mtf.wiki/zh-cn/docs/hrt/jnuh1/)开具HRT处方
 
-中大五院没有专注达。珠海校区的学生可以前往珠海市第三人民医院（距珠海校区约30km车程）找 [庄志成 医生](https://mp.weixin.qq.com/s/Y4fMYOJzO5avPX6Eu3Z4NQ) 确诊ADHD、开专注达。<!--或 珠海妇幼 陈强 医生（青衫就诊地图）？在公众号上没找到号源-->
+中大五院没有专注达。珠海校区的学生可以前往珠海市第三人民医院（距珠海校区约30km车程）找 [庄志成 医生](https://mp.weixin.qq.com/s/Y4fMYOJzO5avPX6Eu3Z4NQ) 确诊ADHD、开专注达。<!--或 珠海妇幼 陈强 医生（青衫就诊地图 https://qingshanasd.cn/medical-map/）？在公众号上没找到号源-->
 
 ## LGBT 友善梗概
 
