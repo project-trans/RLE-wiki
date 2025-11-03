@@ -14,9 +14,9 @@ title: 芬兰
 
 学生医疗服务，由 [Finnish Student Health Service](https://www.yths.fi/en/frontpage/) 负责。 FSHS 提供了牙科心理科与一般门诊，当医师无法处理您的状况/请求时，会转诊至其它医院。在赫尔辛基大区往往为 [赫尔辛基大学附属医院（HUS）](https://www.hus.fi/en) 。
 
-作为留学生，芬兰的激素类药物相对容易获取，FSHS 往往可以提供处方，据 2022 年反馈，未公证处方即可获取芬兰境内的激素处方更新；2024 年的反馈提供了公证的处方单，也获得了长期处方。若未芬兰境外持有有效处方，则需在芬兰境内开始性别肯定序列治疗，然而时间较长且过程繁琐。因而部分跨性别者申请在 [GenderGP](https://www.gendergp.com/) 中获取处方[^2]。此外，若有额外需求，如手术，可以申请转诊。
+作为留学生，芬兰的激素类药物相对容易获取，若已有处方， FSHS 往往可以提供欧盟境内有效的处方，据 2022 年反馈，未公证的处方照片亦可获取芬兰境内的激素处方更新；2024 年的反馈提供了公证的处方单，也获得了长期处方。若未芬兰境外持有有效处方，则需在芬兰境内开始性别肯定序列治疗，然而时间较长且过程繁琐。因而部分跨性别者申请在 [Imago (欧盟)](https://www.imago.tg/) 或 [GenderGP (英国)](https://www.gendergp.com/)中获取处方[^2]。此外，若有额外需求，如手术，可以申请转诊。
 
-2023 年 2 月 1 日，芬兰通过了 gender self-identification 法案[^3]，允许跨性别人士自行更改性别，而不需要医生的诊断、手术等任何额外步骤。
+2023 年 2 月 1 日，芬兰通过了 gender self-identification 法案[^3]，允许跨性别人士自行更改性别，而不需要医生的诊断、手术等任何额外步骤。在申请的同时可以选择更改姓名，而无需支付额外费用。若更改姓名，可申请 DVV 个人信息清单以给原护照加注。
 
 关于激素等各类药物的报销规则，请参考 [kela](https://www.kela.fi/medicine-expenses) 的网站。请注意，如果已经在 DVV 注册成功，则可以计入报销额度，否则不计入。标准药物价格可以在 [Medicinal Products Database - Kela](https://asiointi.kela.fi/laakekys_app/LaakekysApplication?kieli=en) 上查询，若在药房取药，需要额外支付 3 欧元左右的递送费。
 
@@ -75,13 +75,13 @@ title: 芬兰
 
 ### 应用科技大学
 
-应用科技大学提供许多本科课程，几乎每所学校都有一定的英语本科项目。常见的英语本科项目包括 IT 技术、工程、护理等。
+应用科技大学提供许多本科课程，几乎每所学校都有一定的英语本科项目。常见的英语本科项目包括 IT 技术、工程、护理等。然而 2025 年收紧的居留政策中，可在较短的时间内获得永久居留权的学位部分不包含应用科技大学的学位 [^4]。
 
 更多信息可以参考 [工作 - 芬兰统计局](https://www.stat.fi/tilasto/tyokay).
 
 ## 住宿
 
-大部分大学的住宿并非由学校提供，而是各机构或公司。在赫尔辛基地区，常见的组织包括 [HOAS](https://www.hoas.fi/en/), [BOTH](https://bothxhome.fi/en/), [UniHome](https://unihome.fi/en/home)。
+大部分大学的住宿并非由学校提供，而是各机构或公司。在赫尔辛基地区，常见的组织包括 [HOAS](https://www.hoas.fi/en/), [BOTH](https://bothxhome.fi/en/), [UniHome](https://unihome.fi/en/home)。大城市往往有自己的学生宿舍组织，提供较为经济的住宿选择，但排队时间可能因地区而异。
 
 其中，[HOAS](https://www.hoas.fi/en/) 在 2023 年 2 月更新的新 [申请系统](https://application.hoas.fi/) 中提供了 "Other" 性别选项。需注意， Other 选项的等待时间较长。
 
@@ -122,3 +122,4 @@ B 类居留许可是临时居留许可，不计入申请永久居留权的时间
 [^1]: [Permanent residence permit - Finnish Immigration Service](https://migri.fi/en/permanent-residence-permit), [Frequently asked questions: Finnish citizenship - Finnish Immigration Service](https://migri.fi/en/faq-finnish-citizenship)
 [^2]: 以某愿意提供此信息的跨性别女性为例。她第一次註册支付了 100 英镑（现在为 195 英镑）的初始谘询费，且每六个月需要进行複诊，价格为 30 英镑。同时，每月有 30 英镑的订阅费，每三个月有 73 欧元的血液检查费用。其获得的药物是标准药房价格。具体可以查看其 [费用](https://www.gendergp.com/help-centre/gendergp-service-costs/) 页面。
 [^3]: [Parliament passes long-awaited amendments to Finland's transgender law - yle](https://yle.fi/a/74-20015866)
+[^4]: [Stricter conditions for permanent residence permits - Ministry of the Interior](https://intermin.fi/en/areas-of-expertise/migration/government-programme-measures-to-reform-migration-policy/permanent-residence-permits)
