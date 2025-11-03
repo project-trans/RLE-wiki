@@ -53,9 +53,9 @@ author:
 
 医保可直接用于市区所有三甲医院，报销额度约 60%．
 
-苏州市立医院 [周建英](https://mtf.wiki/zh-cn/docs/hrt/zhou-jianying/) 可以开具 HRT 处方与药物。
+苏州市立医院 [周建英](https://mtf.wiki/zh-cn/docs/hrt/suzhou/zhou-jianying/) 可以开具 HRT 处方与药物。
 
-苏州广济医院 [杜向东](https://mtf.wiki/zh-cn/docs/psyco/jiangsu/du-xiangdong/) 可尝试开证、ADHD 开药，也可前往到南京。
+苏州广济医院 杜向东 可尝试 ADHD 开药。也可前往到南京。
 
 ### 投稿人
 
