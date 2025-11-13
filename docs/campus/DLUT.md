@@ -27,6 +27,8 @@ author:
 
 [大连理工大学](https://www.dlut.edu.cn/)（Dalian University of Technology, DLUT/DUT）是教育部直属全国重点大学，是“双一流A类”和原“985工程”、“211工程”重点建设大学。
 
+知道为什么是 DUT ？正常英文应该是 Dalian University of Science and Technology，缩写就是 DUST，意为灰尘、尘埃，当时有人感觉不太好，所以改为了DUT。
+
 **校区概况**[^2]
 
 大连理工大学本科招生分为主校区和盘锦校区两部分，分别有独立的招生院校代码，招生时分别录取，考生填报志愿时应分别填报。
