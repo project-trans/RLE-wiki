@@ -169,6 +169,4 @@ author:
 2028 年本科毕业，欢迎联系～
 
 - QQ：616294249
-- Mail：rosyjewel@126.com
-
-
+- Mail：<rosyjewel@126.com>
