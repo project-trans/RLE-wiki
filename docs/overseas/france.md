@@ -76,6 +76,6 @@ GnRHa 等较昂贵且少用的药物可能需要要求药房订购后再取药�
 
 ### 相关网站
 
-- 法语跨性别wiki：https://wikitrans.co/
-- 法国跨性别互助站：https://www.fransgenre.fr/
-- 法国成人跨性别医疗照护指南：https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte
+- [法语跨性别 wiki](https://wikitrans.co/)
+- [法国跨性别互助站](https://www.fransgenre.fr/)
+- [法国成人跨性别医疗照护指南](https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte)
