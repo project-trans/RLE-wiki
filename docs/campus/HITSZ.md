@@ -14,7 +14,7 @@ author:
 
 - 校本部（哈尔滨校区）在本 wiki 上的页面：<https://rle.wiki/campus/HIT>
 
-- 威海校区待补充
+- 威海校区在本 wiki 上的页面：<https://rle.wiki/campus/HITWH>
 
 ## 地理位置及交通
 
