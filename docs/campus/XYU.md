@@ -17,7 +17,7 @@ title: 新余学院
 
 ## 概况
 
-[新余学院](https://m.xyc.edu.cn)（Xinyu University，XYU）
+[新余学院](https://www.xyc.edu.cn)（Xinyu University，XYU）
 
 ## 地理位置及交通
 

@@ -30,6 +30,8 @@ hero:
     alt: RLE.wiki logo
 ---
 
+<!-- markdownlint-disable-file first-line-heading -->
+
 <script setup>
 import { HomeContent } from '@project-trans/vitepress-theme-project-trans/components'
 </script>
