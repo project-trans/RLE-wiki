@@ -80,17 +80,16 @@ author:
 
 珠海校区住宿条件较好。本科生宿舍为荔园与榕园的4人间，有干湿不分离（淋浴区与厕所区没有分隔）的独立卫浴；研究生宿舍根据学院与年级有不同，分别为荔园3、4人间，榕园4人间，桐园1、2人间，槿园1、2人间，均有独立卫浴，并且干湿分离，卫生条件较好。基本每栋宿舍楼下都有公共洗浴间，需通过企业微信的“热水服务”扫描热水器的二维码使用，有隔间围挡。一般而言，硕士研究生在高年级会搬到槿园或桐园的2人间（**注意**，2026学年起，翰林的文科院系因为桐园宿舍床位充足，已经改成了在研究生报道时就分配到桐园2人间，海琴院系仍然需要在高年级时才搬迁）；而博士研究生在报到时就分配到槿园或者桐园的2人间，运气好抽签中的话，可以选到名额十分有限的1人间。除桐园外的宿舍阳台为开放式，小心鳃金龟、白蚁等趋光性飞虫（春夏之交以及雨后尤须注意）。经试验，在夜晚拉起窗帘（荔园等部分宿舍不会自带窗帘，建议自行购买）、禁闭门窗，可有效避免趋光性蚊虫、提高生活质量。槿园、桐园宿舍由于狭管效应的影响，且隔音条件较差，噪声敏感者建议自备耳塞、耳罩。
 
-![荔园三人间图景](https://github.com/user-attachments/assets/98ebc0af-af17-4930-aa1d-041bfc32f7fa)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/98ebc0af-af17-4930-aa1d-041bfc32f7fa" width="30%" height="160px" alt="荔园三人间图景" style="margin:2px;"/>
+<img src="https://github.com/user-attachments/assets/95c02a29-2f35-460d-a621-252ece48b223" width="30%" height="160px" alt="荔园、榕园外景" style="margin:2px;"/>
+<img src="https://github.com/user-attachments/assets/c21cb91c-bed8-4368-8786-94ffc40e4798" width="30%" height="160px" alt="桐园双人间图景，比起槿园其阳台得到了封闭" style="margin:2px;"/>
+<br/>
+<img src="https://github.com/user-attachments/assets/c82629ef-132f-4099-9939-f2fb81124e59" width="30%" height="160px" alt="槿园双人间图景"  style="margin:2px;"/>
+<img src="https://github.com/user-attachments/assets/f65faf81-07b2-45a5-b223-604289a1255d" width="30%" height="160px" alt="桐园单人间图景" style="margin:2px;"/>
+</div>
 
-![荔园、榕园外景](https://github.com/user-attachments/assets/95c02a29-2f35-460d-a621-252ece48b223)
-
-![桐园双人间图景，比起槿园其阳台得到了封闭](https://github.com/user-attachments/assets/c21cb91c-bed8-4368-8786-94ffc40e4798)
-
-![槿园双人间图景](https://github.com/user-attachments/assets/c82629ef-132f-4099-9939-f2fb81124e59)
-
-![桐园单人间图景](https://github.com/user-attachments/assets/f65faf81-07b2-45a5-b223-604289a1255d)
-
-（荔园三人间图景）（荔园、榕园外景）（桐园双人间图景，比起槿园其阳台得到了封闭） （槿园双人间图景）（桐园单人间图景）
+（注：图片顺序从左到右、从上至下，依次为“荔园三人间图景”“荔园、榕园四人间外景”“桐园双人间图景”“槿园双人间图景”“桐园单人间图景”）
 
 深圳校区住宿条件较好，为4人间，有独立卫浴。
 
