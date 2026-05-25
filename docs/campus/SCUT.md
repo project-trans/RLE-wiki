@@ -87,7 +87,6 @@ author:
 
 ## 投稿人联系方式
 
-
 ### 苏缇缇缇
 - QQ：874801894
-- E-Mail：NanakoEisice@163.com
+- E-Mail：<NanakoEisice@163.com>
