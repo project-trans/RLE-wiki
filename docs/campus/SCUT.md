@@ -20,6 +20,7 @@ author:
 
 
 ## 概述
+
 [华南理工大学](https://www.scut.edu.cn/new/)（South China University of Technology , SCUT），华南理工大学是位于广州的国家“双一流”、“211工程”、“985工程”重点建设大学。五山校区位于天河区，大学城校区位于番禺区小谷围岛，国际校区位于新造（小谷围岛南岸）。
 
 ## 地理位置及交通
