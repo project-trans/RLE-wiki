@@ -84,7 +84,7 @@ author:
   height:28vh;
 }
 }
-<figure class="text-center h-[33vh] max-md:h-[28vh]">
+<figure class="text-center h-[33vh] min-md:h-[28vh]">
   <a class="relative inline-block w-[30%] h-[40%] m-0.5" href="https://github.com/user-attachments/assets/98ebc0af-af17-4930-aa1d-041bfc32f7fa" target="_blank" rel="noopener noreferrer">
     <span class="absolute bg-white text-sm text-black">(a)</span>
     <img src="https://github.com/user-attachments/assets/98ebc0af-af17-4930-aa1d-041bfc32f7fa" alt="荔园三人间图景" class="object-cover inline h-full w-full" />
