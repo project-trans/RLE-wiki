@@ -103,7 +103,7 @@ author:
   </a>
   <figcaption class="block text-sm text-center">(a) 荔园三人间图景，(b) 荔园、榕园四人间外景，(c) 桐园双人间图景，(d) 槿园双人间图景，(e) 桐园单人间图景。图片有所裁剪，可点开查看原图</figcaption>
 </figure>
-<br /><br />
+<br />
 
 深圳校区住宿条件较好，为4人间，有独立卫浴。
 
