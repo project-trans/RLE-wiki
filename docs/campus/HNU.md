@@ -4,6 +4,7 @@ author:
   - 喵死你，或者挠死你
   - 连云
   - 泠钰
+  - 涵析
 ---
 
 ## 概况
@@ -169,3 +170,7 @@ author:
 ### 其他
 
 实验/工程训练等部分实践课程有专门的时间安排，可能与教学班安排不同，需要注意
+
+## 笔者联系方式
+
+- [shenlebanhanxi@gmail.com](mailto://shenlebanhanxi@gmail.com)
