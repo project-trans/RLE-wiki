@@ -562,17 +562,6 @@ TSA 机场安检：
 - EFF Surveillance Self-Defense · <https://ssd.eff.org/>
 - Yael Grauer's Big Ass Data Broker Opt-Out List · <https://inteltechniques.com/workbook.html>
 
-### 相关 Wiki 与社区文档
-
-- MtF.wiki · <https://mtf.wiki/zh-cn/>
-- One Among Us · <https://oneamong.us/>
-
-### 学术与统计数据来源
-
-- Williams Institute, UCLA School of Law · <https://williamsinstitute.law.ucla.edu/>
-- KFF LGBTQ Health · <https://www.kff.org/lgbtq/>
-- Center for American Progress LGBTQI+ Equality · <https://www.americanprogress.org/topics/lgbtq-rights/>
-
 ### 致谢与寄语
 
 写这篇文章的时候，作者反复想到的一句话是：历史的车轮从来不是单向的。
