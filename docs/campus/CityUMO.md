@@ -89,4 +89,4 @@ author:
 ### 赤井瑠璃
 
 - Telegram：@RuriAkai
-- E-Mail：ruri.akai@outlook.com
+- E-Mail：<ruri.akai@outlook.com>
