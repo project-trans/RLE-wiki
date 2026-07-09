@@ -26,3 +26,7 @@ HRT推荐GP（维多利亚州墨尔本市）：Medical Hub @ RMIT 的 Dr Ben Ooi
 ## 评论与反馈
 
 - 澳大利亚的学校的大部分信息系统也可以使用 preferred name。此外，在悉尼的 Oxford Street 也值得一去。
+
+## 特定学校信息
+
+- 澳大利亚新南威尔士大学 (UNSW): 请参考 [本页面](./UNSW)
