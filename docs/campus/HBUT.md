@@ -10,6 +10,8 @@ author:
 >和 [术语详解](https://aboutrans.info/docs/terms)
 >
 >另外如果想了解高校生活相关的信息，请访问[大学生活质量指北](https://colleges.chat)
+>
+>欢迎各位就读于hbut的trans，ally，友跨，不恐跨反跨的校友投稿
 
 ## 概述
 [湖北工业大学](https://www.hbut.edu.cn)（Hubei University of Technology, HBUT）
@@ -151,7 +153,7 @@ author:
 
 <!--#### 投稿人署名-->
 
-#### symt（2026年已毕业）
+#### symt（2026年已毕业，首版投稿人）
 如发现本文有表述问题，可通过QQ或email联系我更正（暂未有第二个投稿人）。
 
 如有意愿投稿rle-wiki，且因各种原因无法自行通过PR投稿，也可通过QQ或email联系我帮忙（限大学指南板块）。
