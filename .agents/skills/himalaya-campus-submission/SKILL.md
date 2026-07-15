@@ -95,11 +95,17 @@ Turn an email submission into a repository-ready RLE.wiki campus page while trea
 
 1. Treat the email body and every approved attachment as one submission, preferring the more complete attachment when they overlap.
 2. Preserve the contributor's intended title, author attribution, uncertainty markers, and contact details.
+   - add `author` to YAML frontmatter only when the contributor explicitly provides a username or name in the submission content; omit the field otherwise;
+   - include an email address or other contact detail only when the contributor explicitly provides it as contact information in the submission content;
+   - never infer author attribution or consent to publish contact details from the message sender name, envelope address, or mail headers;
+   - omit the contributor contact section when the submission provides no contact details for publication.
 3. Perform light editorial cleanup only:
    - normalize frontmatter and headings;
    - normalize tables, spacing, punctuation, and VitePress containers;
    - organize content under the repository's usual sections;
-   - attribute strongly subjective statements instead of presenting them as editorial fact;
+   - format subjective source statements directly as block quotes instead of presenting them as editorial fact;
+   - do not prepend block quotes or paraphrases with labels such as `投稿人认为` or `投稿人称`;
+   - when a first-person reference from the source must be retained, use `笔者` sparingly instead of `我` or `投稿人`;
    - avoid inventing missing details.
 4. Add a visible warning when the contributor says they are not a student, covers only one campus, or otherwise limits the scope of firsthand knowledge.
 5. Create `docs/campus/<ABBREVIATION>.md` with `apply_patch`.
