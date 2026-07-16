@@ -187,5 +187,7 @@ author:
 
 - QQ：213923450
 - E-Mail：<symt5@proton.me>
+
+（~~X和电报不太会玩，所以可能不常上线~~)
 - X：@symt5st4
 - telegram：@symt5
