@@ -189,5 +189,7 @@ author:
 - E-Mail：<symt5@proton.me>
 
 （~~X和电报不太会玩，所以可能不常上线~~)
-- X：@symt5st4
 - telegram：@symt5
+- X：@symt5st4
+
+（X的暴论太多所以我很少用，如果不想qq和email联系。可以试试电报直接私信，我看到了就会回。）
