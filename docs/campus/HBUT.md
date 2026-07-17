@@ -13,7 +13,7 @@ author:
 >
 >欢迎各位就读于hbut的trans，ally，友跨，不恐跨敌跨反跨的校友投稿。
 >投稿说明：[校园版块投稿指南](https://rle.wiki/contributor-guide/campus)，
->当然也可以找首版投稿人symt投稿，联系方式在“投稿人联系方式”部分
+>当然也可以找首版投稿人symt投稿，可在“投稿人联系方式”部分找到我的联系方式
 
 ## 概述
 
@@ -187,10 +187,5 @@ author:
 
 - QQ：213923450
 - E-Mail：<symt5@proton.me>
-
-（~~X和电报不太会玩，所以可能不常上线~~)
-
 - telegram：@symt5
-- X：@symt5st4
-
-（X的暴论太多所以我很少用，如果不想qq和email联系。可以试试电报直接私信，我看到了就会回。）
+- [GitHub](https://github.com/symt5)
