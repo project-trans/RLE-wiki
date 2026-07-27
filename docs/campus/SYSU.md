@@ -302,7 +302,9 @@ author:
 
 学校在2015年发生过[秋白事件](https://zh.wikipedia.org/wiki/%E7%A7%8B%E7%99%BD%E8%AF%89%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%95%99%E8%82%B2%E9%83%A8%E6%A1%88)，事件的主人公秋白因教科书中对同性恋的污名化描述起诉教育部，辅导员拿到秋白的个人信息后，曾多次在校内找其谈话，要求其“停止行为”，并伙同院领导与秋白家长通话，进行了口头施压，导致秋白被动出柜，甚至威胁秋白同学“可能因而无法顺利完成学业”。在这种情况下，当事人秋白遭受了“父母断绝经济支持”与“校方的严酷施压”的双重压力。此后，校方更称“中大比较包容，不存在施压的状况”。
 
-学校存在着一些打着促进健康旗号实则兜售保守思想的公选课，其中将同性恋加病化，将跨性别视为“性变态”，并说教试图进行所谓的“纠正”，详见[证据图](https://private-user-images.githubusercontent.com/155147603/626938725-e245ea66-fcc1-45e0-8168-ef6372669292.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODUxMzE0NTQsIm5iZiI6MTc4NTEzMTE1NCwicGF0aCI6Ii8xNTUxNDc2MDMvNjI2OTM4NzI1LWUyNDVlYTY2LWZjYzEtNDVlMC04MTY4LWVmNjM3MjY2OTI5Mi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDcyN1QwNTQ1NTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hN2I1MTEwMDM2OWJhNGVhZWQ1ODI5ZDUzNDg5NDE4MjQzMTIyNGRiNDQ0MmMxNDQzOWY3NjJmNjkzYWVmZjViJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZqcGVnIn0.To7Jdgp_ZAC0lSZqANiuoOAoIb1jCSTf6RYJh0FtmRc)。
+学校存在着一些打着促进健康旗号实则兜售保守思想的公选课，其中将同性恋加病化，将跨性别视为“性变态”，并说教试图进行所谓的“纠正”。
+
+![证据图](https://github.com/user-attachments/assets/e245ea66-fcc1-45e0-8168-ef6372669292)。
 
 某些学院的辅导员会向某些MtF打探校区的MtF的各学院分布情况，其用意不明但值得警惕。
 
