@@ -302,6 +302,8 @@ author:
 
 学校在2015年发生过[秋白事件](https://zh.wikipedia.org/wiki/%E7%A7%8B%E7%99%BD%E8%AF%89%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%95%99%E8%82%B2%E9%83%A8%E6%A1%88)，事件的主人公秋白因教科书中对同性恋的污名化描述起诉教育部，辅导员拿到秋白的个人信息后，曾多次在校内找其谈话，要求其“停止行为”，并伙同院领导与秋白家长通话，进行了口头施压，导致秋白被动出柜，甚至威胁秋白同学“可能因而无法顺利完成学业”。在这种情况下，当事人秋白遭受了“父母断绝经济支持”与“校方的严酷施压”的双重压力。此后，校方更称“中大比较包容，不存在施压的状况”。
 
+学校存在着一些打着促进健康旗号实则兜售保守思想的公选课，其中将同性恋加病化，将跨性别视为“性变态”，并说教试图进行所谓的“纠正”，详见[证据图](https://private-user-images.githubusercontent.com/155147603/626938725-e245ea66-fcc1-45e0-8168-ef6372669292.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODUxMzE0NTQsIm5iZiI6MTc4NTEzMTE1NCwicGF0aCI6Ii8xNTUxNDc2MDMvNjI2OTM4NzI1LWUyNDVlYTY2LWZjYzEtNDVlMC04MTY4LWVmNjM3MjY2OTI5Mi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDcyN1QwNTQ1NTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hN2I1MTEwMDM2OWJhNGVhZWQ1ODI5ZDUzNDg5NDE4MjQzMTIyNGRiNDQ0MmMxNDQzOWY3NjJmNjkzYWVmZjViJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZqcGVnIn0.To7Jdgp_ZAC0lSZqANiuoOAoIb1jCSTf6RYJh0FtmRc)。
+
 某些学院的辅导员会向某些MtF打探校区的MtF的各学院分布情况，其用意不明但值得警惕。
 
 学校存在使自伤、自杀未遂的MtF非自愿休学的案例。
@@ -441,7 +443,7 @@ MtF在校内广泛分布，目前（2026年05月）笔者所观察到的情况�
 >
 > 然而，笔者Fiori所在的传统工科氛围较为传统守旧，曾出现在课间休息时对笔者的公然讨论---“这个人是男的女的？”“好像是男的？”“男的怎么有胸？”，这可以被认为是一种恶意的猎奇。此外，笔者本科时期的同院系的其他跨性别也遭受了相应的嘲讽。至于学校方面，目前笔者遇到的辅导员中较新的一名较为友跨，其曾多次主动关心笔者的精神状况，同时了解到的本院系领导较为友善。
 >
-> 尚不清楚在未进行性别重置手术前，使用认同性别的卫生间是否会遭受排挤，或有pass程度的因素影响。
+> 尚不清楚在完成性别重置手术前，使用认同性别的卫生间是否会遭受排挤，或有pass程度的因素影响。
 
 ## 校园生活体验亲历者说
 
