@@ -158,6 +158,9 @@ author:
 ---
 
 ## 投稿人联系方式
+
 ### KEKKJ
-Email：KEKKJ123@qq.com
+
+Email：<KEKKJ123@qq.com>
+
 > 如需了解更多细节，可通过 rle.wiki 相关渠道联系投稿人。欢迎沟通。
