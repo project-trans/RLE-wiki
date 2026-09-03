@@ -1,0 +1,4 @@
+interface:
+  display_name: "Himalaya 校园投稿"
+  short_description: "处理 Himalaya 校园投稿、PR 与投稿人回复草稿"
+  default_prompt: "Use $himalaya-campus-submission to process a campus submission from the default mailbox through its RLE.wiki pull request and contributor reply draft."
