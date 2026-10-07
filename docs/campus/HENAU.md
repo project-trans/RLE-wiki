@@ -98,6 +98,5 @@ author:
 ### 四氢铝锂
 
 - QQ：1935969597
-- Telegram：@lialh4qwq
-- E-Mail：<lialh4qwq@Outlook.com>
-- 所有联系方式仅供咨询，谢绝聊天，请注明来意，谢谢合作。
+- E-Mail：<lialh4qwq@outlook.com>
+- 所有联系方式仅供咨询，谢绝聊天，请注明来意，多谢。
