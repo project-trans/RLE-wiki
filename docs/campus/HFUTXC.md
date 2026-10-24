@@ -123,6 +123,6 @@ author: 葱酱
 
 ## 投稿人联系方式
 
-[个人主页](https://snowmiku-home.top/contact/) **OR** [Telegram](https://t.me/mmmiku_18650) 
+[个人主页](https://snowmiku-home.top/contact/) **OR** [Telegram](https://t.me/mmmiku_18650)
 
 也可以在[这里](https://snowmiku-home.top/ask/)留言（需要回复请备注邮箱）
