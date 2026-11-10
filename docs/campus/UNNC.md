@@ -95,6 +95,7 @@ __遗憾的是,从2024届开始,UNNC开始有了军训__(但是笔者是23届所
 #### 费用如下（2026更新）
 
 ![住宿费用明细](https://mmecoa.qpic.cn/sz_mmecoa_png/SjEFWVv0m6rbdCpAopcdb3PIhUm963TkicTL4L2qwk3x0OXLqzHYmfZJqAx9iaJyUl4KPe0kWoCnuic1ByhIWvibicgWIiaZWTqJjGF3VVSiabu6nM/640?wx_fmt=png&tp=webp&wxfrom=10005&wx_lazy=1#imgIndex=1)
+
 备注：13# 楼已完成暑期改造，3000元/学年及30元/天日单价收费标准仅针对老生续费；新入住13# 的学生收费标准为4500元/学年。14#、15#收费标准不变。
 
 ### 宿舍配套设施使用
