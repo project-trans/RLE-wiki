@@ -239,5 +239,5 @@ author:
 
 ### Integral（开发区校区）
 
-- Telegram: [@Integral-Tech](https://t.me/Integral-Tech)
+- Telegram: [@Integral_Tech](https://t.me/Integral_Tech)
 - E-Mail: <integral@member.fsf.org>
